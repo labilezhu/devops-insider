@@ -4,39 +4,29 @@
 
 
 ```{attention}
-这是一本编写中的书，现在只是草稿阶段。书名为《Mark 的 DevOps 沉思录》，英文名《Istio & Envoy Insider》。
+这是一本编写中的书，主要内容整理自我的 Blog: [blog.mygraphql.com](https://blog.mygraphql.com) 。书名为《Mark 的 DevOps 沉思录》，英文名《Mark's DevOps Insider》。
 ```
 
-There is English version too: [https://devops-insider.mygraphql.com/en/latest/](https://devops-insider.mygraphql.com/en/latest/)
 
 
 ## 本书概述
 
-### 本书不是什么
-
-本书不是一本使用手册。更不是从使用者角度，教如何深入浅出学习 Istio。不会布道 Istio 有如何如何强大之功能，更不会教如何使用 Istio。这方面网上已经有太多非常优秀的书、文章、文档了。
-
-> 🤷 : [Yet, another](https://en.wikipedia.org/wiki/Yet_another) Istio User Guide?  
-> 🙅 : No!
-
-
-
 ### 本书是什么
 
-本书中，我尝试用设计与实现角度，尽量系统地去思考：
-- Istio 为什么是现在的样子
-- 那些魔术配置背后的真相： Linux + Envoy
-  - 流量是如何用 Linux 的 netfilter 技术，被拦截到 Envoy 的
-  - istiod 是如何编程 Envoy 去完成`服务网格`的流量策略的
-- Istio 将来可能是什么样子
+不知不觉 IT 从业快 20 年了。最近几年来，总觉得可以应该写点什么。我尝试过写 Blog，但 Blog 毕竟是比较零散的结构。有以下问题：
+- 不能结构化知识体系
+- 搜索不好用
+
+在编写我的另一本书 [前言 — Istio & Envoy 内幕](https://istio-insider.mygraphql.com/) 过程中，看到了 sphinx 的精准排版，加上 Read The Docs 的搜索增强与托管服务。我觉得用书的形式去梳理、归纳贯通那些本来就很体系化、严谨的知识点，会更方便浏览与搜索。
 
 
-书里说的，只是在我研究与使用了 Istio 一段时间后，的思考与记录。我只是排查过一些 Istio/Envoy 相关的功能与性能问题，浏览和 Debug 过一些 Istio/Envoy 的代码。
 
-在研究 Istio 过程中。发现网上是有很多非常有价值的资讯。但是，要么主要是从使用者出发，没说实现机理；要么就是说了机理，也说得很好，但内容少了系统化和连贯性。
+### 本书不是什么
+
+本书不是一本使用手册。更不是从使用者角度，教如何深入浅出学习。不会布道 xyz 有如何如何强大之功能，更不会教如何使用 xyz 。
 
 ### 读者对象
-本书主要讲 Istio/Envoy 的设计、实现机制。假设读者已经有一定的 Istio 使用经验。并有兴趣进一步研究其实现机理
+喜欢较真，但有容错心理准备的人。
 
 ### 书的访问地址
 - [https://devops-insider.mygraphql.com](https://devops-insider.mygraphql.com)
@@ -45,7 +35,7 @@ There is English version too: [https://devops-insider.mygraphql.com/en/latest/](
 
 
 ### 关于作者
-我叫 Mark Zhu，一个中年且头发少的程序员。我不是 Istio 专家，更不是 Istio Committer。连互联网大厂员工也不是。
+我叫 Mark Zhu，一个中年且头发少的程序员。我不是 Linux/BPF 专家，更不是 Linux/BPF Committer。连互联网大厂员工也不是。
 
 为什么水平有限还学人家写书？因为这句话：
 > 你不需要很厲害才能開始，但你需要開始才會很厲害。
