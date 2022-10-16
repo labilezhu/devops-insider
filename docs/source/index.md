@@ -13,11 +13,11 @@
 
 ### 本书是什么
 
-不知不觉 IT 从业快 20 年了。最近几年来，总觉得可以应该写点什么。我尝试过写 Blog，但 Blog 毕竟是比较零散的结构。有以下问题：
+不知不觉 IT 从业快 20 年了。最近几年来，总觉得应该写点什么。我尝试过写 Blog，但 Blog 毕竟是比较零散的结构。有以下问题：
 - 不能结构化知识体系
 - 搜索不好用
 
-在编写我的另一本书 [前言 — Istio & Envoy 内幕](https://istio-insider.mygraphql.com/) 过程中，看到了 sphinx 的精准排版，加上 Read The Docs 的搜索增强与托管服务。我觉得用书的形式去梳理、归纳贯通那些本来就很体系化、严谨的知识点，会更方便浏览与搜索。
+在编写我的另一本书 [Istio & Envoy 内幕](https://istio-insider.mygraphql.com/) 过程中，看到了 `sphinx` 的精准排版，加上 `Read The Docs` 的搜索增强与托管服务。我觉得用书的形式去梳理、归纳贯通那些本来就很体系化、严谨的知识点，会更方便浏览与搜索。
 
 
 
@@ -71,26 +71,3 @@ and productive life. To my dear wife and our amazing kid – thanks for all your
 
 
 ## 目录
-
-
-```{toctree}
-:caption: 目录
-:maxdepth: 5
-:includehidden:
-
-ch0/index
-ch1-istio-arch/index
-ch2-envoy/index
-ch3-control-panel/index
-ch4-istio-ctrl-envoy/index
-```
-
-## 附录
-
-```{toctree}
-:caption: 附录
-:maxdepth: 5
-:includehidden:
-
-appendix-lab-env/index.md
-```
