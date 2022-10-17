@@ -33,6 +33,14 @@ At this point, the write is considered to have succeeded and the node can reply 
 
 After returning, the node executes a flush if one was scheduled. The contents of each memtable are stored as SSTables on disk, and the commit log is cleared. After the flush completes, additional tasks are scheduled to check if compaction is needed, and then a compaction is performed if necessary.
 
+> ![Screenshot_2018-07-10-08-54-08-724_YouTube (1)](WritingReading(Cassandra-The-Definitive-Guide).assets/Screenshot_2018-07-10-08-54-08-724_YouTube (1).png)
+
+> https://academy.datastax.com/resources/brief-introduction-apache-cassandra
+>
+> ![b696e6e9-024d-4cbd-a0fc-95ab225efd3f](WritingReading(Cassandra-The-Definitive-Guide).assets/b696e6e9-024d-4cbd-a0fc-95ab225efd3f.png)
+>
+> 
+
 ### Commit log files
 
 Cassandra writes commit logs to the filesystem as binary files. By default, the commit log files are found under the *$CASSANDRA_HOME/data/commitlog* directory.
@@ -144,6 +152,12 @@ If the offset for the partition key is found, Cassandra accesses the SSTable at 
 **Once data has been obtained from all of the SSTables, Cassandra merges the SSTable data and memtable data by selecting the value with the latest timestamp for each requested column.**
 
 Finally, the merged data can be added to the row cache (if enabled) and returned to the client or coordinator node. A digest request is handled in much the same way as a regular read request, with the additional step that a digest is calculated on the result data and returned instead of the data itself.
+
+> ![Screenshot_2018-07-10-08-54-20-174_YouTube (1)](WritingReading(Cassandra-The-Definitive-Guide).assets/Screenshot_2018-07-10-08-54-20-174_YouTube (1).png)
+
+> https://academy.datastax.com/resources/brief-introduction-apache-cassandra
+>
+> ![11d1c31b-ab36-4472-9cac-f33ca24db577](WritingReading(Cassandra-The-Definitive-Guide).assets/11d1c31b-ab36-4472-9cac-f33ca24db577.png)
 
 ## Read Repair
 

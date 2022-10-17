@@ -45,6 +45,26 @@ Figure 4-5 shows how each partition is uniquely identified by a partition key, a
 
 Figure 4-5. A Cassandra table with partitions
 
+> http://sudotutorials.com/tutorials/cassandra/cassandra-primary-key-cluster-key-partition-key.html
+>
+> ```
+> CREATE TABLE users (`` ``userid text PRIMARY KEY,`` ``roll_no ``int``,`` ``first_name text,`` ``last_name text``);
+> ```
+>
+> 
+>
+> When a table has single primary key, Cassandra uses one column name as the partition key.
+>
+> ![6568b654-e2af-4dd8-96ed-397290da4f80](DataModel(Cassandra-The-Definitive-Guide).assets/6568b654-e2af-4dd8-96ed-397290da4f80-16659976645333.png)
+>
+>  ![Screenshot_2018-11-14-13-03-38-238](DataModel(Cassandra-The-Definitive-Guide).assets/Screenshot_2018-11-14-13-03-38-238.png)
+>
+> 
+
+
+
+
+
 Putting these concepts all together, we have the basic Cassandra data structures:
 
 - The *column*, which is a name/value pair
@@ -55,6 +75,18 @@ Putting these concepts all together, we have the basic Cassandra data structures
 - The *cluster*, which is a container for keyspaces that spans one or more nodes
 
 So that’s the bottom-up approach to looking at Cassandra’s data model. Now that you know the basic terminology, let’s examine each structure in more detail.
+
+> **A wide row means a row that has lots and lots (perhaps tens of thousands or even**
+>
+> **millions) of columns**
+>
+> **composite key (or compound key)** : Cassandra uses a special primary key called a composite key (or compound key)
+>
+> The **composite key** consists of **a partition key**, plus an optional set of **clustering columns**
+>
+> The **partition key** is used to **determine the nodes** on which rows are stored and can itself consist of multiple columns. 
+>
+> The **clustering columns** are used to control how data is sorted for storage within a parti‐tion
 
 ## Columns
 
