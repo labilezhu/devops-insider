@@ -4,12 +4,14 @@
 ```{toctree}
 :hidden:
 
-
 arch.md
-cassandra-client-driver.md
-cassandra-data-files.md
 data-model.md
-writing-reading.md
+writing.md
+reading.md
+thread-pool.md
+cassandra-data-files.md
+metrics.md
+cassandra-client-driver.md
 ```
 
 
