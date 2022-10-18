@@ -7,11 +7,11 @@
 这是一本编写中的书，主要内容整理自我的 Blog: [blog.mygraphql.com](https://blog.mygraphql.com) 。书名为《Mark 的 DevOps 沉思录》，英文名《Mark's DevOps Insider》。
 ```
 
-
-
 ## 本书概述
 
 ### 本书是什么
+
+与其说是书，不如说是一个系统化和支持搜索的 Blog 与笔记。 老实说，不能说是本传统建议上的，连贯与结构紧密的 “书”。
 
 不知不觉 IT 从业快 20 年了。最近几年来，总觉得应该写点什么。我尝试过写 Blog，但 Blog 毕竟是比较零散的结构。有以下问题：
 - 不能结构化知识体系
@@ -20,10 +20,9 @@
 在编写我的另一本书 [Istio & Envoy 内幕](https://istio-insider.mygraphql.com/) 过程中，看到了 `sphinx` 的精准排版，加上 `Read The Docs` 的搜索增强与托管服务。我觉得用书的形式去梳理、归纳贯通那些本来就很体系化、严谨的知识点，会更方便浏览与搜索。
 
 
-
 ### 本书不是什么
 
-本书不是一本使用手册。更不是从使用者角度，教如何深入浅出学习。不会布道 xyz 有如何如何强大之功能，更不会教如何使用 xyz 。
+本书不是一本使用手册。更不是从使用者角度，教如何深入浅出学习。不会大而全。不会布道 xyz 有如何如何强大之功能，更不会教如何使用 xyz 。
 
 ### 读者对象
 喜欢较真，但有容错心理准备的人。
@@ -71,3 +70,10 @@ and productive life. To my dear wife and our amazing kid – thanks for all your
 
 
 ## 目录
+```{toctree}
+:caption: 目录
+:maxdepth: 3
+:includehidden:
+
+database/database.md
+```
