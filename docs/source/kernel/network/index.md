@@ -3,4 +3,5 @@
 ```{toctree}
 kernel-net-stack/index.md
 bpf-trace-net-stack/index.md
+socket/index.md
 ```

@@ -47,31 +47,6 @@ YYDS，Linus Torvalds 说过：
 
 下面，我们关注一下，Istio/Envoy 下，从内核到用户进程，有什么重要数据结构，数据和事件是如何在子系统间协作，最后完成任务的。了解了这些，在系统需要调优之时，就有了观察点和优化可能点了。而不是完全看作黑盒，从网上找各种“神奇”配置来盲目碰运气。
 
-## 目录
-
-- [BPF 跟踪 epoll/Envoy 事件与调度](#bpf-跟踪-epollenvoy-事件与调度)
-  - [为何](#为何)
-  - [目录](#目录)
-  - [《网络包的内核漂流记》系列介绍](#网络包的内核漂流记系列介绍)
-    - [重要：风格、样式、本文的交互阅读方式 📖](#重要风格样式本文的交互阅读方式-)
-    - [术语](#术语)
-  - [跟踪目标架构与环境](#跟踪目标架构与环境)
-  - [内核调度点与协作](#内核调度点与协作)
-    - [线程状态](#线程状态)
-      - [ON/OFF CPU](#onoff-cpu)
-    - [线程的调度与切换](#线程的调度与切换)
-  - [事件链路初探](#事件链路初探)
-      - [使用 offwaketime 探视应用唤醒调用链路](#使用-offwaketime-探视应用唤醒调用链路)
-        - [收到 downstream 连接建立请求](#收到-downstream-连接建立请求)
-        - [收到 downstream 数据](#收到-downstream-数据)
-          - [`kubelet` 发送 TCP 数据到 Envoy, 触发 Envoy 端 socket 的 ReadReady 事件](#kubelet-发送-tcp-数据到-envoy-触发-envoy-端-socket-的-readready-事件)
-          - [`ksoftirqd` 线程处理接收到的，发向 `Envoy` socket 的数据, 触发 ReadReady](#ksoftirqd-线程处理接收到的发向-envoy-socket-的数据-触发-readready)
-  - [epoll、内核网络栈、内核线程调度的互动](#epoll内核网络栈内核线程调度的互动)
-    - [BPF 跟踪程序](#bpf-跟踪程序)
-    - [跟踪输出](#跟踪输出)
-        - [Downstream Listener(port:15006, fd=36) 新连接建立事件唤醒](#downstream-listenerport15006-fd36-新连接建立事件唤醒)
-        - [连接可读(fd=42) 事件唤醒](#连接可读fd42-事件唤醒)
-  - [结尾](#结尾)
 
 ## 《网络包的内核漂流记》系列介绍
 
@@ -224,7 +199,7 @@ Linux 内核调度如果要说清楚，是一本书一个章节的。由于本�
 由于这次，我关注的是网络事件如果触发 epoll/Envoy 的事件驱动。其中可以想到，关键中间路径是 Linux 的唤醒机制。如果可以分析到，等待 epoll 事件发生的应用线程（本例中即 Envoy Worker）是如何被唤醒的，那么就可以向上串联应用，向下串联内核网络栈了。
 
 
-#### 使用 offwaketime 探视应用唤醒调用链路
+### 使用 offwaketime 探视应用唤醒调用链路
 
 `offwaketime`  是 [BCC ](https://github.com/iovisor/bcc) BPF 工具包的一个内置小工具。它可以记录线程`挂起`时的`函数调用堆栈`，同时也记录相关`唤醒线程`唤醒`挂起线程`时的`函数调用堆栈`。这话写得太学究气了，想接地气，细说，还是移步大师大作：[Brendan Gregg 的 Linux Wakeup and Off-Wake Profiling](https://www.brendangregg.com/blog/2016-02-01/linux-wakeup-offwake-profiling.html)。
 
@@ -236,16 +211,16 @@ python3 ./offwaketime -p $ENVOY_PID
 
 输出很多，重要摘录如下：
 
-##### 收到 downstream 连接建立请求
+#### 收到 downstream 连接建立请求
 
 `kubelet` 会连接 pod 端口做健康检查。所以 `kubelet` 也是 Envoy 的 Downstream。下面看这个 downstream 如何唤醒 Envoy：
 
-```log
+```
 1     waker:           kubelet 1172
 2     b'[unknown]'
 3     b'[unknown]'
 4     b'entry_SYSCALL_64_after_hwframe'
-5     b'do_syscall_64'
+5     b'do_syscall_64'`
 6     b'__x64_sys_connect' <<<<<<<<<<<<<<< kubelet connect Envoy
 7     b'__sys_connect'
 8     b'inet_stream_connect'
@@ -316,13 +291,13 @@ python3 ./offwaketime -p $ENVOY_PID
 
 可见，这次唤醒 Envoy wrk:worker_0 线程的正好是它的 downstream 线程。这是一个特例，只是由于 downstream 线程和 Envoy 运行于同一主机上。真实情况是，唤醒线程可以是主机上的所有无相干的 on-cpu 的线程。下面道来。
 
-##### 收到 downstream 数据
+#### 收到 downstream 数据
 
 
 
-###### `kubelet` 发送 TCP 数据到 Envoy, 触发 Envoy 端 socket 的 ReadReady 事件
+##### `kubelet` 发送 TCP 数据到 Envoy, 触发 Envoy 端 socket 的 ReadReady 事件
 
-```log
+```
     waker:           kubelet 169240
     b'[unknown]'
     b'[unknown]'
@@ -395,9 +370,9 @@ python3 ./offwaketime -p $ENVOY_PID
         197
 ```
 
-###### `ksoftirqd` 线程处理接收到的，发向 `Envoy` socket 的数据, 触发 ReadReady
+##### `ksoftirqd` 线程处理接收到的，发向 `Envoy` socket 的数据, 触发 ReadReady
 
-```log
+```
     waker:           ksoftirqd/1 18
     b'ret_from_fork'
     b'kthread'
@@ -813,7 +788,7 @@ target_app endpoint: 172.21.206.207:8080 / 127.0.0.1:8080
 
 
 
-##### Downstream Listener(port:15006, fd=36) 新连接建立事件唤醒
+#### Downstream Listener(port:15006, fd=36) 新连接建立事件唤醒
 
 1. 线程 `swapper/0` 在 SoftIRQ 中处理网络包，推到 TCP 层
 2. TCP 层解释包后，完成了 TCP 三次握手，建立了连接，触发到 fd=36,  0.0.0.0:15006 的连接建立事件
@@ -821,7 +796,7 @@ target_app endpoint: 172.21.206.207:8080 / 127.0.0.1:8080
 3. `worker_0` 争夺了连接的 socket 事件的处理权。`worker_1`算是做了无用的唤醒（惊群 thundering herd problem ？）。
 3. `worker_0` accept socket 建立新的 socket，fd=42
 
-```log
+```
 
 
 ***waker: elapsed=20929      tid=0,comm=swapper/0: ep_poll_callback: fd=40,        0.0.0.0:15006         0.0.0.0:0      LISTEN socket=0xffff9f5e53bfbd40
@@ -839,7 +814,7 @@ inet_csk_accept: 172.30.207.163                          38590 172.21.206.207   
 
 
 
-##### 连接可读(fd=42) 事件唤醒
+#### 连接可读(fd=42) 事件唤醒
 
 ```
 ***waker: elapsed=20986      tid=10,comm=ksoftirqd/0: ep_poll_callback: fd=42, 172.21.206.207:15006  172.30.207.163:38590  ESTABLISHED socket=0xffff9f5e94e00000
