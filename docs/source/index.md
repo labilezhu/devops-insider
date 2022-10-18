@@ -76,4 +76,5 @@ and productive life. To my dear wife and our amazing kid – thanks for all your
 :includehidden:
 
 database/database.md
+low-tec/index.md
 ```
