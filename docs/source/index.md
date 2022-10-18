@@ -75,6 +75,6 @@ and productive life. To my dear wife and our amazing kid – thanks for all your
 :maxdepth: 3
 :includehidden:
 
+kernel/index.md
 database/database.md
-low-tec/index.md
 ```

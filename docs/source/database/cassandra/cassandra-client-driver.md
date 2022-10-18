@@ -22,7 +22,7 @@
 
 
 
-### Connection pooling
+## Connection pooling
 
 > Jeff Carpenter, Eben Hewitt - Cassandra The Definitive Guide, Third Edition Distributed Data at Web Scale - O'Reilly Media (2022)
 
@@ -33,7 +33,7 @@ Because the CQL native protocol is asynchronous, it allows multiple simultaneous
 
 The driver uses a connection heartbeat to make sure that connections are not closed prematurely by intervening network devices. This defaults to 30 seconds but can be overridden using the `advanced.heartbeat` configuration options.
 
-### Node discovery
+## Node discovery
 
 A `CqlSession` maintains a *control connection* to the first node it connects with, which it uses to maintain information on the state and topology of the cluster. Using this connection, the driver will discover all the nodes currently in the cluster, and you can obtain this information through the `Metadata.getNodes()` operation, which returns a list of `com.datastax.oss.driver.api.core.metadata.Node` objects to represent each node. You can view the state of each node through the `Node.getState()` operation, or you can register an implementation of the `com.datastax.oss.driver.api.core.metadata.NodeStateListener` interface to receive callbacks when nodes are added or removed from the cluster, or when they are up or down. This state information is also viewable in the driver logs, which we’ll discuss shortly.
 

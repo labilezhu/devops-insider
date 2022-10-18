@@ -14,12 +14,12 @@ tags:
 - network
 - NIC
 ---
-# 网络包的内核漂流记 Part 1 - 图解网络包接收流程
+# 内核网络包接收流程
 
 
 ![logo](./index.assets/logo.jpg)
 
-注，原文来自 https://blog.mygraphql.com/zh/notes/low-tec/network/kernel-net-stack/ 。如你看到的转载图片不清，请回到原文。
+注，原文来自 [https://blog.mygraphql.com/zh/notes/low-tec/network/kernel-net-stack/](https://blog.mygraphql.com/zh/notes/low-tec/network/kernel-net-stack/) 。
 
 
 

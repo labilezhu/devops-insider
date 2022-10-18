@@ -1,5 +1,9 @@
-# 底层知识
+---
+orphan: true
+---
+
+
+# 底层
 
 ```{toctree}
-network/index.md
 ```
