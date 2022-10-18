@@ -9,6 +9,7 @@ tocLevels: ["h2", "h3", "h4"]
 tags:
 - kernel
 - network
+orphan: true
 ---
 
 > https://www.cs.dartmouth.edu/~sergey/netreads/path-of-packet/Network_stack.pdf

@@ -94,18 +94,6 @@ Cassandra tracks latency (averages and totals) of read, write, and slicing opera
 
 
 
-## Compaction metrics
-> https://docs.datastax.com/en/cassandra-oss/3.x/cassandra/operations/opsCompactionMetrics.html
-
-Monitoring compaction performance is an important aspect of knowing when to add capacity to your cluster. The following attributes are exposed through CompactionManagerMBean:
-
-| Attribute                 | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| BytesCompacted            | Total number of bytes compacted since server [re]start |
-| CompletedTasks            | Number of completed compactions since server [re]start |
-| PendingTasks              | Estimated number of compactions remaining to perform   |
-| TotalCompactionsCompleted | Total number of compactions since server [re]start     |
-
 
 
 ## Table Metrics
@@ -361,6 +349,19 @@ Reported name format:
 | OutgoingBytes | Counter | Number of bytes streamed to the peer endpoint from this node. |
 
 ## Compaction Metrics
+
+> https://docs.datastax.com/en/cassandra-oss/3.x/cassandra/operations/opsCompactionMetrics.html
+
+Monitoring compaction performance is an important aspect of knowing when to add capacity to your cluster. The following attributes are exposed through CompactionManagerMBean:
+
+| Attribute                 | Description                                            |
+| ------------------------- | ------------------------------------------------------ |
+| BytesCompacted            | Total number of bytes compacted since server [re]start |
+| CompletedTasks            | Number of completed compactions since server [re]start |
+| PendingTasks              | Estimated number of compactions remaining to perform   |
+| TotalCompactionsCompleted | Total number of compactions since server [re]start     |
+
+
 
 Metrics specific to `Compaction` work.
 

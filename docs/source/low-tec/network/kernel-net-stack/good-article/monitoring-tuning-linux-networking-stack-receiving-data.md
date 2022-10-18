@@ -6,6 +6,7 @@ weight: 1
 enableToc: true
 enableBlogBreadcrumb: false
 tocLevels: ["h2", "h3", "h4"]
+orphan: true
 ---
 
 # Monitoring and Tuning the Linux Networking Stack: Receiving Data
@@ -613,7 +614,7 @@ The `softirq` system increments statistic counters which can be read from `/proc
 
 Check softIRQ stats by reading `/proc/softirqs`.
 
-```log
+```
 $ cat /proc/softirqs
                     CPU0       CPU1       CPU2       CPU3
           HI:          0          0          0          0
@@ -1977,7 +1978,7 @@ return 0;
 
 
 
-##### `udp_queue_rcv_skb`
+##### The `udp_queue_rcv_skb`
 
 The initial parts of this function are as follows:
 

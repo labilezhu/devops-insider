@@ -9,6 +9,7 @@ tocLevels: ["h2", "h3", "h4"]
 tags:
 - kernel
 - network
+orphan: true
 ---
 
 

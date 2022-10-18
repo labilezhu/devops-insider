@@ -6,7 +6,10 @@ weight: 1
 enableToc: true
 enableBlogBreadcrumb: false
 tocLevels: ["h2", "h3", "h4"]
+orphan: true
 ---
+
+
 
 # Illustrated Guide to Monitoring and Tuning the Linux Networking Stack: Receiving Data
 
