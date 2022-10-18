@@ -1,14 +1,7 @@
+# Cassandra’s Data Model
+
 > Jeff Carpenter, Eben Hewitt - Cassandra The Definitive Guide, Third Edition Distributed Data at Web Scale - O'Reilly Media (2022)
 
-
-
-# Chapter x. The Cassandra Query Language
-
-
-
-
-
-## Cassandra’s Data Model
 
 ![image-20221017112501962](DataModel(Cassandra-The-Definitive-Guide).assets/image-20221017112501962.png)
 

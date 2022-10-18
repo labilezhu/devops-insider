@@ -1,10 +1,8 @@
+# The Cassandra Architecture
+
+
 > Jeff Carpenter, Eben Hewitt - Cassandra The Definitive Guide, Third Edition Distributed Data at Web Scale - O'Reilly Media (2022)
 
-
-
-
-
-# Chapter x. The Cassandra Architecture
 
 ## Data Centers and Racks
 

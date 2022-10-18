@@ -1,6 +1,8 @@
+# Writing
+
 > Jeff Carpenter, Eben Hewitt - Cassandra The Definitive Guide, Third Edition Distributed Data at Web Scale - O'Reilly Media (2022)
 
-# Writing
+
 ## Write Consistency Levels
 
 ![image-20221017155321401](WritingReading(Cassandra-The-Definitive-Guide).assets/image-20221017155321401.png)
