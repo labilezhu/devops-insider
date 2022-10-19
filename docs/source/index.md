@@ -4,14 +4,14 @@
 
 
 ```{attention}
-这是一本编写中的书，主要内容整理自我的 Blog: [blog.mygraphql.com](https://blog.mygraphql.com) 。书名为《Mark 的 DevOps 沉思录》，英文名《Mark's DevOps Insider》。
+这是一本编写中的书，主要内容整理自我的 Blog: [blog.mygraphql.com](https://blog.mygraphql.com)与其它网上资料的学习笔记 。书名为《Mark 的 DevOps 沉思录》，英文名《Mark's DevOps Insider》。
 ```
 
 ## 本书概述
 
 ### 本书是什么
 
-与其说是书，不如说是一个系统化和支持搜索的 Blog 与笔记。 老实说，不是传统意义上的，连贯与结构紧密的 “书”。
+与其说是书，不如说是一个系统化和支持搜索的 Blog 与其它网上资料的学习笔记。 老实说，不是传统意义上的，连贯与结构紧密的 “书”。
 
 不知不觉 IT 从业快 20 年了。最近几年来，总觉得应该写点什么。我尝试过写 Blog，但 Blog 毕竟是比较零散的结构。有以下问题：
 - 不能结构化知识体系
