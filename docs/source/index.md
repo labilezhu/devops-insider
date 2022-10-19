@@ -76,5 +76,6 @@ and productive life. To my dear wife and our amazing kid – thanks for all your
 :includehidden:
 
 kernel/index.md
+lang/c/index.md
 database/database.md
 ```
