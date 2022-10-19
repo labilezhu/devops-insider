@@ -1,6 +1,6 @@
 # libc Stdout Buffering
 
-> https://eklitzke.org/stdout-buffering
+> [https://eklitzke.org/stdout-buffering](https://eklitzke.org/stdout-buffering)
 
 Most programming languages offered buffered I/O features by default, since it makes generating output much more efficient. These buffered I/O facilities typically "Just Work" out of the box. But sometimes they don't. When we say they "don't work" what we mean is that excess buffering occurs, causing data not to be printed in a timely manner. This is typically fixed by explicitly putting a "flush" call in the code, e.g. with something like [sys.stdout.flush()](https://docs.python.org/2.6/library/sys.html#sys.stdin) in Python, [fflush(3)](http://man7.org/linux/man-pages/man3/fflush.3.html) in C, or [std::flush](http://en.cppreference.com/w/cpp/io/manip/flush) in C++.
 
