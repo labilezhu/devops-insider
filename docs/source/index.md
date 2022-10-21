@@ -4,7 +4,7 @@
 
 
 ```{attention}
-这是一本编写中的书，主要内容整理自我的 Blog: [blog.mygraphql.com](https://blog.mygraphql.com)与其它网上资料的学习笔记 。书名为《Mark 的 DevOps 沉思录》，英文名《Mark's DevOps Insider》。
+这是一本编写中的书，主要内容整理自我的 Blog: [blog.mygraphql.com](https://blog.mygraphql.com)与其它网上资料的学习笔记 。书名为《Mark's DevOps 雜碎》，英文名《Mark's DevOps Chop Suey》。
 ```
 
 ## 本书概述
@@ -42,11 +42,11 @@
 Blog: [https://blog.mygraphql.com/](https://blog.mygraphql.com/)  
 为方便读者关注 Blog 与本书的更新，开了个同步的 `微信公众号`：
 
-:::{figure-md} 微信公众号:Mark的Cloud与BPF沉思录
+:::{figure-md} 微信公众号:Mark的Cloud与BPF雜碎
 
 <img src="_static/my-wechat-blog-qr.png" alt="my-wechat-blog-qr.png">
 
-*微信公众号:Mark的Cloud与BPF沉思录*
+*微信公众号:Mark的Cloud与BPF雜碎*
 :::
 
 

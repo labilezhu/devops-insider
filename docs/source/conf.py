@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Mark 的 DevOps 沉思录'
+project = "Mark's DevOps 雜碎"
 copyright = '2022, Mark Zhu'
 author = 'Mark Zhu'
 
@@ -23,7 +23,7 @@ extensions = [
 
 autosectionlabel_prefix_document = True
 
-html_title = "Mark 的 DevOps 沉思录"
+html_title = "Mark's DevOps 雜碎"
 html_favicon = '_static/favicon.ico'
 html_logo = "_static/logo.png"
 
