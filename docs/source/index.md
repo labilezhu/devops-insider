@@ -21,7 +21,13 @@
 
 ### “雜碎(Chop Suey)” 是什么
 
-![img](index.assets/405px-Chopsueywithrice.jpg)
+:::{figure-md} 雜碎(Chop Suey)
+
+<img src="index.assets/405px-Chopsueywithrice.jpg" alt="雜碎(Chop Suey)">
+
+*雜碎(Chop Suey)*
+:::
+
 
 > **以下引用自某报：**
 > <mark>雜碎是舊式北美中餐的招牌菜，英文 `chop suey` 是廣府話譯音，意謂炒什錦，材料一般包括雞絲、牛肉絲、豬肉絲等肉類或蝦，以及大白菜絲、青椒絲、芹菜絲、洋蔥絲、雪豌豆和豆芽等。</mark>  
