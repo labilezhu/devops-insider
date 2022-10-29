@@ -13,13 +13,8 @@
 
 与其说是 “书”，不如说是一个系统化和支持搜索的 Blog 与其它网上资料的学习笔记。 老实说，不是传统意义上的，连贯与结构紧密的 “书”。
 
-不知不觉 IT 从业快 20 年了。最近几年来，总觉得应该写点什么。我尝试过写 Blog，但 Blog 毕竟是比较零散的结构。有以下问题：
-- 不能结构化知识体系
-- 搜索不好用
 
-在编写我的另一本书 [Istio & Envoy 内幕](https://istio-insider.mygraphql.com/) 过程中，看到了 `sphinx` 的精准排版，加上 `Read The Docs` 的搜索增强与托管服务。我觉得用书的形式去梳理、归纳贯通那些本来就很体系化、严谨的知识点，会更方便浏览与搜索。
-
-### “雜碎(Chop Suey)” 是什么
+#### “雜碎(Chop Suey)” 是什么
 
 :::{figure-md} 雜碎(Chop Suey)
 
@@ -37,8 +32,6 @@
 
 如果看完上面解释，还是要为这个词 `上岗上线`，那么，就请吧。
 
-
-
 ### 读者对象
 
 喜欢较真，但有容错心理准备的人。
@@ -47,6 +40,14 @@
 - [https://devops-insider.mygraphql.com](https://devops-insider.mygraphql.com)
 - [https://devops-insider.readthedocs.io](https://devops-insider.readthedocs.io)
 - [https://devops-insider.rtfd.io](https://devops-insider.rtfd.io)
+
+### 为何写
+不知不觉 IT 从业快 20 年了。最近几年来，总觉得应该写点什么。我尝试过写 Blog，但 Blog 毕竟是比较零散的结构。有以下问题：
+- 不能结构化知识体系
+- 搜索不好用
+
+在编写我的另一本书 [Istio & Envoy 内幕](https://istio-insider.mygraphql.com/) 过程中，看到了 `sphinx` 的精准排版，加上 `Read The Docs` 的搜索增强与托管服务。我觉得用书的形式去梳理、归纳贯通那些本来就很体系化、严谨的知识点，会更方便浏览与搜索。
+
 
 ### 关于作者
 
@@ -66,19 +67,13 @@ Blog: [https://blog.mygraphql.com/](https://blog.mygraphql.com/)
 :::
 
 
-
-
-### 参与编写
-如果你也对编写本书有兴趣，欢迎联系我。本书的出发点不是刷简历，也没这个能力。而且，这样的非`短平快` 且 `TL;DR` 书籍注定是小众货。
-
-
 ### Dedication 💞
 First, to my dear parents, for showing me how to live a happy
 and productive life. To my dear wife and our amazing kid – thanks for all your love and patience.
 
 
 ### Copyleft 声明
-无论是文字还是图片，如果转载或修改，请注明原出处。
+无论是文字还是图片，如果转载或修改，请注明原出处。由于本书一部分是我的学习笔记，大量引用了网上的资料。所有引用的地方我均注明了出处。如果作者看到引用后觉得冒犯了，请联系我删除：labile.zhu@gmail.com 。
 
 ### 意见反馈
 由于自称是交互图书，读者的反馈当然非常重要。如果你发现书中的错误，或者有更好的建议，不妨来这里提 Issue:  
