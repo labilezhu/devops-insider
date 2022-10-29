@@ -12,4 +12,5 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 python3 -m pip install sphinx-book-theme
+python3 -m pip install sphinx_rtd_theme
 python3 -m pip install myst-parser
