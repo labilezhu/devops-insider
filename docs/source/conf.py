@@ -39,6 +39,7 @@ html_theme_options = {
     # "show_navbar_depth": 8,
     "collapse_navigation": False,
     "logo_only": True,
+    "navigation_depth": 8
 }
 
 intersphinx_mapping = {

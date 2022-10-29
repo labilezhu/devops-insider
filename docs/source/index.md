@@ -90,4 +90,5 @@ kernel/index.md
 lang/c/index.md
 database/database.md
 istio/index.md
+wu/wu.md
 ```
