@@ -1,12 +1,16 @@
 # 从《Why I Left Facebook》扯到蘇東坡《卜算子》
 
+
+![](why-i-left-facebook.assets/logo.jpg)
+
+
 前段时间，由于要研究一个 [TCP 接收缓冲区大小配置的问题](https://blog.mygraphql.com/zh/notes/low-tec/network/tcp-mem/)，搜索到了一编 Blog： [A TCP Timeout Investigation](https://hechao.li/2022/09/30/a-tcp-timeout-investigation/)。 感觉 Blog 主是个现世小众的技术较真之人。 于是浏览了他的其它文章，看到一编： [Why I Left Facebook](https://hechao.li/2022/06/24/why-i-left-facebook/)。感触良多，故翻译之。
 
 > <mark>⚠ 警告：本文无关技术</mark>
 
 ## [Why I Left Facebook] 译文
 
-> 以下引用自：[Why I Left Facebook](https://hechao.li/2022/06/24/why-i-left-facebook/)。作者当然有一定的个人感情在里面了，在自认 EQ 高的，精通各种成功学理论的人眼中，`快意恩仇` 是个 EQ 低的表现。但谁能否认，社会与技术的很多变化，不是由一次次由 `快意恩仇` 的人去触发的？ 如果我们一直不去直面黑暗面，忌讳黑暗面，那么黑暗面迟早会吞噬所有。
+> 以下引用自：[Why I Left Facebook](https://hechao.li/2022/06/24/why-i-left-facebook/)。作为局外人，译者无法验证原作者的说法的正确性，所以，本译文只供参考。作者当然有一定的个人感情在里面了。在自认 EQ 高的，精通各种成功学理论的人眼中，`快意恩仇` 是个 EQ 低的表现。但谁能否认，社会与技术的很多变化，不是由一次次由 `快意恩仇` 的人去触发的？ 如果我们一直不去直面黑暗面，忌讳黑暗面，那么黑暗面迟早会吞噬所有。
 
 > <mark>⚠ 警告：以下只是引文与翻译，内容与译者无直接相关性，请看官不要对号入座，上岗上线。</mark>
 
@@ -142,7 +146,8 @@ My favorite scene in Stranger Things is when Dustin was trying to trick Erica to
 
 有个心理学家说过：
 
-> 如果我们时常回忆过往的坏事情，就像一个人长期在粪坑上打滚，是永远得不到快乐的。
+> 如果我们时常回忆过往的坏事情，就像一个人时常在粪坑上打滚，是很难得到快乐的。
 
 或者正能量不是去改变什么，而是认识到不能改变什么，并尝试不沉迷其中，用更多的生命能量去完成那些值得的事情。
 
+> 本文摘自我在整理中的[《Mark’s DevOps 雜碎》](https://devops-insider.mygraphql.com/zh_CN/latest/index.html) 一书中的 [从《Why I Left Facebook》扯到蘇東坡《卜算子》](https://devops-insider.mygraphql.com/zh_CN/latest/wu/career/jerks/why-i-left-facebook/why-i-left-facebook.html) 一节。
