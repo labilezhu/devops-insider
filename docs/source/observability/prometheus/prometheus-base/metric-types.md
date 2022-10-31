@@ -6,7 +6,8 @@ The Prometheus client libraries offer four core metric types. These are currentl
 
 > Prometheus 内部存储层并无 `Metric Type` 这个概念。只是在 client library 与 外部交互协议中有这个概念。
 
-
+## Summary
+- [How does a Prometheus Summary work?](https://www.robustperception.io/how-does-a-prometheus-summary-work/)
 
 ## Histogram[](https://prometheus.io/docs/concepts/metric_types/#histogram)
 

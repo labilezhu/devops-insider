@@ -6,4 +6,5 @@ histograms.md
 step-query_range.md
 rate.md
 top.md
+metrics-design.md
 ```
