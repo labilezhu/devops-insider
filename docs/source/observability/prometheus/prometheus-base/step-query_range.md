@@ -54,8 +54,6 @@ Currently only supported for Prometheus data sources. The `$__rate_interval` var
 > [https://grafana.com/docs/grafana/latest/datasources/prometheus/](https://grafana.com/docs/grafana/latest/datasources/prometheus/#using-__rate_interval:~:text=Using%20interval%20and%20range%20variables)
 
 
-### Using interval and range variables
-
 > Support for `$__range`, `$__range_s` and `$__range_ms` only available from Grafana v5.3
 
 You can use some global built-in variables in query variables, for example, `$__interval`, `$__interval_ms`, `$__range`, `$__range_s` and `$__range_ms`. See [Global built-in variables](https://grafana.com/docs/grafana/latest/dashboards/variables/add-template-variables/#global-variables) for more information. They are convenient to use in conjunction with the `query_result` function when you need to filter variable queries since the `label_values` function doesn’t support queries.

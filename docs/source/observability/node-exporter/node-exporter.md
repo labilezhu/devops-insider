@@ -1,4 +1,4 @@
-# Node EXporter
+# Node Exporter
 
 ```{toctree}
 clock-drift.md
