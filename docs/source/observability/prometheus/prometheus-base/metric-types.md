@@ -34,3 +34,40 @@ A summary with a base metric name of `<basename>` exposes multiple time series d
 - the **count** of events that have been observed, exposed as `<basename>_count`
 
 See [histograms and summaries](https://prometheus.io/docs/practices/histograms) for detailed explanations of φ-quantiles, summary usage, and differences to [histograms](https://prometheus.io/docs/concepts/metric_types/#histogram).
+
+
+
+## Types of Prometheus metrics
+
+> [https://isitobservable.io/observability/prometheus/how-to-build-a-promql-prometheus-query-language](https://isitobservable.io/observability/prometheus/how-to-build-a-promql-prometheus-query-language)
+
+### Range vector
+
+The range vector doesn’t give you one value, like the instant vector; it gives you a set of values measured between two timestamps.
+
+![img](metric-types.assets/vector.png)
+
+
+
+### Histogram
+
+The histogram allows you to specify values for predefined buckets. Here’s an example:
+
+Let’s say I would like to report the http_response size. Every time I use the histogram to report, i.e., 2 seconds, then Prometheus will take my response times and count the number of requests fitting in specific buckets.
+
+![img](metric-types.assets/historgrams.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
