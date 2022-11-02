@@ -90,6 +90,6 @@ kernel/index.md
 observability/observability.md
 lang/c/index.md
 database/database.md
-istio/index.md
+service-mesh/service-mesh.md
 wu/wu.md
 ```
