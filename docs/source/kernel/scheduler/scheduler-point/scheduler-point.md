@@ -6,4 +6,4 @@
 
 *图：内核调度点与协作*
 :::
-*[用 Draw.io 打开](https://app.diagrams.net/#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh_CN%2Flatest%2F_images%2Fscheduler-func-schedule-point.drawio.svg)*
+*[用 Draw.io 打开](https://app.diagrams.net/?ui=sketch#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh_CN%2Flatest%2F_images%2Fscheduler-func-schedule-point.drawio.svg)*
