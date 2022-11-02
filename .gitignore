@@ -1,2 +1,3 @@
 docs/build/**
 .venv/**
+docs/source/.vscode/settings.json
