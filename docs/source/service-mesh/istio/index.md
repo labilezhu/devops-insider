@@ -6,4 +6,5 @@
 
 ```{toctree}
 observability/metrics/tcp-metrics/tcp-metrics.md
+observability/log/access-log.md
 ```
