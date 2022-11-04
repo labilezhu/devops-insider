@@ -164,7 +164,7 @@ Linux 内核调度如果要说清楚，是一本书一个章节的。由于本�
 介绍几个术语：
 
 - voluntary switch: 线程自愿地离开 cpu(offcpu，即不运行)，一般离开后，状态会变为 TASK_INTERRUPTIBLE/TASK_UNINTERRUPTIBLE
-- involuntary switch: 线程不自愿地离开 cpu(offcpu，即不运行)，一般离开后，状态会还是 RUNNABLE 的。
+- involuntary switch: 线程不自愿地离开 cpu(offcpu，即不运行)，一般离开后，v状态会还是 RUNNABLE 的。
 
 ### 线程的调度与切换
 
