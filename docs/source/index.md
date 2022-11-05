@@ -91,5 +91,6 @@ observability/observability.md
 lang/c/index.md
 database/database.md
 service-mesh/service-mesh.md
+network/network.md
 wu/wu.md
 ```
