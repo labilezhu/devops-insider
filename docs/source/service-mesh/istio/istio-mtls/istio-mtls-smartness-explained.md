@@ -96,7 +96,9 @@ User-Agent=curl/7.68.0
 Hostname=echo-v1-7b79ccb7f7-bhpc4
 ```
 
-![img](istio-mtls-smartness-explained.assets/image.png)captures taken at server sidecar
+![img](istio-mtls-smartness-explained.assets/image.png)
+
+*captures taken at server sidecar*
 
 ## Scenario 2, non-injected client to injected and non-injected services
 
@@ -207,7 +209,7 @@ Before discussing next scenario(scenario 3), we will discuss a little on filter 
 
 [Application protocols](https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation) or ALPN is an TLS extension, which is ideally used by clients and servers to negotiate application level protocol for example for http2 upgrade if server supports http2. Standard ALPN values are h2, http1.1. Client sets the supported application protocols in the tls client hello message. For example:![img](istio-mtls-smartness-explained.assets/_7nmGpiwkmi-d_f7uQEAkZVpyNqRMQIaOMNymJWrAEIviDmekFgizTLQroTcaD6Y5QKy4YBxRf8Ju-yIW2JPf6NYzErslWWlhKB6Hej00eClrnviT_5AGUWbosGf_-9c942EriZNuu8SsKFUUb8.png)       
 
-Istio leveraged this TLS extension for communicating from client sidecar to server sidecar that TLS encryption is using Istio issued certs and not the custom certs setup by the user. Client sidecar sets Istio-defined alpn values, which then helps at server sidecar to match the appropriate filter chain.
+<mark>Istio leveraged this TLS extension for communicating from client sidecar to server sidecar that TLS encryption is using Istio issued certs and not the custom certs setup by the user</mark>. Client sidecar sets Istio-defined alpn values, which then helps at server sidecar to match the appropriate filter chain.
 
 ##### How client sidecar adds Istio-defined ALPNs in the TLS client hello message
 
@@ -215,9 +217,11 @@ It depends on whether the client envoy is parsing and forwarding app traffic as 
 
 ###### http traffic
 
-Istiod manages envoy proxies in the mesh by using Envoy’s [xDS protocol](https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol) to send configurations. Istiod pushes this http filter as one of the httpFilters under the HttpConnectionManager network filter, [istio.alpn](https://github.com/istio/istio/blob/6b85b0576697e6b52d40ceda113c0e66a4d17fa1/pilot/pkg/xds/filters/filters.go#L131-L151), over xds(listeners) to all the envoys. If the client sidecar has parsed and forwarded app traffic as http traffic, this filter overrides the standard alpn values by Istio-defined alpns before forwarding the traffic to the other side.
+Istiod manages envoy proxies in the mesh by using Envoy’s [xDS protocol](https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol) to send configurations. Istiod pushes this http filter as one of the `httpFilters` under the HttpConnectionManager network filter, [`istio.alpn`](https://github.com/istio/istio/blob/6b85b0576697e6b52d40ceda113c0e66a4d17fa1/pilot/pkg/xds/filters/filters.go#L131-L151), over xds(listeners) to all the envoys. If the client sidecar has parsed and forwarded app traffic as http traffic, this filter overrides the standard alpn values by `Istio-defined alpns` before forwarding the traffic to the other side.
 
-![img](istio-mtls-smartness-explained.assets/image-2.png)istio.alpn filter in the HttpConnectionManager network filter
+![img](istio-mtls-smartness-explained.assets/image-2.png)
+
+*istio.alpn filter in the HttpConnectionManager network filter*
 
 ###### tcp traffic
 
@@ -233,7 +237,9 @@ These network filters from the cluster state are executed only in the tcp case i
 
 Istiod while preparing envoy clusters from the discovered service entries and kubernetes services, fills this `filters` with `metadata-exchange` filter which has `istio-peer-exchange` application protocol configured. Net result is that when client sidecar initiates Istio MTLS connection for forwarding tcp traffic to the upstream envoy, `istio-peer-exchange` application protocol gets set in the TLS client hello message.
 
-![img](istio-mtls-smartness-explained.assets/image-10.png)envoy cluster with metadata_exchange filter
+![img](istio-mtls-smartness-explained.assets/image-10.png)
+
+*envoy cluster with metadata_exchange filter*
 
 ### Switch back to PERMISSIVE mode
 
@@ -267,11 +273,15 @@ Now our client is sidecar-injected
 
 Ability of the client sidecar to start mtls with injected server and at the same time forward app traffic as it is (plain-text or encrypted) to the non-injected sidecar is controlled by two things:
 
-\1. Istio feature called [enableAutoMtls](https://istio.io/latest/docs/reference/config/istio.mesh.v1alpha1/#MeshConfig), enabled by default
+1. Istio feature called [enableAutoMtls](https://istio.io/latest/docs/reference/config/istio.mesh.v1alpha1/#MeshConfig), enabled by default
 
-> This flag is used to enable mutual `TLS` automatically for service to service communication within the mesh, default true. If set to true, and a given service does not have a corresponding `DestinationRule` configured, or its `DestinationRule` does not have ClientTLSSettings specified, Istio configures client side TLS configuration appropriately. More specifically, If the upstream authentication policy is in `STRICT` mode, use Istio provisioned certificate for mutual `TLS` to connect to upstream. If upstream service is in plain text mode, use plain text. If the upstream authentication policy is in PERMISSIVE mode, Istio configures clients to use mutual `TLS` when server sides are capable of accepting mutual `TLS` traffic. If service `DestinationRule` exists and has `ClientTLSSettings` specified, that is always used instead.
+> This flag is used to enable mutual `TLS` automatically for service to service communication within the mesh, default true. If set to true, and a given service does not have a corresponding `DestinationRule` configured, or its `DestinationRule` does not have `ClientTLSSettings` specified, Istio configures client side TLS configuration appropriately(适当地). More specifically, 
+>
+> - If the upstream authentication policy is in `STRICT` mode, use Istio provisioned certificate for mutual `TLS` to connect to upstream. 
+> - If upstream service is in plain text mode, use plain text. 
+> - If the upstream authentication policy is in `PERMISSIVE` mode, Istio configures clients to use mutual `TLS` when server sides are capable of accepting mutual `TLS` traffic. If service `DestinationRule` exists and has `ClientTLSSettings` specified, that is always used instead.
 
-\2. workload(pod) label `**security.istio.io/tlsMode=istio`**
+2. workload(pod) label `security.istio.io/tlsMode=istio`
 
 Istiod’s sidecar-injector webhook, which is Istiod itself, applies this label to any workload which is sidecar injected. 
 

@@ -8,4 +8,5 @@
 istio-mtls/istio-mtls.md
 observability/metrics/tcp-metrics/tcp-metrics.md
 observability/log/access-log.md
+metadata-exchange-plugin/metadata-exchange-plugin.md
 ```
