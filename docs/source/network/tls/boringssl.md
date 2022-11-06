@@ -11,3 +11,8 @@
 ## Envoy 相关的 Github Issues
  - [Unable to add particular ciphers (Eg. DHE-RSA-AES128-GCM-SHA256) #8848](https://github.com/envoyproxy/envoy/issues/8848)
  
+
+## 错误码列表
+
+> [https://github.com/google/boringssl/blob/master/crypto/err/ssl.errordata](https://github.com/google/boringssl/blob/master/crypto/err/ssl.errordata)
+
