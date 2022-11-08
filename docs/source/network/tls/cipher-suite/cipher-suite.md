@@ -11,8 +11,9 @@
  - IANA
 
 他们的对应关系见：
-
-> https://testssl.sh/openssl-iana.mapping.html
+> [https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml](https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml)
+> [https://testssl.sh/openssl-iana.mapping.html](https://testssl.sh/openssl-iana.mapping.html)
+> [https://wiki.mozilla.org/Security/Cipher_Suites](https://wiki.mozilla.org/Security/Cipher_Suites)
 
 ### IANA 格式
 
