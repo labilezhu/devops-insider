@@ -1,4 +1,4 @@
-# Main process of PID Namespace could not exit with zombie child process
+# PID Namespace 的 Main process 结束 与 zombie child process
 
 ## 情况调查
 
@@ -17,7 +17,7 @@ root     15918     1  0 11月03 ?      00:15:32 /usr/local/bin/containerd-shim-r
 ```log
 root     15918     1  0 Nov03 ?        00:15:35 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 7a6d383e2794ab23f2a070 -address /run/containerd/containerd.sock
 65535    15939 15918  0 Nov03 ?        00:00:00  \_ /pause
-47040    22026 15918  0 Nov03 ?        00:00:00  \_ [catatonit]
+47040    22026 15918  0 Nov03 ?        00:00:00  \_ [catatonit] 
 47040    22103 22026  9 Nov03 ?        08:59:39  |   \_ [prometheus] <defunct>
 47040    22267 15918  0 Nov03 ?        00:00:00  \_ /usr/bin/catatonit -- /bin/bash -c /initenv
 47040    22314 22267  0 Nov03 ?        00:16:42  |   \_ /bin/reverseproxy
@@ -26,7 +26,7 @@ root     15918     1  0 Nov03 ?        00:15:35 /usr/local/bin/containerd-shim-r
 47040    22787 15918  0 Nov03 ?        00:00:00  \_ /usr/bin/catatonit -- /bin/bash -c /initenv --service-id=com-pm-server --container-name=com-pm-exporter
 47040    22859 22787  0 Nov03 ?        00:01:11      \_ /bin/metrics-exporter --service-id=com-pm-server --container-name=com-pm-exporter
 
-
+## 上面进程 command 带中括号原因：Sometimes the process args will be unavailable; when this happens, ps will instead print the executable name in brackets.
 
 host22055:/proc/22103 # cat stat
 22103 (prometheus) Z 22026 22103 22026 0 -1 4228356 20114323 0 227 0 3011373 226613 0 0 20 0 6 0 17708534 0 0 18446744073709551615 0 0 0 0 0 0 1002060288 0 2143420159 0 0 0 17 7 0 0 148 0 0 0 0 0 0 0 0 0 9
@@ -348,3 +348,5 @@ $ dmesg -T
 
 
 
+## 参考
+ - {doc}`kernel/namespace/trouble-cases/PID1-in-containers`

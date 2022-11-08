@@ -20,15 +20,15 @@ panic("No working init found.  Try passing init= option to kernel. "
 
 All processes in UNIX has a parent/child relationship which builds up a big relationship-tree. Some resources and permissions are inherited from parent to child such as UID and cgroup restrictions.
 
-As in the real world, with parenthood comes obligations. For example: What is usually the last line of your main()-function? Hopfully something like
+As in the real world, with parenthood(为人父母) comes obligations(义务). For example: What is usually the last line of your main()-function? Hopfully something like
 
 ```c
 return EXIT_SUCCESS;
 ```
 
-All processes exits with an exit code that tells us if the operation was sucessful or not. Who is interested in this exit code anyway? In the real world, the parents are interested in their children's result, and so even here. The parent is responsible to wait(2) on their children to terminate just to fetch its exit code. But what if the parent died before the child?
+All processes exits with an exit code that tells us if the operation was sucessful or not. Who is interested in this exit code anyway? In the real world, the parents are interested in their children's result, and so even here. The parent is responsible to `wait(2)` on their children to terminate just to fetch its exit code. But what if the parent died before the child?
 
-Lets go back to the init process. The init process has several tasks, and one is to adopt "orphaned" (called zombie) child processes. Why? Because all processes will return an exit code and will not terminate completely until someone is listen for what they have to say. The init process is simply wait(2):ing on the exit code, throw it away and let the child die. Sad but true, but the child may not rest i peace otherwise. The operating system expects the init process to reap adopted children. Otherwise the children will exist in the system as a zombie and taking up some kernel resources and consume a slot in the kernel process table.
+Lets go back to the init process. The init process has several tasks, and one is to adopt "orphaned" (called zombie) child processes. Why? Because all processes will return an exit code and will not terminate completely until someone is listen for what they have to say. The init process is simply `wait(2)`:ing on the exit code, throw it away and let the child die. Sad but true, but the child may not rest i peace otherwise. The operating system expects the init process to reap adopted children. Otherwise the children will exist in the system as a zombie and taking up some kernel resources and consume a slot in the kernel process table.
 
 ## PID 1 in containers
 
@@ -48,15 +48,15 @@ The flags related to namespaces are listed in *include/uapi/linux/sched.h*:
 
 All processes is running in a "container-context" because the processes allways executes in a namespace. On a system "without containers", all processes still have **one** common namespace that all processes is using.
 
-When using CLONE_NEWPID, the kernel will create a new PID namespace and let the newly created process has the PID 1. As we already know, the PID 1 process has a very special task, namely to kill all orphaned children. This PID 1 process could be any application (make, bash, nginx, ftp-server or whatever) that is missing this essential adopt-and-slay-mechanism. If the reaping is not handled, it will result in zombie-processes. This was a real problem not long time ago for Docker containers (google Docker and zombies to see what I mean). Nowadays we have the *--init* flag on *docker run* to tell the container to use *tini* (https://github.com/krallin/tini), a zombie-reaping init process to run with PID 1.
+When using CLONE_NEWPID, the kernel will create a new PID namespace and let the newly created process has the PID 1. **As we already know, the PID 1 process has a very special task**, namely to kill all orphaned(孤儿) children. This PID 1 process could be any application (make, bash, nginx, ftp-server or whatever) that is missing this essential adopt-and-slay-mechanism(收养机制). If the reaping is not handled, it will result in zombie-processes. This was a real problem not long time ago for Docker containers (google Docker and zombies to see what I mean). Nowadays we have the *--init* flag on *docker run* to tell the container to use *tini* (https://github.com/krallin/tini), a zombie-reaping init process to run with PID 1.
 
 ## When PID 1 dies
 
-This is the reason to why I'm writing this post. I was wondering who is killing PID 1 in a container since we learned that a PID 1 may not die under any circumstances. PID 1 in cointainers is obviosly an exception from this golden rule, but how does the kernel differentiate between init processes in different PID namespaces?
+This is the reason to why I'm writing this post. I was wondering who is killing PID 1 in a container since we learned that a PID 1 may not die under any circumstances. **PID 1 in cointainers is obviosly an exception from this golden rule**, but how does the kernel differentiate between init processes in different PID namespaces?
 
 Lets follow a process to its very last breath.
 
-The call chain we will look at is the following: do_exit()->exit_notify()->forget_original_parent()->find_child_reaper().
+The call chain we will look at is the following: `do_exit()->exit_notify()->forget_original_parent()->find_child_reaper()`.
 
 ### do_exit()
 
@@ -117,7 +117,7 @@ The process table is indeed quite big. But if you are running for example a webs
 
 ### exit_notify()
 
-*kernel/exit.c:exit_notify()* is sending signals to all the closest relatives so that they know to properly mourn this process. In the beginning of this function, a call is made to *forget_original_parent()*:
+*kernel/exit.c:exit_notify()* is sending signals to all the closest relatives so that they know to properly mourn(哀悼) this process. In the beginning of this function, a call is made to *forget_original_parent()*:
 
 ```c
 static void exit_notify(struct task_struct *tsk, int group_dead)
@@ -135,9 +135,9 @@ static void exit_notify(struct task_struct *tsk, int group_dead)
 This function simply does two things
 
 1. Make init (PID 1) inherit all the child processes
-2. Check to see if any process groups have become orphaned as a result of our exiting, and if they have any stopped jobs, send them a SIGHUP and then a SIGCONT.
+2. Check to see if any process groups have become orphaned(孤儿) as a result of our exiting, and if they have any stopped jobs, send them a SIGHUP and then a SIGCONT.
 
-find_child_reaper() will help us find a proper reaper:
+`find_child_reaper()` will help us find a proper `reaper`:
 
 ```c
 >>>>> reaper = find_child_reaper(father);
@@ -159,11 +159,11 @@ if (unlikely(pid_ns == &init_pid_ns)) {
 zap_pid_ns_processes(pid_ns);
 ```
 
-*init_pid_ns* refers (declared in *kernel/pid.c*) to our **real** init process. If the real init process exits, panic the whole system since it cannot continue without an init process. If it is not, call zap_pid_ns_processes(), here we have our PID1-cannot-be-killed-exception we are looking for! We contiue following the call chain down to *zap_pid_ns_processes()*.
+*`init_pid_ns`* refers (declared in *kernel/pid.c*) to our **real** init process. If the real init process exits, panic the whole system since it cannot continue without an init process. If it is not, call `zap_pid_ns_processes()`, here we have our PID1-cannot-be-killed-exception we are looking for! We contiue following the call chain down to *`zap_pid_ns_processes()`*.
 
 ### zap_pid_ns_processes()
 
-zap_pid_ns_processes function is part of the PID namespace and is located in *kernel/pid_namespace.c* The function iterates through all tasks in the same group and send signal SIGKILL to each of them.
+`zap_pid_ns_processes` function is part of the PID namespace and is located in *kernel/pid_namespace.c* <mark>The function iterates through all tasks in the same group and send signal SIGKILL to each of them.</mark>
 
 ```c
 nr = next_pidmap(pid_ns, 1);
