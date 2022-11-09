@@ -87,10 +87,11 @@ and productive life. To my dear wife and our amazing kid – thanks for all your
 :includehidden:
 
 kernel/index.md
+k8s/k8s.md
 observability/observability.md
+network/network.md
+service-mesh/service-mesh.md
 lang/c/index.md
 database/database.md
-service-mesh/service-mesh.md
-network/network.md
 wu/wu.md
 ```
