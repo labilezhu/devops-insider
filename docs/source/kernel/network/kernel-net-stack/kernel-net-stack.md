@@ -9,4 +9,5 @@ bpf-trace-net-stack/bpf-trace-net-stack.md
 
 ```{toctree}
 good-article/network-stack-instrumentation-point.md
+good-article/understanding-tcp-ip-network-stack.md
 ```
