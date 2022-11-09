@@ -6,7 +6,6 @@ weight: 1
 enableToc: true
 enableBlogBreadcrumb: false
 tocLevels: ["h2", "h3", "h4"]
-orphan: true
 ---
 
 

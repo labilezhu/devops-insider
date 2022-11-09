@@ -6,7 +6,7 @@
 
 > [https://techblog.cisco.com/blog/istio-mixerless-telemetry](https://techblog.cisco.com/blog/istio-mixerless-telemetry)
 
-### Metadata exchange plugin
+### Metadata exchange plugin introduction
 
 The first problem that had to be solved was how to make client/server metadata about the two sides of a connection available in the proxies.
 

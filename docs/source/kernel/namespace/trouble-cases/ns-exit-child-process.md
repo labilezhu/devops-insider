@@ -14,7 +14,7 @@ root     15918     1  0 11月03 ?      00:15:32 /usr/local/bin/containerd-shim-r
 ```
 
 
-```log
+```
 root     15918     1  0 Nov03 ?        00:15:35 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 7a6d383e2794ab23f2a070 -address /run/containerd/containerd.sock
 65535    15939 15918  0 Nov03 ?        00:00:00  \_ /pause
 47040    22026 15918  0 Nov03 ?        00:00:00  \_ [catatonit] 
@@ -78,7 +78,7 @@ user@host22055:~> sudo cat /proc/22026/stack
 
 #### 直接原因 Ceph full
 
-```log
+```
 $ dmesg -T
 [Mon Nov  7 06:45:09 2022] libceph: FULL or reached pool quota
 [Mon Nov  7 06:45:09 2022] libceph: FULL or reached pool quota
@@ -126,7 +126,7 @@ top -p 8912 -H
 
 > [Processes in an Uninterruptible Sleep (D) State](https://www.suse.com/support/kb/doc/?id=000016919)
 
-```log
+```
 top - 07:45:10 up 5 days, 20:33,  1 user,  load average: 26.22, 26.56, 25.38
 Tasks: 479 total,   1 running, 474 sleeping,   0 stopped,   4 zombie
 %Cpu(s):  8.5 us,  3.9 sy,  0.0 ni, 32.1 id, 55.1 wa,  0.0 hi,  0.4 si,  0.0 st
@@ -152,7 +152,7 @@ host22055:/proc/22103 # ps -eo ppid,pid,user,stat,pcpu,comm,wchan:32 | grep " D"
 
 > [Processes in an Uninterruptible Sleep (D) State](https://www.suse.com/support/kb/doc/?id=000016919)
 
-```log
+```
 
 $ echo w > /proc/sysrq-trigger
 $ dmesg -T
@@ -349,4 +349,4 @@ $ dmesg -T
 
 
 ## 参考
- - {doc}`kernel/namespace/trouble-cases/PID1-in-containers`
+ - {doc}`/kernel/namespace/trouble-cases/PID1-in-containers`

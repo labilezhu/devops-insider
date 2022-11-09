@@ -1,4 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
+# doc: https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Project information
 
@@ -20,6 +21,10 @@ extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
     'myst_parser'
+]
+
+suppress_warnings = [
+    'misc.highlighting_failure',
 ]
 
 autosectionlabel_prefix_document = True
