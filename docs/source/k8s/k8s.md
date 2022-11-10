@@ -1,5 +1,5 @@
 # Kubernetes
 
 ```{toctree}
-k8s-eviction/evction.md
+k8s-eviction/eviction.md
 ```
