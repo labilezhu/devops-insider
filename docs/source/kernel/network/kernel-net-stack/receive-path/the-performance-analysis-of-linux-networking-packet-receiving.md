@@ -3,9 +3,11 @@
 
 
 > [https://indico.cern.ch/event/408139/contributions/979737/attachments/815628/1117588/CHEP06.pdf](https://indico.cern.ch/event/408139/contributions/979737/attachments/815628/1117588/CHEP06.pdf)
->
+> [https://indico.cern.ch/event/408139/contributions/979737/attachments/815629/1117589/Wu_Crawford_CHEP_2006_Official_Version.pdf](https://indico.cern.ch/event/408139/contributions/979737/attachments/815629/1117589/Wu_Crawford_CHEP_2006_Official_Version.pdf)
 > [https://people.computing.clemson.edu/~westall/853/tcpperf2.pdf](https://people.computing.clemson.edu/~westall/853/tcpperf2.pdf)
 
+
+{download}`下载：Wu_Crawford_CHEP_2006_Official_Version.pdf <the-performance-analysis-of-linux-networking-packet-receiving.assets/Wu_Crawford_CHEP_2006_Official_Version.pdf>`
 
 
 ## Linux Networking subsystem: Packet Receiving Process

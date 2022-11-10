@@ -93,5 +93,8 @@ network/network.md
 service-mesh/service-mesh.md
 lang/c/index.md
 database/database.md
+ceph/ceph.md
+hardware/hardware.md
+ebpf/ebpf.md
 wu/wu.md
 ```

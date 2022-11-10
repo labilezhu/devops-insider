@@ -7,4 +7,5 @@ step-query_range.md
 rate.md
 top.md
 metrics-design.md
+rate-vs-increase-functions.md
 ```
