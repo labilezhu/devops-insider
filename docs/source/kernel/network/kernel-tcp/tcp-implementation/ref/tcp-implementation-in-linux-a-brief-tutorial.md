@@ -2,7 +2,7 @@
 
 > [https://sn0rt.github.io/media/paper/TCPlinux.pdf](https://sn0rt.github.io/media/paper/TCPlinux.pdf)
 
-{download}`下载：TCPlinux.pdf </kernel/network/socket/socket-tcp/tcp-implementation/ref/tcp-implementation-in-linux-a-brief-tutorial.assets/TCPlinux.pdf>`
+{download}`下载：TCPlinux.pdf <tcp-implementation-in-linux-a-brief-tutorial.assets/TCPlinux.pdf>`
 
 
 

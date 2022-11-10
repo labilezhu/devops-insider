@@ -158,7 +158,7 @@ nft create table inet foo
 nft create chain inet foo bar {type filter hook input priority 0\;}
 ```
 
-### Priority
+### Nftables Priority
 
 In the examples above you already saw that *Nftables* requires you to specify a *priority* value when creating a *base chain*. This is the very same *priority* as I described already in detail when covering *Netfilter* above. You can specify integer values, but the newer versions of *Nftables* also define placeholder names for several discrete *priority* values analog to the mentioned *enums* in *Netfilter*. The following table lists those placeholder names[12)](https://thermalcircle.de/doku.php?id=blog:linux:nftables_packet_flow_netfilter_hooks_detail#fn__12).
 

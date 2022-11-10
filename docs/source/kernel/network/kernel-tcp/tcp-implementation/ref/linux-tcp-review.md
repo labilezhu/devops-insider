@@ -2,7 +2,7 @@
 
 > [https://wiki.aalto.fi/download/attachments/70789052/linux-tcp-review.pdf](https://wiki.aalto.fi/download/attachments/70789052/linux-tcp-review.pdf)
 
-{download}`下载：linux-tcp-review.pdf </kernel/network/socket/socket-tcp/tcp-implementation/ref/linux-tcp-review.assets/linux-tcp-review.pdf>`
+{download}`下载：linux-tcp-review.pdf <linux-tcp-review.assets/linux-tcp-review.pdf>`
 
 ## ABSTRACT
 Transmission Control Protocol is the most used transmission layer protocol in the Internet. In addition to reliable
