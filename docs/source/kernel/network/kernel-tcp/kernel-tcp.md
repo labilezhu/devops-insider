@@ -1,4 +1,4 @@
-# Socket TCP
+# Kernel TCP
 
 ```{toctree}
 tcp-implementation/tcp-implementation.md
