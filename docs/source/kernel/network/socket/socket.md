@@ -2,7 +2,7 @@
 
 ```{toctree}
 socket-data-struct/socket-data-struct.md
-socket-tcp/tcp-mem/index.md
+socket-tcp/socket-tcp.md
 socket-buf-queue/socket-buf-queue.md
 listen-queues/listen-queues.md
 ```
