@@ -1752,7 +1752,7 @@ See \[3\] for more information.
 
 Also named complete queue, stores established connections that waiting to be dequeued by the application with `accept()` system call.
 
-### Queue position & implementation
+### Accept Queue position & implementation
 
 This is a real queue - a FIFO queue to be specific.
 
@@ -1779,7 +1779,7 @@ struct request_sock_queue {
 };
 ```
 
-### Kernel code checking whether the queue is full
+### Accept Kernel code checking whether the queue is full
 
 ```c
 // include/net/sock.h
@@ -1797,7 +1797,7 @@ static inline void sk_acceptq_added(struct sock *sk) {
 }
 ```
 
-### Queue configurations
+### Accept Queue configurations
 
 The smaller one of the following two settings wins:
 
@@ -1811,7 +1811,7 @@ The smaller one of the following two settings wins:
 > net.core.somaxconn = 16384
 > ```
 
-### Check queue status
+### Accept Check queue status
 
 ```bash
 # -l: show listen state sockets

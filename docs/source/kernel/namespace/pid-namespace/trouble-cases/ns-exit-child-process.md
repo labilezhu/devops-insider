@@ -349,4 +349,4 @@ $ dmesg -T
 
 
 ## 参考
- - {doc}`/kernel/namespace/trouble-cases/PID1-in-containers`
+ - {doc}`/kernel/namespace/pid-namespace/trouble-cases/PID1-in-containers`
