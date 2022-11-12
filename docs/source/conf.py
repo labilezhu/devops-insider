@@ -20,8 +20,11 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
-    'myst_parser'
+    'myst_parser',
+    'sphinx_sitemap'
 ]
+
+html_baseurl = 'https://istio-insider.mygraphql.com/zh_CN/latest/'
 
 suppress_warnings = [
     'misc.highlighting_failure',
