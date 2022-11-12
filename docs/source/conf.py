@@ -24,7 +24,7 @@ extensions = [
     'sphinx_sitemap'
 ]
 
-html_baseurl = 'https://istio-insider.mygraphql.com/zh_CN/latest/'
+html_baseurl = 'https://devops-insider.mygraphql.com/zh_CN/latest/'
 
 suppress_warnings = [
     'misc.highlighting_failure',
