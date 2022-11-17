@@ -36,7 +36,7 @@ To enable dynamic storage provisioning based on storage class, the cluster admin
 
 ### Binding
 
-A user creates, or in the case of dynamic provisioning, has already created, a `PersistentVolumeClaim` with a specific `amount of storage requested` and with certain `access modes`. A control loop in the master watches for new PVCs, finds a matching PV (if possible), and binds them together(**即系 Kubernetes 自动绑定 PV 到 PVC**). **If a PV was dynamically provisioned for a new PVC, the loop will always bind that PV to the PVC(如果一个 PV 是为一个 PVC而创建的，那么这个新创建的 PV  总是绑定在那个 PVC 上)**. Otherwise, the user will always get at least what they asked for, but the volume may be in excess of what was requested(数量可能超过要求的数量). Once bound, `PersistentVolumeClaim` binds are exclusive, regardless of how they were bound. A PVC to PV binding is a one-to-one mapping, using a ClaimRef which is a bi-directional binding between the `PersistentVolume` and the `PersistentVolumeClaim`.
+A user creates, or in the case of dynamic provisioning, has already created, a `PersistentVolumeClaim` with a specific `amount of storage requested` and with certain `access modes`. A control loop in the master watches for new PVCs, finds a matching PV (if possible), and binds them together(**即系 Kubernetes 自动绑定 PV 到 PVC**). **If a PV was dynamically provisioned for a new PVC, the loop will always bind that PV to the PVC(如果一个 PV 是为一个 PVC而创建的，那么这个新创建的 PV  总是绑定在那个 PVC 上)**. Otherwise, the user will always get at least what they asked for, but the volume may be in excess of what was requested(绑定的 vol 大小可能超过要求的). Once bound, `PersistentVolumeClaim` binds are exclusive, regardless of how they were bound. A PVC to PV binding is a one-to-one mapping, using a `ClaimRef` which is a bi-directional binding between the `PersistentVolume` and the `PersistentVolumeClaim`.
 
 Claims will remain unbound indefinitely if a matching volume does not exist. Claims will be bound as matching volumes become available. For example, a cluster provisioned with many 50Gi PVs would not match a PVC requesting 100Gi. The PVC can be bound when a 100Gi PV is added to the cluster.
 
@@ -94,15 +94,15 @@ Events:            <none>
 
 
 
-### Reclaiming
+### Reclaiming(回收)
 
-When a user is done with their volume, they can delete the PVC objects from the API that allows reclamation of the resource. The reclaim policy for a PersistentVolume tells the cluster what to do with the volume after it has been released of its claim. Currently, volumes can either be Retained, Recycled, or Deleted.
+When a user is done with their volume, they can delete the PVC objects from the API that allows reclamation of the resource. The `reclaim policy` for a `PersistentVolume` tells the cluster what to do with the volume after it has been released of its claim. Currently, volumes can either be Retained, Recycled, or Deleted.
 
 #### Retain
 
-The `Retain` reclaim policy allows for manual reclamation of the resource. When the PersistentVolumeClaim is deleted, the PersistentVolume still exists and the volume is considered "released". But it is not yet available for another claim because the previous claimant's data remains on the volume. An administrator can manually reclaim the volume with the following steps.
+The `Retain` reclaim policy allows for manual reclamation of the resource. When the PersistentVolumeClaim is deleted, the `PersistentVolume` still exists and the volume is considered "`released`". But it is not yet available for another claim because the previous claimant(原主)'s data remains on the volume. An administrator can manually reclaim the volume with the following steps.
 
-1. Delete the PersistentVolume. The associated storage asset in external infrastructure (such as an AWS EBS, GCE PD, Azure Disk, or Cinder volume) still exists after the PV is deleted.
+1. Delete the PersistentVolume. The associated `storage asset` in external infrastructure (such as an AWS EBS, GCE PD, Azure Disk, or Cinder volume) still exists after the PV is deleted.
 2. Manually clean up the data on the associated storage asset accordingly.
 3. Manually delete the associated storage asset.
 
@@ -110,11 +110,11 @@ If you want to reuse the same storage asset, create a new PersistentVolume with 
 
 #### Delete
 
-For volume plugins that support the `Delete` reclaim policy, deletion removes both the PersistentVolume object from Kubernetes, as well as the associated storage asset in the external infrastructure, such as an AWS EBS, GCE PD, Azure Disk, or Cinder volume. Volumes that were dynamically provisioned inherit the [reclaim policy of their StorageClass](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#reclaim-policy), which defaults to `Delete`. The administrator should configure the StorageClass according to users' expectations; otherwise, the PV must be edited or patched after it is created. See [Change the Reclaim Policy of a PersistentVolume](https://kubernetes.io/docs/tasks/administer-cluster/change-pv-reclaim-policy/).
+For volume plugins that support the `Delete` reclaim policy, deletion removes both the PersistentVolume object from Kubernetes, as well as the associated `storage asset` in the external infrastructure, such as an AWS EBS, GCE PD, Azure Disk, or Cinder volume. Volumes that were dynamically provisioned inherit the [reclaim policy of their StorageClass](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#reclaim-policy), which defaults to `Delete`. The administrator should configure the StorageClass according to users' expectations; otherwise, the PV must be edited or patched after it is created. See [Change the Reclaim Policy of a PersistentVolume](https://kubernetes.io/docs/tasks/administer-cluster/change-pv-reclaim-policy/).
 
 #### Recycle
 
-**Warning:** The `Recycle` reclaim policy is deprecated. Instead, the recommended approach is to use dynamic provisioning.
+**Warning:** The `Recycle` reclaim policy is <mark>deprecated</mark>. Instead, the recommended approach is to use dynamic provisioning.
 
 If supported by the underlying volume plugin, the `Recycle` reclaim policy performs a basic scrub (`rm -rf /thevolume/*`) on the volume and makes it available again for a new claim.
 
@@ -143,3 +143,39 @@ spec:
 
 However, the particular path specified in the custom recycler Pod template in the `volumes` part is replaced with the particular path of the volume that is being recycled.
 
+### Reserving a PersistentVolume(静态绑定 PVC 与 PV)
+
+The control plane can [bind PersistentVolumeClaims to matching PersistentVolumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#binding) in the cluster. However, if you want a PVC to bind to a specific PV, you need to pre-bind them.
+
+By specifying a PersistentVolume in a PersistentVolumeClaim, you declare a binding between that specific PV and PVC. If the PersistentVolume exists and has not reserved PersistentVolumeClaims through its `claimRef` field, then the PersistentVolume and PersistentVolumeClaim will be bound.
+
+The binding happens regardless of some volume matching criteria, including node affinity. The control plane still checks that [storage class](https://kubernetes.io/docs/concepts/storage/storage-classes/), access modes, and requested storage size are valid.
+
+```yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: foo-pvc
+  namespace: foo
+spec:
+  storageClassName: "" # Empty string must be explicitly set otherwise default StorageClass will be set
+  volumeName: foo-pv
+  ...
+```
+
+This method does not guarantee any binding privileges to the PersistentVolume. If other PersistentVolumeClaims could use the PV that you specify, you first need to reserve that storage volume. Specify the relevant PersistentVolumeClaim in the `claimRef` field of the PV so that other PVCs can not bind to it.
+
+```yaml
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: foo-pv
+spec:
+  storageClassName: ""
+  claimRef:
+    name: foo-pvc
+    namespace: foo
+  ...
+```
+
+This is useful if you want to consume PersistentVolumes that have their `claimPolicy` set to `Retain`, including cases where you are reusing an existing PV.
