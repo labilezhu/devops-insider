@@ -1,7 +1,7 @@
 # Metadata Exchange
 
 ## HTTP
-[Proxy Metadata Exchange](https://docs.google.com/document/d/1bWQAsrBZguk5HCmBVDEgEMVGS91r9uh3SIr7D7ELZBk/edit#heading=h.pqxgidauhivq)
+> [Proxy Metadata Exchange](https://docs.google.com/document/d/1bWQAsrBZguk5HCmBVDEgEMVGS91r9uh3SIr7D7ELZBk/edit#heading=h.pqxgidauhivq)
 
 ### Goal
 In mixer-less istio, proxies host the adapters performing various mesh functions. These adapters need to consume rich environmental data (e.g. which labels are applied to a pod), that is not exposed directly at the network protocol level. This proposal is about a mechanism for proxies to obtain metadata about the peering proxies.

@@ -1,0 +1,770 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="3971px" height="1661px" viewBox="-0.5 -0.5 3971 1661" content="&lt;mxfile&gt;&lt;diagram id=&quot;teZ_L_uGIroZW5e_q0IC&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="1420" y="680" width="630" height="200" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 612px; height: 1px; padding-top: 695px; margin-left: 1430px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <b>
+                                    close_*
+                                </b>
+                                <br/>
+                                <br/>
+                                The
+                                <b>
+                                    close_*
+                                </b>
+                                configuration options are used to close the harvester after a certain criteria or time. Closing the harvester means closing the
+                                <b>
+                                    file handler
+                                </b>
+                                . If a file is updated after the harvester is closed, the file will be picked up again after
+                                <b>
+                                    scan_frequency
+                                </b>
+                                has elapsed. However, if the file is moved or deleted while the harvester is closed, Filebeat will not be able to pick up the file again, and any data that the harvester hasn’t read will be lost. The close_* settings are applied
+                                <font color="#ff0000">
+                                    synchronously when Filebeat attempts to read from a file
+                                </font>
+                                ,
+                                <font color="#ff0000">
+                                    meaning that if Filebeat is in a blocked state due to blocked output, full queue or other issue, a file that would otherwise be closed remains open until Filebeat once again attempts to read from the file(即 close_* 只发生在尝试读文件的时候，而不是由 timer 精确实时控制的。即 close 是在读文件的 harvester 纤程中执行的， timer 纤程只负责异步通知。由于 filebeat 可能由于 output 的 queue full 而停止读文件，即 back pressure，所以文件不一定可以准时 close).
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1430" y="707" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    close_*...
+                </text>
+            </switch>
+        </g>
+        <rect x="2360" y="390" width="630" height="370" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 612px; height: 1px; padding-top: 405px; margin-left: 2370px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; font-family: &quot;inter&quot; ; line-height: normal ; color: rgb(33 , 37 , 41) ; font-size: 13px ; position: relative">
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive : default=5m
+                                    </code>
+                                    <font color="#0077cc" face="inter, sans-serif">
+                                        <span style="box-sizing: border-box ; font-weight: 400 ; right: 0px ; position: absolute ; top: 0px ; z-index: 1000 ; padding-top: 26px ; line-height: 1 ; opacity: 0.3 ; background-repeat: no-repeat ; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAArgAAAK4B+ff3XQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKySURBVEiJrZVLbExRGMd/3713qkJZaBeIhIUIC2FBhOpjxHRaNkhTERZeC5EQ2pmSsBikMaYVj4h0Q4pERNKNMlMVnZZ4lIUuxYqFaLqRNNXHzJzPYm6FPmc6zuqenPP//c53v5tzRVXJZQSiZUcFqsUy58IV3T3j161c4HVt5YWIfFFhjVHrfSBW1vBfBeIxbYgGPR7HCzwBzgZjZc2hkPzhzloQjHq32NiHMSxLJJJdanETOKmwY2Tj1kU5CYLPy3eqmNcpNRfzLOMDWsUQU2VpamB0ZUNld/+sBfUdxUvU6F13WpxQu0KRh4i1Gxi8Wv1m6O/9WQlCIbFMyrkPFAKKUK/odUHjaKqwsTJ+YXwmK8HAptIzgDc9kyaUY8ACYEhsuifLZCyojZZvEiUEIPBOUBvY4MqOXdne9WWynJMJ/MyL7QtF9CHgIPxEpVnROy68JeLvfDBVNiNBMpVsFlgOgGqdwpV0IXzGyjs+XXZGQTBaekhEatKH5TYq+4AiYNiIVdPkax+cLj9tD+pj3lUqcsOd9qLah9tkhdqmipe9Mx1QprrsTkSr5syxfr1DWQcMChxVuA/YQGvEH98zE3zaCvIZCrtwRAmoctmFf3VSqSOZwKesINDu3YGatvQO7qEUALuAJFAS8cffZiqYUMGp9pLFqBm7Cj6L8smFI8j5bOCTChy19gMFwLCB8woNAKJ0RPzxcDZwGPeZ1j8tXW2J1Zmw1ScmmbDEuQXki9I3muccULL//f1TgbHVE67q/Hi1Iv5KxOOo8ghQY3Pg2rYXfdnCJwrEkbHnbwNFbxXpVvRgoy/eMRv4BIGo7g3EStYCrJjXv95Whhv9XS2zhbvM9Gs9/XjzXLsg7xvwXZHjozr3w43KZyO5wOGvJjvz8zcaUo8sM3QpUtXzI1fw2PgNtmkFbbGhF10AAAAASUVORK5CYII=&quot;)">
+                                            edit
+                                        </span>
+                                    </font>
+                                </h5>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; font-size: 13px">
+                                    <span style="color: rgb(33 , 37 , 41)">
+                                        When this option is enabled, Filebeat closes the file handle if a file has not been harvested for the specified duration. The counter for the defined period starts when the last log line was read by the harvester(
+                                    </span>
+                                    <font color="#ff0000">
+                                        在每次完整读取一行日志后，timer reset
+                                    </font>
+                                    <font color="#212529">
+                                        ). It is not based on the modification time of the file. If the closed file changes again, a new harvester is started and the latest changes will be picked up after
+                                    </font>
+                                    <code class="literal" style="color: rgb(85 , 85 , 85) ; box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        scan_frequency
+                                    </code>
+                                    <font color="#212529">
+                                        has elapsed.
+                                    </font>
+                                </p>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; color: rgb(33 , 37 , 41) ; font-size: 13px">
+                                    We recommended that you set
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive
+                                    </code>
+                                    to a value that is larger than the
+                                    <b>
+                                        least frequent updates to your log files
+                                    </b>
+                                    . For example, if your log files get updated every few seconds, you can safely set
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive
+                                    </code>
+                                    to
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        1m
+                                    </code>
+                                    . If there are log files with very different update rates, you can use multiple configurations with different values.
+                                </p>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; color: rgb(33 , 37 , 41) ; font-size: 13px">
+                                    Setting
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive
+                                    </code>
+                                    to a lower value means that file handles are closed sooner. However this has the side effect that new log lines are not sent in near real time if the harvester is closed.
+                                </p>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; color: rgb(33 , 37 , 41) ; font-size: 13px">
+                                    The timestamp for closing a file does not depend on the modification time of the file. Instead, Filebeat uses an internal timestamp that reflects when the file was last harvested. For example, if
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive
+                                    </code>
+                                    is set to 5 minutes, the countdown for the 5 minutes starts after the harvester reads the last line of the file.
+                                </p>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; color: rgb(33 , 37 , 41) ; font-size: 13px">
+                                    You can use time strings like 2h (2 hours) and 5m (5 minutes). The default is 5m.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2370" y="418" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    close_inactive : default=5medit...
+                </text>
+            </switch>
+        </g>
+        <rect x="2140" y="130" width="360" height="70" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 342px; height: 1px; padding-top: 145px; margin-left: 2150px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <span style="color: rgb(33 , 37 , 41) ; font-family: &quot;inter&quot; , sans-serif ; font-size: 13px">
+                                    <b>
+                                        least frequent updates to log file
+                                    </b>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2150" y="157" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    least frequent updates to log file
+                </text>
+            </switch>
+        </g>
+        <path d="M 2360 643.7 L 2075.39 705.77" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 2050.96 711.09 L 2061.61 701.25 L 2075.39 705.77 L 2064.74 715.61 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 2514.82 390 L 2351.77 201.69" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 2364.46 206.42 L 2351.04 200.85 L 2354.63 214.93" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 295px; margin-left: 2432px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                should larger than
+                                <br/>
+                                &lt;&lt;depends&gt;&gt;
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2432" y="299" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    should larger than...
+                </text>
+            </switch>
+        </g>
+        <rect x="2360" y="870" width="630" height="340" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 612px; height: 1px; padding-top: 885px; margin-left: 2370px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px">
+                                            close_removed : default=true
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            When this option is enabled, Filebeat closes the harvester when a file is removed. Normally a file should only be removed after it’s inactive for the duration specified by close_inactive. However, if a file is removed early and you don’t enable close_removed, Filebeat keeps the file open to make sure the harvester has completed. If this setting results in files that are not completely read because they are removed from disk too early, disable this option.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            <br/>
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            This option is enabled by default. If you disable this option, you must also disable clean_removed.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            <br/>
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            WINDOWS: If your Windows log rotation system shows errors because it can’t rotate files, make sure this option is enabled.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; font-family: &quot;inter&quot; ; line-height: normal ; color: rgb(33 , 37 , 41) ; font-size: 13px ; position: relative">
+                                    <br/>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2370" y="898" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    close_removed : default=true...
+                </text>
+            </switch>
+        </g>
+        <path d="M 2360 952.87 L 2075.05 874.06" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 2050.95 867.39 L 2064.96 863.64 L 2075.05 874.06 L 2061.04 877.81 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="3230" y="780" width="740" height="210" fill="#e6e6e6" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 732px; height: 1px; padding-top: 770px; margin-left: 3235px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 220px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <pre style="color: rgb(0 , 0 , 0)">
+                                    <span style="color: #696969">
+                                        // 这里用 fd 来获取文件的
+                                        <a href="https://man7.org/linux/man-pages/man2/lstat.2.html#:~:text=for%20further%20information.-,st_nlink,-This%20field%20contains">
+                                            NLink
+                                        </a>
+                                        ，而不是 path，原因是文件名可能被 rotate 修改。
+                                    </span>
+                                </pre>
+                                <pre style="color: rgb(0 , 0 , 0)">
+                                    <span style="color: #696969">
+                                        // IsRemoved checks wheter the file held by f is removed.
+                                    </span>
+                                    <br/>
+                                    func IsRemoved
+                                    <span style="color: #808030">
+                                        (
+                                    </span>
+                                    f
+                                    <span style="color: #808030">
+                                        *
+                                    </span>
+                                    os
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    File
+                                    <span style="color: #808030">
+                                        )
+                                    </span>
+                                    bool
+                                    <span style="color: #800080">
+                                        {
+                                    </span>
+                                    <br/>
+                                    stat
+                                    <span style="color: #808030">
+                                        ,
+                                    </span>
+                                    err
+                                    <span style="color: #800080">
+                                        :
+                                    </span>
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    f
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    Stat
+                                    <span style="color: #808030">
+                                        (
+                                    </span>
+                                    <span style="color: #808030">
+                                        )
+                                    </span>
+                                    <br/>
+                                    <span style="color: #800000 ; font-weight: bold">
+                                        if
+                                    </span>
+                                    err
+                                    <span style="color: #808030">
+                                        !
+                                    </span>
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    nil
+                                    <span style="color: #800080">
+                                        {
+                                    </span>
+                                    <br/>
+                                    <span style="color: #696969">
+                                        // if we got an error from a Stat call just assume we are removed
+                                    </span>
+                                    <br/>
+                                    <span style="color: #800000 ; font-weight: bold">
+                                        return
+                                    </span>
+                                    true
+                                    <br/>
+                                    <span style="color: #800080">
+                                        }
+                                    </span>
+                                    <br/>
+                                    sysStat
+                                    <span style="color: #800080">
+                                        :
+                                    </span>
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    stat
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    Sys
+                                    <span style="color: #808030">
+                                        (
+                                    </span>
+                                    <span style="color: #808030">
+                                        )
+                                    </span>
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    <span style="color: #808030">
+                                        (
+                                    </span>
+                                    <span style="color: #808030">
+                                        *
+                                    </span>
+                                    syscall
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    Stat_t
+                                    <span style="color: #808030">
+                                        )
+                                    </span>
+                                    <br/>
+                                    <span style="color: #800000 ; font-weight: bold">
+                                        return
+                                    </span>
+                                    sysStat
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    Nlink
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    <span style="color: #008c00">
+                                        0
+                                    </span>
+                                    <br/>
+                                    <span style="color: #800080">
+                                        }
+                                    </span>
+                                    <br/>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="3235" y="783" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    // 这里用 fd 来获取文件的 NLink，而不是 path，原因是文件名可能被 rotate 修改。...
+                </text>
+            </switch>
+        </g>
+        <path d="M 2990 987.22 L 3230 947" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6" pointer-events="stroke"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 967px; margin-left: 3110px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <span style="font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)">
+                                    harvester 纤程
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="3110" y="971" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    harveste...
+                </text>
+            </switch>
+        </g>
+        <rect x="1530" y="1130" width="630" height="530" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 612px; height: 1px; padding-top: 1145px; margin-left: 1540px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px">
+                                            close_timeout : default=disabled
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            Only use this option if you understand that data loss is a potential side effect. Another side effect is that multiline events might not be completely sent before the timeout expires.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            When this option is enabled, Filebeat gives every harvester a predefined lifetime. Regardless of where the reader is in the file, reading will stop after the close_timeout period has elapsed. This option can be useful for older log files when you want to spend only a predefined amount of time on the files. While close_timeout will close the file after the predefined timeout, if the file is still being updated, Filebeat will start a new harvester again per the defined scan_frequency. And the close_timeout for this harvester will start again with the countdown for the timeout.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            <font color="#ff0000">
+                                                This option is particularly useful in case the output is blocked
+                                            </font>
+                                            <font color="#555555">
+                                                , which makes Filebeat keep open file handlers even for files that were deleted from the disk. Setting close_timeout to 5m ensures that the files are periodically closed so they can be freed up by the operating system.(output 堵塞时，可以关闭 fd 以让硬盘空间可以回收)
+                                            </font>
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            If you set close_timeout to equal
+                                        </span>
+                                        <span style="font-size: 13px">
+                                            ignore_older
+                                        </span>
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            , the file will not be picked up if it’s modified while the harvester is closed. This combination of settings normally leads to data loss, and the complete file is not sent.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            When you use close_timeout for logs that contain multiline events, the harvester might stop in the middle of a multiline event, which means that only parts of the event will be sent. If the harvester is started again and the file still exists, only the second part of the event will be sent.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            This option is set to 0 by default which means it is disabled.
+                                        </span>
+                                    </font>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1540" y="1158" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    close_timeout : default=disabled...
+                </text>
+            </switch>
+        </g>
+        <rect x="30" y="550" width="410" height="220" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 392px; height: 1px; padding-top: 565px; margin-left: 40px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font style="font-size: 12px">
+                                        ignore_older
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <br/>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="40" y="578" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    ignore_older
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="980" width="560" height="210" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 542px; height: 1px; padding-top: 995px; margin-left: 10px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px">
+                                        scan_frequency : default=10s
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        How often Filebeat checks for new files in the paths that are specified for harvesting. For example, if you specify a glob like /var/log/*, the directory is scanned for files using the frequency specified by scan_frequency. Specify 1s to scan the directory as frequently as possible without causing Filebeat to scan too frequently. We do not recommend to set this value &lt;1s.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        If you require log lines to be sent in near real time do not use a very low
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        scan_frequency
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        but adjust
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        close_inactive
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        so the file handler stays open and constantly polls your files.
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="10" y="1008" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    scan_frequency : default=10s...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1797.6 1130 L 1757.46 905.58" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1753.06 880.97 L 1762.5 891.98 L 1757.46 905.58 L 1748.02 894.57 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="550" y="0" width="710" height="420" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 692px; height: 1px; padding-top: 15px; margin-left: 560px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px">
+                                        clean_inactive
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        Only use this option if you understand that data loss is a potential side effect.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px">
+                                        <span style="font-weight: normal">
+                                            When this option is enabled, Filebeat removes the state of a file after the specified period of inactivity has elapsed.
+                                        </span>
+                                        <font color="#ff0000">
+                                            <span style="font-weight: normal">
+                                                The state can only be removed if the file is already ignored by Filebeat (the file is older than
+                                            </span>
+                                            ignore_older
+                                            <span style="font-weight: normal">
+                                                )
+                                            </span>
+                                        </font>
+                                        <span style="font-weight: normal">
+                                            . The clean_inactive setting must be greater than
+                                        </span>
+                                        ignore_older
+                                        <span style="font-weight: normal">
+                                            +
+                                        </span>
+                                    </span>
+                                    scan_frequency
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        to make sure that no states are removed while a file is still being harvested. Otherwise, the setting could result in Filebeat resending the full content constantly because
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        clean_inactive
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        removes state for files that are still detected by Filebeat. If a file is updated or appears again, the file is read from the beginning.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        The clean_inactive configuration option is useful to reduce the size of the registry file, especially if a large amount of new files are generated every day.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        This config option is also useful to prevent Filebeat problems resulting from inode reuse on Linux. For more information, see Inode reuse causes Filebeat to skip lines.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        Every time a file is
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        renamed
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        , the file state is updated and the counter for
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        clean_inactive
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        starts at 0 again.(文件名修改了就 reset)
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        During testing, you might notice that the registry contains state entries that should be removed based on the
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        clean_inactive
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        setting. This happens because Filebeat doesn’t remove the entries until it opens the registry again to read a different file. If you are testing the clean_inactive setting, make sure Filebeat is configured to read from more than one file, or the file state will never be removed from the registry.
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="560" y="28" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    clean_inactive...
+                </text>
+            </switch>
+        </g>
+        <path d="M 592.33 420 L 400.63 548.75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 406.87 536.73 L 399.71 549.38 L 414.12 547.52" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 485px; margin-left: 495px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                &lt;&lt;depends&gt;&gt;
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="495" y="489" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    &lt;&lt;depends&gt;&gt;
+                </text>
+            </switch>
+        </g>
+        <path d="M 755 420 L 356.3 978.18" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 357.92 964.73 L 355.65 979.09 L 368.5 972.29" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 700px; margin-left: 555px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                &lt;&lt;depends&gt;&gt;
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="555" y="704" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    &lt;&lt;depends&gt;&gt;
+                </text>
+            </switch>
+        </g>
+        <rect x="1430" y="190" width="610" height="220" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 592px; height: 1px; padding-top: 205px; margin-left: 1440px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px">
+                                        clean_removed : default=enable
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        When this option is enabled, Filebeat cleans files from the registry if they cannot be found on disk anymore under the last known name. This means also files which were
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        renamed
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        after the harvester was finished will be removed. This option is enabled by default.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        If a shared drive disappears for a short period and appears again, all files will be read again from the beginning because the states were removed from the registry file. In such cases, we recommend that you disable the clean_removed option.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        You must disable this option if you also disable close_removed.
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1440" y="218" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    clean_removed : default=enable...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1874.73 410 L 2457.3 868.62" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 2443.94 866.37 L 2458.18 869.31 L 2451.98 856.16" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 570px; margin-left: 2080px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <h5 style="text-align: left ; background-color: rgb(248 , 249 , 250) ; box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        You must disable
+                                    </span>
+                                    clean_removed
+                                    <span style="font-weight: normal">
+                                        if you also disable
+                                    </span>
+                                    close_removed
+                                    <span style="font-weight: normal">
+                                        .
+                                    </span>
+                                </h5>
+                                &lt;&lt;depends&gt;&gt;
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2080" y="574" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    You must disable clean_re...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
