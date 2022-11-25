@@ -16,9 +16,14 @@
 然后看看 filebeat 的一些配置与其关系：
 ![](./filebeat-conf.drawio.svg)
 
+*[用 Draw.io 打开](https://app.diagrams.net/?ui=sketch#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh_CN%2Flatest%2F_images%2Ffilebeat-conf.drawio.svg)*
+
+
 ## 运行期组件
 
 ![](filebeat-goroutines.drawio.svg)
+
+*[用 Draw.io 打开](https://app.diagrams.net/?ui=sketch#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh_CN%2Flatest%2F_images%2Ffilebeat-goroutines.drawio.svg)*
 
 
 ## 更优秀的文章

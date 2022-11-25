@@ -1,22 +1,1768 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="551px" height="61px" viewBox="-0.5 -0.5 551 61" content="&lt;mxfile&gt;&lt;diagram id=&quot;teZ_L_uGIroZW5e_q0IC&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;diagram id=&quot;QRZ5enABWlfwEJG1MYJ5&quot; name=&quot;Page-2&quot;&gt;rVbJbtswEP0aAu3BgBZLpo7a3AJBD00O7ZWVaIkoJboyHdv5+s6Q1GYHKAL0pPGblW/IGZMw765fBnZsv6maSxJ49ZWEBQkCP6YRfBC5OcRPHNIMonbYDLyIN+5Az6FnUfPTylArJbU4rsFK9T2v9Apjw6Aua7ODkuusR9bwB+ClYvIR/SFq3VqURt6Mf+WiacfMvuc0HRuNHXBqWa0uCygsSZgPSmkrddecS2Rv5KVIvj+rp8PPqs75mz7sn9TzsLHB9h9xmY4w8F7/39CBDf3K5NnxRYJYQpLsdGQ9HlrfHJPxnzOeNKuUVAMJU1AOza9PkDQHcfx8BgvTpl5vDqwT8mZNWy5fuRYVW+hP5rKg1g+O16XCJkVNr4aOyYXu4pqFyi2kNRrJtebDBmquRN88emp+1RsmRdNbneQHvdCIvjbMosobKzEaPbD+dIBIY8yeW+1FDfU63+T4i1W/m0Gd+3pzx1WwpZamYJs4IRoZq8XpKJljS/RSjJkOUjF9l37sBUiN+ZYJSXJCPVJSksaE+qSMSRaSlKJAt4TuSbkjSYoyIAmYAbInGXjl6JXtSZKQcksyUNkaWKXFKwdxdoU3acHZNSJpSWjoXGmxCB+jAd0ZJDYC2GQkixe1GEsA54Afct9i4VAA2oCcrApD98jEyUiKdMMDYt1UvOEmDQ1t4A5xIpcL4xj+kmhRDyTNTK6IZIVRWbYKQ0KBZiBAH5B1y4a3ZhTGq6EzQg2U4KxKU1ojTnCJR7oz1GA4zxxmiylp/B4X1qZYNGDyWnb8zstSAOc056fBO3cALhXQhwF3mB1PPgXcId2JaRIQQel77Tc3I7G92a3b9tjsibgYf1ITGXqW+jiEKjOLFoGW/g90QNHQOnwSO9ccpKOcj+pGHMxKO+XcI7JTfhp4AU4AwC+t0PwFnjrCF1iTgLW6g9FS+CDiVHJrzw/c79y+ewgS7vee58aUmbR8gLB3q+kfc92flg2saa46rocb+I1Rdm4/uQ2djPvqMq+7aFx37WLVxQ5jbsM2U+h5i4DgFsn4c953Rrf42xCWfwE=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="3971px" height="3431px" viewBox="-0.5 -0.5 3971 3431" content="&lt;mxfile&gt;&lt;diagram id=&quot;teZ_L_uGIroZW5e_q0IC&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <rect x="0" y="0" width="550" height="60" fill="none" stroke="none" pointer-events="all"/>
+        <rect x="1420" y="1310" width="630" height="200" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 548px; height: 1px; padding-top: 7px; margin-left: 2px;">
-                        <div data-drawio-colors="color: #FF0000; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
-                                <span style="color: rgb(0 , 0 , 0) ; font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none">
-                                    需要注意的是，这个 inactive 的 active，它不是指文件的读，是指文件的修改，包括 rename（检查方法是目录中存在一个 inode 值与 register 相同但文件名不同的文件）。这个配置的生效不是实时的，是在每次 scan 时，文件关闭后。
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 612px; height: 1px; padding-top: 1325px; margin-left: 1430px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <b>
+                                    close_*
+                                </b>
+                                <br/>
+                                <br/>
+                                The
+                                <b>
+                                    close_*
+                                </b>
+                                configuration options are used to close the harvester after a certain criteria or time. Closing the harvester means closing the
+                                <b>
+                                    file handler
+                                </b>
+                                . If a file is updated after the harvester is closed, the file will be picked up again after
+                                <b>
+                                    scan_frequency
+                                </b>
+                                has elapsed. However, if the file is moved or deleted while the harvester is closed, Filebeat will not be able to pick up the file again, and any data that the harvester hasn’t read will be lost. The close_* settings are applied
+                                <font color="#ff0000">
+                                    synchronously when Filebeat attempts to read from a file
+                                </font>
+                                ,
+                                <font color="#ff0000">
+                                    meaning that if Filebeat is in a blocked state due to blocked output, full queue or other issue, a file that would otherwise be closed remains open until Filebeat once again attempts to read from the file(即 close_* 只发生在尝试读文件的时候，而不是由 timer 精确实时控制的。即 close 是在读文件的 harvester 纤程中执行的， timer 纤程只负责异步通知。由于 filebeat 可能由于 output 的 queue full 而停止读文件，即 back pressure，所以文件不一定可以准时 close).
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1430" y="1337" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    close_*...
+                </text>
+            </switch>
+        </g>
+        <rect x="2360" y="1020" width="630" height="370" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 612px; height: 1px; padding-top: 1035px; margin-left: 2370px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; font-family: &quot;inter&quot; ; line-height: normal ; color: rgb(33 , 37 , 41) ; font-size: 13px ; position: relative">
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive : default=5m
+                                    </code>
+                                    <font color="#0077cc" face="inter, sans-serif">
+                                        <span style="box-sizing: border-box ; font-weight: 400 ; right: 0px ; position: absolute ; top: 0px ; z-index: 1000 ; padding-top: 26px ; line-height: 1 ; opacity: 0.3 ; background-repeat: no-repeat ; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAArgAAAK4B+ff3XQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKySURBVEiJrZVLbExRGMd/3713qkJZaBeIhIUIC2FBhOpjxHRaNkhTERZeC5EQ2pmSsBikMaYVj4h0Q4pERNKNMlMVnZZ4lIUuxYqFaLqRNNXHzJzPYm6FPmc6zuqenPP//c53v5tzRVXJZQSiZUcFqsUy58IV3T3j161c4HVt5YWIfFFhjVHrfSBW1vBfBeIxbYgGPR7HCzwBzgZjZc2hkPzhzloQjHq32NiHMSxLJJJdanETOKmwY2Tj1kU5CYLPy3eqmNcpNRfzLOMDWsUQU2VpamB0ZUNld/+sBfUdxUvU6F13WpxQu0KRh4i1Gxi8Wv1m6O/9WQlCIbFMyrkPFAKKUK/odUHjaKqwsTJ+YXwmK8HAptIzgDc9kyaUY8ACYEhsuifLZCyojZZvEiUEIPBOUBvY4MqOXdne9WWynJMJ/MyL7QtF9CHgIPxEpVnROy68JeLvfDBVNiNBMpVsFlgOgGqdwpV0IXzGyjs+XXZGQTBaekhEatKH5TYq+4AiYNiIVdPkax+cLj9tD+pj3lUqcsOd9qLah9tkhdqmipe9Mx1QprrsTkSr5syxfr1DWQcMChxVuA/YQGvEH98zE3zaCvIZCrtwRAmoctmFf3VSqSOZwKesINDu3YGatvQO7qEUALuAJFAS8cffZiqYUMGp9pLFqBm7Cj6L8smFI8j5bOCTChy19gMFwLCB8woNAKJ0RPzxcDZwGPeZ1j8tXW2J1Zmw1ScmmbDEuQXki9I3muccULL//f1TgbHVE67q/Hi1Iv5KxOOo8ghQY3Pg2rYXfdnCJwrEkbHnbwNFbxXpVvRgoy/eMRv4BIGo7g3EStYCrJjXv95Whhv9XS2zhbvM9Gs9/XjzXLsg7xvwXZHjozr3w43KZyO5wOGvJjvz8zcaUo8sM3QpUtXzI1fw2PgNtmkFbbGhF10AAAAASUVORK5CYII=&quot;)">
+                                            edit
+                                        </span>
+                                    </font>
+                                </h5>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; font-size: 13px">
+                                    <span style="color: rgb(33 , 37 , 41)">
+                                        When this option is enabled, Filebeat closes the file handle if a file has not been harvested for the specified duration. The counter for the defined period starts when the last log line was read by the harvester(
+                                    </span>
+                                    <font color="#ff0000">
+                                        在每次完整读取一行日志后，timer reset
+                                    </font>
+                                    <font color="#212529">
+                                        ). It is not based on the modification time of the file. If the closed file changes again, a new harvester is started and the latest changes will be picked up after
+                                    </font>
+                                    <code class="literal" style="color: rgb(85 , 85 , 85) ; box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        scan_frequency
+                                    </code>
+                                    <font color="#212529">
+                                        has elapsed.
+                                    </font>
+                                </p>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; color: rgb(33 , 37 , 41) ; font-size: 13px">
+                                    We recommended that you set
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive
+                                    </code>
+                                    to a value that is larger than the
+                                    <b>
+                                        least frequent updates to your log files
+                                    </b>
+                                    . For example, if your log files get updated every few seconds, you can safely set
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive
+                                    </code>
+                                    to
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        1m
+                                    </code>
+                                    . If there are log files with very different update rates, you can use multiple configurations with different values.
+                                </p>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; color: rgb(33 , 37 , 41) ; font-size: 13px">
+                                    Setting
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive
+                                    </code>
+                                    to a lower value means that file handles are closed sooner. However this has the side effect that new log lines are not sent in near real time if the harvester is closed.
+                                </p>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; color: rgb(33 , 37 , 41) ; font-size: 13px">
+                                    The timestamp for closing a file does not depend on the modification time of the file. Instead, Filebeat uses an internal timestamp that reflects when the file was last harvested. For example, if
+                                    <code class="literal" style="box-sizing: border-box ; font-family: &quot;consolas&quot; , &quot;menlo&quot; , &quot;dejavu sans mono&quot; , &quot;bitstream vera sans mono&quot; , &quot;lucida console&quot; , monospace ; font-size: 13px ; color: rgb(85 , 85 , 85) ; word-break: break-word ; padding: 0px 3px ; display: inline">
+                                        close_inactive
+                                    </code>
+                                    is set to 5 minutes, the countdown for the 5 minutes starts after the harvester reads the last line of the file.
+                                </p>
+                                <p style="box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1.15em ; font-family: &quot;inter&quot; , sans-serif ; color: rgb(33 , 37 , 41) ; font-size: 13px">
+                                    You can use time strings like 2h (2 hours) and 5m (5 minutes). The default is 5m.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2370" y="1048" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    close_inactive : default=5medit...
+                </text>
+            </switch>
+        </g>
+        <rect x="2140" y="760" width="360" height="70" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 342px; height: 1px; padding-top: 775px; margin-left: 2150px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <span style="color: rgb(33 , 37 , 41) ; font-family: &quot;inter&quot; , sans-serif ; font-size: 13px">
+                                    <b>
+                                        least frequent updates to log file
+                                    </b>
                                 </span>
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="2" y="19" fill="#FF0000" font-family="Helvetica" font-size="12px">
-                    需要注意的是，这个 inactive 的 active，它不是指文件的读，是指文件的修改，包括 rename（检查方法是目录中存在一个 inode 值与 register 相同但文件名不同的文件）。这个配置的生效不是实时的，是在每次 scan 时，文件关闭后。
+                <text x="2150" y="787" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    least frequent updates to log file
+                </text>
+            </switch>
+        </g>
+        <path d="M 2360 1273.7 L 2075.39 1335.77" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 2050.96 1341.09 L 2061.61 1331.25 L 2075.39 1335.77 L 2064.74 1345.61 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 2514.82 1020 L 2351.77 831.69" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 2364.46 836.42 L 2351.04 830.85 L 2354.63 844.93" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 925px; margin-left: 2432px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                should larger than
+                                <br/>
+                                &lt;&lt;depends&gt;&gt;
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2432" y="929" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    should larger than...
+                </text>
+            </switch>
+        </g>
+        <rect x="2360" y="1500" width="630" height="340" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 612px; height: 1px; padding-top: 1515px; margin-left: 2370px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px">
+                                            close_removed : default=true
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            When this option is enabled, Filebeat closes the harvester when a file is removed. Normally a file should only be removed after it’s inactive for the duration specified by close_inactive. However, if a file is removed early and you don’t enable close_removed, Filebeat keeps the file open to make sure the harvester has completed. If this setting results in files that are not completely read because they are removed from disk too early, disable this option.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            <br/>
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            This option is enabled by default. If you disable this option, you must also disable clean_removed.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            <br/>
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            WINDOWS: If your Windows log rotation system shows errors because it can’t rotate files, make sure this option is enabled.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; font-family: &quot;inter&quot; ; line-height: normal ; color: rgb(33 , 37 , 41) ; font-size: 13px ; position: relative">
+                                    <br/>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2370" y="1528" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    close_removed : default=true...
+                </text>
+            </switch>
+        </g>
+        <path d="M 2360 1582.87 L 2075.05 1504.06" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 2050.95 1497.39 L 2064.96 1493.64 L 2075.05 1504.06 L 2061.04 1507.81 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="3230" y="1410" width="740" height="210" fill="#e6e6e6" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 732px; height: 1px; padding-top: 1400px; margin-left: 3235px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 220px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <pre style="color: rgb(0 , 0 , 0)">
+                                    <span style="color: #696969">
+                                        // 这里用 fd 来获取文件的
+                                        <a href="https://man7.org/linux/man-pages/man2/lstat.2.html#:~:text=for%20further%20information.-,st_nlink,-This%20field%20contains">
+                                            NLink
+                                        </a>
+                                        ，而不是 path，原因是文件名可能被 rotate 修改。
+                                    </span>
+                                </pre>
+                                <pre style="color: rgb(0 , 0 , 0)">
+                                    <span style="color: #696969">
+                                        // IsRemoved checks wheter the file held by f is removed.
+                                    </span>
+                                    <br/>
+                                    func IsRemoved
+                                    <span style="color: #808030">
+                                        (
+                                    </span>
+                                    f
+                                    <span style="color: #808030">
+                                        *
+                                    </span>
+                                    os
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    File
+                                    <span style="color: #808030">
+                                        )
+                                    </span>
+                                    bool
+                                    <span style="color: #800080">
+                                        {
+                                    </span>
+                                    <br/>
+                                    stat
+                                    <span style="color: #808030">
+                                        ,
+                                    </span>
+                                    err
+                                    <span style="color: #800080">
+                                        :
+                                    </span>
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    f
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    Stat
+                                    <span style="color: #808030">
+                                        (
+                                    </span>
+                                    <span style="color: #808030">
+                                        )
+                                    </span>
+                                    <br/>
+                                    <span style="color: #800000 ; font-weight: bold">
+                                        if
+                                    </span>
+                                    err
+                                    <span style="color: #808030">
+                                        !
+                                    </span>
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    nil
+                                    <span style="color: #800080">
+                                        {
+                                    </span>
+                                    <br/>
+                                    <span style="color: #696969">
+                                        // if we got an error from a Stat call just assume we are removed
+                                    </span>
+                                    <br/>
+                                    <span style="color: #800000 ; font-weight: bold">
+                                        return
+                                    </span>
+                                    true
+                                    <br/>
+                                    <span style="color: #800080">
+                                        }
+                                    </span>
+                                    <br/>
+                                    sysStat
+                                    <span style="color: #800080">
+                                        :
+                                    </span>
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    stat
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    Sys
+                                    <span style="color: #808030">
+                                        (
+                                    </span>
+                                    <span style="color: #808030">
+                                        )
+                                    </span>
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    <span style="color: #808030">
+                                        (
+                                    </span>
+                                    <span style="color: #808030">
+                                        *
+                                    </span>
+                                    syscall
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    Stat_t
+                                    <span style="color: #808030">
+                                        )
+                                    </span>
+                                    <br/>
+                                    <span style="color: #800000 ; font-weight: bold">
+                                        return
+                                    </span>
+                                    sysStat
+                                    <span style="color: #808030">
+                                        .
+                                    </span>
+                                    Nlink
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    <span style="color: #808030">
+                                        =
+                                    </span>
+                                    <span style="color: #008c00">
+                                        0
+                                    </span>
+                                    <br/>
+                                    <span style="color: #800080">
+                                        }
+                                    </span>
+                                    <br/>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="3235" y="1413" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    // 这里用 fd 来获取文件的 NLink，而不是 path，原因是文件名可能被 rotate 修改。...
+                </text>
+            </switch>
+        </g>
+        <path d="M 2990 1617.22 L 3230 1577" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6" pointer-events="stroke"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1597px; margin-left: 3110px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <span style="font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)">
+                                    harvester 纤程
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="3110" y="1601" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    harveste...
+                </text>
+            </switch>
+        </g>
+        <rect x="1530" y="1760" width="630" height="530" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 612px; height: 1px; padding-top: 1775px; margin-left: 1540px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px">
+                                            close_timeout : default=disabled
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            Only use this option if you understand that data loss is a potential side effect. Another side effect is that multiline events might not be completely sent before the timeout expires.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            When this option is enabled, Filebeat gives every harvester a predefined lifetime. Regardless of where the reader is in the file, reading will stop after the close_timeout period has elapsed. This option can be useful for older log files when you want to spend only a predefined amount of time on the files. While close_timeout will close the file after the predefined timeout, if the file is still being updated, Filebeat will start a new harvester again per the defined scan_frequency. And the close_timeout for this harvester will start again with the countdown for the timeout.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            <font color="#ff0000">
+                                                This option is particularly useful in case the output is blocked
+                                            </font>
+                                            <font color="#555555">
+                                                , which makes Filebeat keep open file handlers even for files that were deleted from the disk. Setting close_timeout to 5m ensures that the files are periodically closed so they can be freed up by the operating system.(output 堵塞时，可以关闭 fd 以让硬盘空间可以回收)
+                                            </font>
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            If you set close_timeout to equal
+                                        </span>
+                                        <span style="font-size: 13px">
+                                            ignore_older
+                                        </span>
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            , the file will not be picked up if it’s modified while the harvester is closed. This combination of settings normally leads to data loss, and the complete file is not sent.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            When you use close_timeout for logs that contain multiline events, the harvester might stop in the middle of a multiline event, which means that only parts of the event will be sent. If the harvester is started again and the file still exists, only the second part of the event will be sent.
+                                        </span>
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font color="#555555" face="consolas, menlo, dejavu sans mono, bitstream vera sans mono, lucida console, monospace">
+                                        <span style="font-size: 13px ; font-weight: normal">
+                                            This option is set to 0 by default which means it is disabled.
+                                        </span>
+                                    </font>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1540" y="1788" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    close_timeout : default=disabled...
+                </text>
+            </switch>
+        </g>
+        <rect x="30" y="1180" width="410" height="220" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 392px; height: 1px; padding-top: 1195px; margin-left: 40px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <font style="font-size: 12px">
+                                        ignore_older
+                                    </font>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <br/>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="40" y="1208" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    ignore_older
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="1610" width="560" height="210" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 542px; height: 1px; padding-top: 1625px; margin-left: 10px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px">
+                                        scan_frequency : default=10s
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        How often Filebeat checks for new files in the paths that are specified for harvesting. For example, if you specify a glob like /var/log/*, the directory is scanned for files using the frequency specified by scan_frequency. Specify 1s to scan the directory as frequently as possible without causing Filebeat to scan too frequently. We do not recommend to set this value &lt;1s.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        If you require log lines to be sent in near real time do not use a very low
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        scan_frequency
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        but adjust
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        close_inactive
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        so the file handler stays open and constantly polls your files.
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="10" y="1638" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    scan_frequency : default=10s...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1797.6 1760 L 1757.46 1535.58" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1753.06 1510.97 L 1762.5 1521.98 L 1757.46 1535.58 L 1748.02 1524.57 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="550" y="630" width="710" height="420" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 692px; height: 1px; padding-top: 645px; margin-left: 560px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px">
+                                        clean_inactive
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        Only use this option if you understand that data loss is a potential side effect.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px">
+                                        <span style="font-weight: normal">
+                                            When this option is enabled, Filebeat removes the state of a file after the specified period of inactivity has elapsed.
+                                        </span>
+                                        <font color="#ff0000">
+                                            <span style="font-weight: normal">
+                                                The state can only be removed if the file is already ignored by Filebeat (the file is older than
+                                            </span>
+                                            ignore_older
+                                            <span style="font-weight: normal">
+                                                )
+                                            </span>
+                                        </font>
+                                        <span style="font-weight: normal">
+                                            . The clean_inactive setting must be greater than
+                                        </span>
+                                        ignore_older
+                                        <span style="font-weight: normal">
+                                            +
+                                        </span>
+                                    </span>
+                                    scan_frequency
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        to make sure that no states are removed while a file is still being harvested. Otherwise, the setting could result in Filebeat resending the full content constantly because
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        clean_inactive
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        removes state for files that are still detected by Filebeat. If a file is updated or appears again, the file is read from the beginning.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        The clean_inactive configuration option is useful to reduce the size of the registry file, especially if a large amount of new files are generated every day.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        This config option is also useful to prevent Filebeat problems resulting from inode reuse on Linux. For more information, see Inode reuse causes Filebeat to skip lines.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        Every time a file is
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        renamed
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        , the file state is updated and the counter for
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        clean_inactive
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        starts at 0 again.(
+                                        <font color="#ff0000">
+                                            文件名修改了就 reset
+                                        </font>
+                                        )
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        During testing, you might notice that the registry contains state entries that should be removed based on the
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        clean_inactive
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        setting. This happens because Filebeat doesn’t remove the entries until it opens the registry again to read a different file. If you are testing the clean_inactive setting, make sure Filebeat is configured to read from more than one file, or the file state will never be removed from the registry.
+                                    </span>
+                                </h5>
+                                <div>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        <br/>
+                                    </span>
+                                </div>
+                                <div>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="560" y="658" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    clean_inactive...
+                </text>
+            </switch>
+        </g>
+        <path d="M 592.33 1050 L 400.63 1178.75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 406.87 1166.73 L 399.71 1179.38 L 414.12 1177.52" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1115px; margin-left: 496px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                &lt;&lt;depends&gt;&gt;
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="496" y="1119" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    &lt;&lt;depends&gt;&gt;
+                </text>
+            </switch>
+        </g>
+        <path d="M 755 1050 L 356.3 1608.18" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 357.92 1594.73 L 355.65 1609.09 L 368.5 1602.29" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1330px; margin-left: 555px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                &lt;&lt;depends&gt;&gt;
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="555" y="1333" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    &lt;&lt;depends&gt;&gt;
+                </text>
+            </switch>
+        </g>
+        <rect x="1430" y="820" width="610" height="220" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 592px; height: 1px; padding-top: 835px; margin-left: 1440px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px">
+                                        clean_removed : default=enable
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        When this option is enabled, Filebeat cleans files from the registry if they cannot be found on disk anymore under the last known name. This means also files which were
+                                    </span>
+                                    <span style="font-size: 12px">
+                                        renamed
+                                    </span>
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        after the harvester was finished will be removed. This option is enabled by default.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        If a shared drive disappears for a short period and appears again, all files will be read again from the beginning because the states were removed from the registry file. In such cases, we recommend that you disable the clean_removed option.
+                                    </span>
+                                </h5>
+                                <h5 style="box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        You must disable this option if you also disable close_removed.
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1440" y="848" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" font-weight="bold">
+                    clean_removed : default=enable...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1874.73 1040 L 2457.3 1498.62" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 2443.94 1496.37 L 2458.18 1499.31 L 2451.98 1486.16" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1200px; margin-left: 2080px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <h5 style="text-align: left ; background-color: rgb(248 , 249 , 250) ; box-sizing: border-box ; margin: 16px 0px 5px ; line-height: normal ; position: relative">
+                                    <span style="font-size: 12px ; font-weight: normal">
+                                        You must disable
+                                    </span>
+                                    clean_removed
+                                    <span style="font-weight: normal">
+                                        if you also disable
+                                    </span>
+                                    close_removed
+                                    <span style="font-weight: normal">
+                                        .
+                                    </span>
+                                </h5>
+                                &lt;&lt;depends&gt;&gt;
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2080" y="1204" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    You must disable clean_re...
+                </text>
+            </switch>
+        </g>
+        <rect x="1480" y="2840" width="520" height="590" fill="#e6e6e6" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 512px; height: 1px; padding-top: 2830px; margin-left: 1485px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 600px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <pre style="color: rgb(0 , 0 , 0)">
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        {
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        _key
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        filebeat::logs::native::344981991-2099
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        id
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        native::344981991-2099
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        prev_id
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        offset
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        7553304
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        timestamp
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        [
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        279413743534870
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        1669252025
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ]
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        ttl
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        -
+                                    </span>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        1
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        type
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        log
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        FileStateOS
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        {
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        inode
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        344981991
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        device
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        2099
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        }
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        source
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        /var/logs/app.log
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        identifier_name
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        native
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        }
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        {
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        _key
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        filebeat::logs::native::344981990-2099
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        id
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        native::344981990-2099
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        prev_id
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        source
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    /var/logs/app.log.1
+                                    <span style="font-family: &quot;helvetica&quot; ; color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="font-family: &quot;helvetica&quot; ; color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        FileStateOS
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        {
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        inode
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        344981990
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        device
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        2099
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        }
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        identifier_name
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        native
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        offset
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        10485833
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        timestamp
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        [
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        279414140805915
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        1669203903
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ]
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        ttl
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        -
+                                    </span>
+                                    <span style="color: rgb(0 , 140 , 0)">
+                                        1
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        type
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        :
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <span style="color: rgb(0 , 0 , 230)">
+                                        log
+                                    </span>
+                                    <span style="color: rgb(128 , 0 , 0)">
+                                        "
+                                    </span>
+                                    <br/>
+                                    <span style="color: rgb(128 , 0 , 128)">
+                                        }
+                                    </span>
+                                    <span style="color: rgb(128 , 128 , 48)">
+                                        ,
+                                    </span>
+                                    <span style="background-color: rgb(255 , 255 , 255)">
+                                        <br/>
+                                    </span>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1485" y="2843" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    {...
+                </text>
+            </switch>
+        </g>
+        <rect x="1600" y="530" width="1020" height="140" fill="#e6e6e6" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 1012px; height: 1px; padding-top: 520px; margin-left: 1605px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 150px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <pre style="color: rgb(0 , 0 , 0)">
+                                    <div style="color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &quot;droid sans mono&quot; , &quot;monospace&quot; , monospace ; font-size: 14px ; line-height: 19px">
+                                        <div>
+                                            <span style="color: rgb(106 , 153 , 85)">
+                                                //这里以状态记录中的文件名来检查文件是否存在。不是 inode/fd，所以这个删除包括 rename
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span style="color: rgb(106 , 153 , 85)">
+                                                //而后只在 harvester done 时，才真正清理状态记录。
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span style="color: #6a9955">
+                                                // Marking removed files to be cleaned up. Cleanup happens after next scan to make sure all states are updated first
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span style="color: #c586c0">
+                                                if
+                                            </span>
+                                            p.config.CleanRemoved {
+                                        </div>
+                                        <div>
+                                            <span style="color: #c586c0">
+                                                for
+                                            </span>
+                                            <span style="color: #9cdcfe">
+                                                _
+                                            </span>
+                                            ,
+                                            <span style="color: #9cdcfe">
+                                                state
+                                            </span>
+                                            :=
+                                            <span style="color: #c586c0">
+                                                range
+                                            </span>
+                                            p.states.
+                                            <span style="color: #dcdcaa">
+                                                GetStates
+                                            </span>
+                                            () {
+                                        </div>
+                                        <div>
+                                            <span style="color: #6a9955">
+                                                // os.Stat will return an error in case the file does not exist
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                            </span>
+                                            <span style="color: rgb(156 , 220 , 254)">
+                                                stat
+                                            </span>
+                                            <span>
+                                                ,
+                                            </span>
+                                            <span style="color: rgb(156 , 220 , 254)">
+                                                err
+                                            </span>
+                                            <span>
+                                                := os.
+                                            </span>
+                                            <span style="color: rgb(220 , 220 , 170)">
+                                                Stat
+                                            </span>
+                                            <span>
+                                                (state.Source)
+                                            </span>
+                                            <br/>
+                                        </div>
+                                        <div>
+                                            <br/>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1605" y="533" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    //这里以状态记录中的文件名来检查文件是否存在。不是 inode/fd，所以这个删除包括 rename...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1860 820 L 2030.45 670" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6" pointer-events="stroke"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 745px; margin-left: 1945px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <span style="font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)">
+                                    input
+                                </span>
+                                <span style="font-size: 12px">
+                                    goroutines
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1945" y="749" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    input go...
+                </text>
+            </switch>
+        </g>
+        <rect x="1240" y="100" width="500" height="310" fill="#1e1e1e" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 492px; height: 1px; padding-top: 90px; margin-left: 1245px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 320px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <pre style="color: rgb(0 , 0 , 0)">
+                                    <div style="color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &quot;droid sans mono&quot; , &quot;monospace&quot; , monospace ; font-size: 14px ; line-height: 19px">
+                                        <div>
+                                            <div style="font-family: &quot;droid sans mono&quot; , &quot;monospace&quot; , monospace ; line-height: 19px">
+                                                <div>
+                                                    <div style="font-family: &quot;droid sans mono&quot; , &quot;monospace&quot; , monospace ; line-height: 19px">
+                                                        <div>
+                                                            <span style="color: rgb(106 , 153 , 85)">
+                                                                // 初始化 TTL
+                                                            </span>
+                                                            <span style="color: #6a9955">
+                                                                <br/>
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <span style="color: #6a9955">
+                                                                // NewHarvester creates a new harvester
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <span style="color: #569cd6">
+                                                                func
+                                                            </span>
+                                                            <span style="color: #dcdcaa">
+                                                                NewHarvester
+                                                            </span>
+                                                            (
+                                                        </div>
+                                                        <div>
+                                                            config *common.Config,
+                                                        </div>
+                                                        <div>
+                                                            state file.State,
+                                                        </div>
+                                                        <div>
+                                                            states *file.States,
+                                                        </div>
+                                                        <div>
+                                                            publishState
+                                                            <span style="color: #569cd6">
+                                                                func
+                                                            </span>
+                                                            (file.State)
+                                                            <span style="color: #4ec9b0">
+                                                                bool
+                                                            </span>
+                                                            ,
+                                                        </div>
+                                                        <div>
+                                                            outletFactory OutletFactory,
+                                                        </div>
+                                                        <div>
+                                                            ) (*Harvester,
+                                                            <span style="color: #4ec9b0">
+                                                                error
+                                                            </span>
+                                                            ) {
+                                                        </div>
+                                                        <div>
+                                                            <br/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span style="color: #6a9955">
+                                                        // Add ttl if clean_inactive is set
+                                                    </span>
+                                                </div>
+                                                <div>
+                                                    <span style="color: #c586c0">
+                                                        if
+                                                    </span>
+                                                    h.config.CleanInactive &gt;
+                                                    <span style="color: #b5cea8">
+                                                        0
+                                                    </span>
+                                                    {
+                                                </div>
+                                                <div>
+                                                    <span style="color: #9cdcfe">
+                                                        h.state.TTL
+                                                    </span>
+                                                    = h.config.CleanInactive
+                                                </div>
+                                                <div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1245" y="103" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    // 初始化 TTL...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1115 630 L 1335 410" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6" pointer-events="stroke"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 520px; margin-left: 1225px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <span style="font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)">
+                                    input
+                                </span>
+                                <span style="font-size: 12px">
+                                    goroutines
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1225" y="524" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    input go...
+                </text>
+            </switch>
+        </g>
+        <path d="M 799.22 630 L 643.07 320" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6" pointer-events="stroke"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 474px; margin-left: 721px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <span style="font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)">
+                                    input
+                                </span>
+                                <span style="font-size: 12px">
+                                    goroutines
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="721" y="478" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    input go...
+                </text>
+            </switch>
+        </g>
+        <rect x="110" y="10" width="910" height="310" fill="#1e1e1e" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 902px; height: 1px; padding-top: 0px; margin-left: 115px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 320px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <pre style="color: rgb(0 , 0 , 0)">
+                                    <div style="color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &quot;droid sans mono&quot; , &quot;monospace&quot; , monospace ; font-size: 14px ; line-height: 19px">
+                                        <div style="font-family: &quot;droid sans mono&quot; , &quot;monospace&quot; , monospace ; line-height: 19px">
+                                            <div style="font-family: &quot;droid sans mono&quot; , &quot;monospace&quot; , monospace ; line-height: 19px">
+                                                <div style="font-family: &quot;droid sans mono&quot; , &quot;monospace&quot; , monospace ; line-height: 19px">
+                                                    <div>
+                                                        <div>
+                                                            <span style="color: rgb(106 , 153 , 85)">
+                                                                // 更新状态 TTL 为 0
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <span style="color: #569cd6">
+                                                            func
+                                                        </span>
+                                                        (p *Input)
+                                                        <span style="color: #dcdcaa">
+                                                            removeState
+                                                        </span>
+                                                        (state file.State) {
+                                                    </div>
+                                                    <div>
+                                                        <span style="color: #6a9955">
+                                                            // Only clean up files where state is Finished
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span style="color: #c586c0">
+                                                            if
+                                                        </span>
+                                                        !state.Finished {
+                                                    </div>
+                                                    <div>
+                                                        logp.
+                                                        <span style="color: #dcdcaa">
+                                                            Debug
+                                                        </span>
+                                                        (
+                                                        <span style="color: #ce9178">
+                                                            "input"
+                                                        </span>
+                                                        ,
+                                                        <span style="color: #ce9178">
+                                                            "State for file not removed because harvester not finished:
+                                                        </span>
+                                                        <span style="color: #9cdcfe">
+                                                            %s
+                                                        </span>
+                                                        <span style="color: #ce9178">
+                                                            "
+                                                        </span>
+                                                        , state.Source)
+                                                    </div>
+                                                    <div>
+                                                        <span style="color: #c586c0">
+                                                            return
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        }
+                                                    </div>
+                                                    <br/>
+                                                    <div>
+                                                        <span style="color: #9cdcfe">
+                                                            state.TTL
+                                                        </span>
+                                                        =
+                                                        <span style="color: #b5cea8">
+                                                            0
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span style="color: #9cdcfe">
+                                                            err
+                                                        </span>
+                                                        := p.
+                                                        <span style="color: #dcdcaa">
+                                                            updateState
+                                                        </span>
+                                                        (state)
+                                                    </div>
+                                                    <div>
+                                                        <span style="color: #c586c0">
+                                                            if
+                                                        </span>
+                                                        err !=
+                                                        <span style="color: #569cd6">
+                                                            nil
+                                                        </span>
+                                                        {
+                                                    </div>
+                                                    <div>
+                                                        logp.
+                                                        <span style="color: #dcdcaa">
+                                                            Err
+                                                        </span>
+                                                        (
+                                                        <span style="color: #ce9178">
+                                                            "File cleanup state update error:
+                                                        </span>
+                                                        <span style="color: #9cdcfe">
+                                                            %s
+                                                        </span>
+                                                        <span style="color: #ce9178">
+                                                            "
+                                                        </span>
+                                                        , err)
+                                                    </div>
+                                                    <div>
+                                                        }
+                                                    </div>
+                                                    <div>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="115" y="13" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="13px">
+                    // 更新状态 TTL 为 0...
                 </text>
             </switch>
         </g>
