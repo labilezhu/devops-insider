@@ -2,4 +2,5 @@
 
 ```{toctree}
 filebeat/filebeat.md
+fluentbit/fluentbit.md
 ```
