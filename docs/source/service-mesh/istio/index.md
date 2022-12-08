@@ -6,6 +6,7 @@
 istio-mtls/istio-mtls.md
 metadata-exchange/metadata-exchange.md
 istio-alpn/istio-alpn.md
+istio-tcp-keepalive/istio-tcp-keepalive.md
 ```
 
 ## Design Doc Links

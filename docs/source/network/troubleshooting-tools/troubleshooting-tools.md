@@ -2,4 +2,5 @@
 
 ```{toctree}
 tcpdump/tcpdump.md
+wireshark/wireshark.md
 ```
