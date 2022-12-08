@@ -43,6 +43,7 @@ EOF
 
 
 
+
 应用后检查:
 
 ```json 
@@ -322,3 +323,10 @@ tcp	6	TCP		# transmission control protocol
 
 需要注意的是，以上 kernel 参数可能已经 linux network namespace 化了。即，不同容器可以独立配置。但其继承与传递关系如何，则未研究。
 
+
+## 相关的 Envoy 配置资料
+ - [F5: Istio Ingress Gateway TCP keepalive](https://support.f5.com/csp/article/K00026550)
+ - [Istio ingress gateway TCP keepalive setting for downstream connection #28879](https://github.com/istio/istio/issues/28879)
+ - [socket options - change from 'STATE_LISTENING' to 'STATE_PREBIND' #5842](https://github.com/solo-io/gloo/pull/5842)
+ - [Feature request: support TCP keepalive for downstream sockets #3634](https://github.com/envoyproxy/envoy/issues/3634)
+ - [AWS ELB](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancers.html#connection-idle-timeout:~:text=deletion_protection.enabled%20attribute.-,Connection%20idle%20timeout,-For%20each%20TCP)
