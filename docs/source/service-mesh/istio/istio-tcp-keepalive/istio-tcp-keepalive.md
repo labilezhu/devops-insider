@@ -323,8 +323,22 @@ tcp	6	TCP		# transmission control protocol
 
 需要注意的是，以上 kernel 参数可能已经 linux network namespace 化了。即，不同容器可以独立配置。但其继承与传递关系如何，则未研究。
 
+## 常见 Load Balancer / TLS proxy 的行为
+
+### 自动 keepalive  load balancer 的两端
+
+> [AWS ELB- Connection idle timeout](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancers.html#connection-idle-timeout)
+>
+> For each TCP request that a client makes through a Network Load Balancer, the state of that connection is tracked. If no data is sent through the connection by either the client or target for longer than the idle timeout, the connection is closed(这里没说明，Load Balancer 会不会发出 FIN/RST). <mark>If a client or a target sends data after the idle timeout period elapses, it receives a TCP RST packet to indicate that the connection is no longer valid.</mark>
+>
+> We set the idle timeout value for TCP flows to 350 seconds. You can't modify this value. Clients or targets can use TCP keepalive packets to reset the idle timeout. Keepalive packets sent to maintain TLS connections can't contain data or payload.
+>
+> * Keepalive forward
+>
+> When a TLS listener receives a TCP keepalive packet from either a client or a target, the load balancer generates TCP keepalive packets and sends them to both the front-end and back-end connections every 20 seconds. You can't modify this behavior.
 
 ## 相关的 Envoy 配置资料
+
  - [F5: Istio Ingress Gateway TCP keepalive](https://support.f5.com/csp/article/K00026550)
  - [Istio ingress gateway TCP keepalive setting for downstream connection #28879](https://github.com/istio/istio/issues/28879)
  - [socket options - change from 'STATE_LISTENING' to 'STATE_PREBIND' #5842](https://github.com/solo-io/gloo/pull/5842)
