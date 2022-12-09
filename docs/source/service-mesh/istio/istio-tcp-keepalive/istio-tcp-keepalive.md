@@ -1,4 +1,15 @@
-# Istio TCP Keepalive
+# Istio Gateway TCP Keepalive
+
+
+
+:::{figure-md} 图：Istio Gateway TCP Keepalive 架构图
+:class: full-width
+<img src="/service-mesh/istio/istio-tcp-keepalive/istio-gw-external-load-balancer-topology.drawio.svg" alt="图：内核调度点与协作">
+
+*图：Istio TCP Keepalive 架构图*
+:::
+*[用 Draw.io 打开](https://app.diagrams.net/?ui=sketch#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh_CN%2Flatest%2F_images%2Fistio-gw-external-load-balancer-topology.drawio.svg)*
+
 
 增加 `EnvoyFilter`。 需要注意的是，增加以及同步到 envoy 后，确保 Envoy 有重启过才能生效！
 
