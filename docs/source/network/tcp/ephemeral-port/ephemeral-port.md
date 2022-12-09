@@ -17,10 +17,17 @@ Linux 2.4 kernel	sysctl net.ipv4.ip_local_port_range	32768 60999
 
 
 
-
 ## Ref.
 
 ```{toctree}
 how-to-stop-running-out-of-ephemeral-ports-and-start-to-love-long-lived-connections.md
 ephemeral-port-exhaustion-and-how-to-avoid-it.md
 ```
+
+### WILS: Load Balancing and Ephemeral Port Exhaustion
+
+> [WILS: Load Balancing and Ephemeral Port Exhaustion](https://community.f5.com/t5/technical-articles/wils-load-balancing-and-ephemeral-port-exhaustion/ta-p/287984)
+
+
+
+![0151T000003d7vEQAQ.png](ephemeral-port.assets/large.png)
