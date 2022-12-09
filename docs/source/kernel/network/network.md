@@ -8,4 +8,5 @@ socket/socket.md
 routing/routing.md
 netfilter/netfilter.md
 conntrack/conntrack.md
+ipvs/ipvs.md
 ```
