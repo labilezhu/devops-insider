@@ -47,3 +47,7 @@ tcp.connection.fin_active || tcp.flags.reset == 1
 // by packet index 
 tcp.stream eq 1006
 ```
+
+```{toctree}
+tcp-segmentationoffload(TSO).md
+```

@@ -337,6 +337,10 @@ tcp	6	TCP		# transmission control protocol
 >
 > When a TLS listener receives a TCP keepalive packet from either a client or a target, the load balancer generates TCP keepalive packets and sends them to both the front-end and back-end connections every 20 seconds. You can't modify this behavior.
 
+### 偷偷关闭连接
+
+- [F5: Istio Ingress Gateway TCP keepalive](https://support.f5.com/csp/article/K00026550)
+
 ## 相关的 Envoy 配置资料
 
  - [F5: Istio Ingress Gateway TCP keepalive](https://support.f5.com/csp/article/K00026550)
