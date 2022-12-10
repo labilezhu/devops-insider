@@ -239,7 +239,7 @@ In this case, you don't need to delete and recreate a Pod or deployment that is 
 
 
 
-## Persistent Volumes
+## Persistent Volumes(PV)
 
 Each PV contains a spec and status, which is the specification and status of the volume. The name of a PersistentVolume object must be a valid [DNS subdomain name](https://kubernetes.io/docs/concepts/overview/working-with-objects/names#dns-subdomain-names).
 
@@ -344,7 +344,7 @@ The CLI will show the name of the PVC bound to the PV.
 
 
 
-## PersistentVolumeClaims
+## PersistentVolumeClaims(PVC)
 
 Each PVC contains a spec and status, which is the specification and status of the claim. The name of a PersistentVolumeClaim object must be a valid [DNS subdomain name](https://kubernetes.io/docs/concepts/overview/working-with-objects/names#dns-subdomain-names).
 
@@ -408,7 +408,7 @@ When a PVC specifies a `selector` in addition to requesting a StorageClass, the 
 
 In the past, the annotation `volume.beta.kubernetes.io/storage-class` was used instead of `storageClassName` attribute. This annotation is still working; however, it won't be supported in a future Kubernetes release.
 
-## Claims As Volumes
+## Claims As Volumes - Pod 挂载
 
 Pods access storage by using the claim as a volume. Claims must exist in the same namespace as the Pod using the claim. The cluster finds the claim in the Pod's namespace and uses it to get the PersistentVolume backing the claim. The volume is then mounted to the host and into the Pod.
 

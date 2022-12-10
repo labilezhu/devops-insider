@@ -7,4 +7,5 @@ disruptions/disruptions.md
 monitoring/monitoring.md
 pod/pod.md
 pv/pv.md
+csi/csi.md
 ```
