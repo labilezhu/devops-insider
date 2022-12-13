@@ -10,3 +10,10 @@ netfilter/netfilter.md
 conntrack/conntrack.md
 ipvs/ipvs.md
 ```
+
+## /proc/sys/net settings
+
+```{toctree}
+net-proc-fs/ip-sysctl.md
+net-proc-fs/net-proc-fs.md
+```
