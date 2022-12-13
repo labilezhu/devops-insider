@@ -6,6 +6,7 @@
 - {doc}`ref/syn-packet-handling-in-the-wild/syn-packet-handling-in-the-wild`
 - {doc}`ref/tcp-syn-queue-and-accept-queue-overflow-explained`
 - {doc}`ref/envoy-backlog`
+- {doc}`ref/scaling-linux-services-before-accepting-connections`
 
 
  - [从一次 Connection Reset 说起，TCP 半连接队列与全连接队列](https://cjting.me/2019/08/28/tcp-queue/?spm=a2c65.11461447.0.0.556649dfrnaZcc)
