@@ -2,6 +2,17 @@
 
 ## What is SYN Cookies
 
+> [https://www.cnblogs.com/xiaolincoding/p/12995358.html?spm=a2c65.11461447.0.0.556649dfrnaZcc](https://www.cnblogs.com/xiaolincoding/p/12995358.html?spm=a2c65.11461447.0.0.556649dfrnaZcc)
+
+
+
+![开启 syncookies 功能](syn-cookies.assets/39.jpg)
+
+
+
+
+
+
 ```{toctree}
 ref/syn-cookies.md
 ```
