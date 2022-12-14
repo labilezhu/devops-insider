@@ -63,7 +63,7 @@ nf_ct_proto_6: invalid packet ignored in state ESTABLISHED SRC=10.47.217.34 DST=
 ## Ref
 
 > - [https://netfilter-devel.vger.kernel.narkive.com/cjiYhM93/tcp-window-tracking-has-bad-side-effects](https://netfilter-devel.vger.kernel.narkive.com/cjiYhM93/tcp-window-tracking-has-bad-side-effects)
->
+> - [http://arthurchiao.art/blog/tcp-handshake-in-modern-network-infra/](http://arthurchiao.art/blog/tcp-handshake-in-modern-network-infra/)
 > 
 
 
