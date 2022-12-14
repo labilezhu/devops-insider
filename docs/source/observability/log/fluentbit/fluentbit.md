@@ -13,7 +13,6 @@ fluentbit-internal.md
 ### Input
 
 
-
 #### Tail
 
 #### File Rotation
