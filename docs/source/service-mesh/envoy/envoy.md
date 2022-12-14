@@ -5,4 +5,5 @@
 ## TCP Proxy
 ```{toctree}
 tcp-proxy/tcp-proxy.md
+socket/envoy-socket-backlog.md
 ```
