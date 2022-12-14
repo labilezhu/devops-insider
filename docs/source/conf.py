@@ -19,7 +19,6 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.autosectionlabel',
-    'sphinx_rtd_theme',
     'myst_parser',
     'sphinx_sitemap'
 ]
@@ -37,14 +36,14 @@ html_favicon = '_static/favicon.ico'
 html_logo = "_static/logo.png"
 
 html_theme_options = {
-    # "home_page_in_toc": True,
-    # "github_url": "https://github.com/labilezhu/devops-insider",
-    # "repository_url": "https://github.com/labilezhu/devops-insider",
-    # "repository_branch": "master",
+    "home_page_in_toc": True,
+    "github_url": "https://github.com/labilezhu/devops-insider",
+    "repository_url": "https://github.com/labilezhu/devops-insider",
+    "repository_branch": "master",
     # "path_to_docs": "docs",
-    # "use_repository_button": True,
-    # "use_edit_page_button": False,
-    # "show_navbar_depth": 8,
+    "use_repository_button": True,
+    "use_edit_page_button": False,
+    "show_navbar_depth": 8,
     "collapse_navigation": False,
     "logo_only": True,
     "navigation_depth": 8
@@ -65,7 +64,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
 numfig = False
 language = 'zh_CN'
 
