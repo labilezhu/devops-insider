@@ -350,3 +350,5 @@ $ dmesg -T
 
 ## 参考
  - {doc}`/kernel/namespace/pid-namespace/trouble-cases/PID1-in-containers`
+ - [https://www.geekersdigest.com/the-end-of-the-kill-road-the-uninterruptable-sleep-state/](https://www.geekersdigest.com/the-end-of-the-kill-road-the-uninterruptable-sleep-state/)
+
