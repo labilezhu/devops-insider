@@ -1,6 +1,6 @@
-# Fluentbit 
+# Fluent Bit 
 
-## Fluentbit 内部设计
+## Fluent Bit 内部设计
 
 ```{toctree}
 :maxdepth: 2

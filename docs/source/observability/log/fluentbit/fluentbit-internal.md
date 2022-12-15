@@ -2,7 +2,8 @@
 
 ## 互动图片
 
-点击 “*用 Draw.io 打开*” 后，可以进入互动图片状态。图中很多元素提供链接到相关源码或文档。可以做交叉参考，也是图可信性取证。
+> 📢  本文的正常打开方法是，点击 “*用 Draw.io 打开*” 后，进入互动图片状态。图中很多元素提供链接到相关源码或文档。可以做交叉参考，是进一步深入的入口，也是图可信性取证。
+> 本文的大部分内容是放在
 
 ## Record 概念
 
@@ -70,4 +71,129 @@
 *图：Tail Input 内部设计*  
 :::
 *[用 Draw.io 打开](https://app.diagrams.net/?ui=sketch#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh_CN%2Flatest%2F_images%2Ffluentbit-tail-internal.drawio.svg)*
+
+
+
+
+
+## 事件驱动与协程
+
+> 以下例子场景，使用了 Fluent Bit 1.99 与其 `Tail Input`  + `Http Output` 
+
+
+
+```bash
+$ top -H -p $(pgrep fluent-bit )
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                                                                                                                              
+    27 226099    20   0  417804  67096   9240 S 0.000 0.069   0:02.13 fluent-bit     
+    35 226099    20   0  417804  67096   9240 S 0.000 0.069   1:16.61 flb-pipeline   
+    37 226099    20   0  417804  67096   9240 S 0.000 0.069   0:06.69 flb-logger     
+    45 226099    20   0  417804  67096   9240 S 0.000 0.069   0:11.58 flb-out-http.0-
+    46 226099    20   0  417804  67096   9240 S 0.000 0.069   0:11.70 flb-out-http.0-
+    47 226099    20   0  417804  67096   9240 S 0.000 0.069   0:00.00 monkey: server 
+    48 226099    20   0  417804  67096   9240 S 0.000 0.069   0:03.17 monkey: clock
+    49 226099    20   0  417804  67096   9240 S 0.000 0.069   0:23.82 monkey: wrk/0
+```
+
+
+
+用 `top -H` 可以看到 fluent bit 进程的原生线程列表。`PID`列即系线程的 id，而最少的线程 PID 同时作为进程的 PID。其中比较有意思的是 `TIME+` 字段。这表示花在这个线程上的 CPU 计算时间。 以下是推测：
+
+* `flb-pipeline `: 日志处理与输出
+* `monkey: wrk/0`: 日志文件读取
+
+
+
+#### 什么是 monkey ?
+
+> [https://github.com/monkey/monkey](https://github.com/monkey/monkey)
+>
+> [Monkey](http://monkey-project.com/) is a fast and lightweight Web Server for Linux. It has been designed to be very scalable with low memory and CPU consumption, the perfect solution for Embedded Linux and high end production environments.
+>
+> Besides the common features as HTTP server, it expose a flexible C API which aims to behave as a fully HTTP development framework, so it can be extended as desired through the plugins interface.
+>
+> For more details please refer to the [official documentation](http://monkey-project.com/documentation/).
+
+Fluent Bit 中，主要是用了其协程和事件驱动封装的功能。协程的实现设计上有一点点类似 Golang。上图的线程名中 `monkey: wrk/0` 。可见，是在计算量大时，可以为协程增加必要的线程来支持计算。从代码看，似乎协程的换出点(schedule) 是在 `file descriptor(fd)` 的读写点上，实现上 monkey 似乎是使用了 epoll 去多路复用 fd 集合。协程间的同步通讯由 linux 的匿名 pipe + epoll 完成。即，线程事实上是等待在一个多路复用的 epoll 事件上。
+
+
+
+查看各线程的内核 stack:
+
+```
+ root@root-mylab-worker006:/proc/27/task> sudo cat ./35/stack 
+[<0>] ep_poll+0x3d4/0x4d0
+[<0>] do_epoll_wait+0xab/0xc0
+[<0>] __x64_sys_epoll_wait+0x1a/0x20
+[<0>] do_syscall_64+0x5b/0x1e0
+[<0>] entry_SYSCALL_64_after_hwframe+0x44/0xa9
+
+root@root-mylab-worker006:/proc/27/task> sudo cat ./49/stack 
+[<0>] ep_poll+0x3d4/0x4d0
+[<0>] do_epoll_wait+0xab/0xc0
+[<0>] __x64_sys_epoll_wait+0x1a/0x20
+[<0>] do_syscall_64+0x5b/0x1e0
+[<0>] entry_SYSCALL_64_after_hwframe+0x44/0xa9
+
+root@root-mylab-worker006:/proc/27/task> sudo cat ./48/stack 
+[<0>] hrtimer_nanosleep+0x9a/0x140
+[<0>] common_nsleep+0x33/0x50
+[<0>] __x64_sys_clock_nanosleep+0xc4/0x120
+[<0>] do_syscall_64+0x5b/0x1e0
+[<0>] entry_SYSCALL_64_after_hwframe+0x44/0xa9
+```
+
+
+
+### 文件 fd 即事件源
+
+
+
+如果你足够好奇，可以看看进程的 fd 列表：
+
+```
+bash-4.4$ cd /proc/27
+bash-4.4$ cd fd
+bash-4.4$ ls -l
+total 0
+lr-x------ 1 226099 226099 64 Dec 13 19:39 0 -> /dev/null
+l-wx------ 1 226099 226099 64 Dec 13 19:39 1 -> 'pipe:[1066519386]'
+l-wx------ 1 226099 226099 64 Dec 13 19:39 10 -> 'pipe:[1066519390]'
+lr-x------ 1 226099 226099 64 Dec 13 19:39 100 -> anon_inode:inotify
+lr-x------ 1 226099 226099 64 Dec 13 19:39 101 -> 'pipe:[1066516725]'
+l-wx------ 1 226099 226099 64 Dec 13 19:39 102 -> 'pipe:[1066516725]'
+lr-x------ 1 226099 226099 64 Dec 13 19:39 103 -> 'pipe:[1066516726]'
+l-wx------ 1 226099 226099 64 Dec 13 19:39 104 -> 'pipe:[1066516726]'
+lr-x------ 1 226099 226099 64 Dec 13 19:39 105 -> 'pipe:[1066516727]'
+l-wx------ 1 226099 226099 64 Dec 13 19:39 106 -> 'pipe:[1066516727]'
+lrwx------ 1 226099 226099 64 Dec 13 19:39 107 -> /var/logstash/db/myapp_mysub_pv.db
+lr-x------ 1 226099 226099 64 Dec 13 19:39 108 -> anon_inode:inotify <---- intofiy
+lr-x------ 1 226099 226099 64 Dec 13 19:39 109 -> 'pipe:[1066516745]'
+lrwx------ 1 226099 226099 64 Dec 13 19:39 11 -> 'anon_inode:[eventpoll]' <----- epoll
+l-wx------ 1 226099 226099 64 Dec 13 19:39 110 -> 'pipe:[1066516745]'
+lr-x------ 1 226099 226099 64 Dec 13 19:39 111 -> 'pipe:[1066516746]'
+l-wx------ 1 226099 226099 64 Dec 13 19:39 112 -> 'pipe:[1066516746]'
+lr-x------ 1 226099 226099 64 Dec 13 19:39 113 -> 'pipe:[1066516747]'
+l-wx------ 1 226099 226099 64 Dec 13 19:39 114 -> 'pipe:[1066516747]'
+lrwx------ 1 226099 226099 64 Dec 13 19:39 115 -> /var/logstash/db/myapp_mysub_pv_outbound.db
+...
+lrwx------ 1 226099 226099 64 Dec 13 19:39 363 -> /var/logstash/db/myapp_mysub2.db-wal
+lrwx------ 1 226099 226099 64 Dec 13 19:39 364 -> /var/logstash/db/myapp_mysub2.db-shm
+...
+lrwx------ 1 226099 226099 64 Dec 13 19:39 485 -> 'anon_inode:[timerfd]'
+lrwx------ 1 226099 226099 64 Dec 13 19:39 486 -> 'anon_inode:[timerfd]'
+lrwx------ 1 226099 226099 64 Dec 13 19:39 487 -> 'anon_inode:[timerfd]'
+lrwx------ 1 226099 226099 64 Dec 13 19:39 488 -> 'anon_inode:[timerfd]'
+...
+lrwx------ 1 226099 226099 64 Dec 13 19:39 681 -> 'socket:[1067595164]'
+lr-x------ 1 226099 226099 64 Dec 13 19:39 685 -> /var/logstash/mylog/Txlog.mylogB_0.log.2022-12-13-18
+lr-x------ 1 226099 226099 64 Dec 13 19:39 686 -> /var/logstash/mylog/Txlog.mylogA_0.log.2022-12-13-19
+```
+
+
+
+
+
+
 
