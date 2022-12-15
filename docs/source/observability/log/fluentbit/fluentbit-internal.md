@@ -74,6 +74,37 @@
 
 
 
+图中已经比较详细了，这里只想补充一些基本概念。
+
+对于毎一个 Tail Input 实例，均有以下协程 (Collector)：
+
+- watcher collector process
+- static file collectior process
+- pending file collector process
+
+对于每一个 Tail Input 实例，还有以下协程:
+
+- input path scan process
+
+
+
+以下是一些推测的流程：
+
+
+
+1. `input path scan process`  的主要职责是按 Tail Input 的 path 配置要求，定时扫描，发现文件的：新增等情况。然后把发现通知到 `static file collectior`
+2.  `static file collectior` 首先使用 inotify 去 watch 文件 。然后尝试一次读完文件，如果因各种原因无法一次完成（如内存不足），会通知到 `pending file collector` 去异步完成
+3. `pending file collector` 完成文件的读取
+4. Linux Kernel 在监测到文件有写入(`IN_MODIFY`)时，发马上读取文件。当发现文件被删除时，会停止文件的监控、读取、并关闭 fd。
+
+
+
+上面未分析的，包括 rotate (rename) 的场景。
+
+
+
+细心如你，可能会担心上面的协程会否同时读取文件或更新状态，引动竞态（多线程）问题。这个已经由下面的事件事件驱动与协程框架解决了。
+
 
 
 ## 事件驱动与协程
