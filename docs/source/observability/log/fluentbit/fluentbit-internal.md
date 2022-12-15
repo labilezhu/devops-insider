@@ -92,10 +92,10 @@
 
 
 
-1. `input path scan process`  的主要职责是按 Tail Input 的 path 配置要求，定时扫描，发现文件的：新增等情况。然后把发现通知到 `static file collectior`
+1. `input path scan process`  的主要职责是按 `Tail Input` 的 `path` 配置要求，定时([`Refresh_Interval`](https://docs.fluentbit.io/manual/pipeline/inputs/tail#:~:text=False-,Refresh_Interval,-The%20interval%20of))扫描，发现文件的：新增等情况。然后把发现通知到 `static file collectior`
 2.  `static file collectior` 首先使用 inotify 去 watch 文件 。然后尝试一次读完文件，如果因各种原因无法一次完成（如内存不足），会通知到 `pending file collector` 去异步完成
 3. `pending file collector` 完成文件的读取
-4. Linux Kernel 在监测到文件有写入(`IN_MODIFY`)时，发马上读取文件。当发现文件被删除时，会停止文件的监控、读取、并关闭 fd。
+4. Linux Kernel 在监测到文件有写入(`IN_MODIFY`)时，发马上读取文件。当发现文件被删除(`IN_MOVE_SELF`)时，会停止文件的监控、读取、并关闭 fd。
 
 
 
