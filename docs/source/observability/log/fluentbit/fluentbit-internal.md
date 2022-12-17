@@ -241,7 +241,70 @@ Fluent Bit 的 Output 插件，在尝试投递一个 Chunk 日志后，都会告
 
 ### Retryable error / Non-retryable error
 
-对于实现上，如果我们可以清楚，什么错误是值得重试的，什么不值得
+对于实现上，如果我们可以清楚，什么错误是值得重试的，什么不值得，则可以有效减少出错时对数据流呑吐量的影响。Fluent Bit 大部分 Output Plugin 均在投递失败时，返回 Retryable error / Non-retryable error 给引擎以让引擎决定是否立即放弃重试，进而减少出错时对数据流呑吐量的影响。不过，对于 http output plugin，好像只有 Retryable error：
+
+[https://github.com/fluent/fluent-bit/blob/v1.9.9/plugins/out_http/http.c#L240](https://github.com/fluent/fluent-bit/blob/v1.9.9/plugins/out_http/http.c#L240)
+
+```c
+static int http_post(struct flb_out_http *ctx,
+                     const void *body, size_t body_len,
+                     const char *tag, int tag_len,
+                     char **headers)
+{
+    int ret;
+    int out_ret = FLB_OK;
+...
+
+    ret = flb_http_do(c, &b_sent);
+    if (ret == 0) {
+        /*
+         * Only allow the following HTTP status:
+         *
+         * - 200: OK
+         * - 201: Created
+         * - 202: Accepted
+         * - 203: no authorative resp
+         * - 204: No Content
+         * - 205: Reset content
+         *
+         */
+        if (c->resp.status < 200 || c->resp.status > 205) {
+            if (ctx->log_response_payload &&
+                c->resp.payload && c->resp.payload_size > 0) {
+                flb_plg_error(ctx->ins, "%s:%i, HTTP status=%i\n%s",
+                              ctx->host, ctx->port,
+                              c->resp.status, c->resp.payload);
+            }
+            else {
+                flb_plg_error(ctx->ins, "%s:%i, HTTP status=%i",
+                              ctx->host, ctx->port, c->resp.status);
+            }
+            out_ret = FLB_RETRY;
+        }
+        else {
+            if (ctx->log_response_payload &&
+                c->resp.payload && c->resp.payload_size > 0) {
+                flb_plg_info(ctx->ins, "%s:%i, HTTP status=%i\n%s",
+                             ctx->host, ctx->port,
+                             c->resp.status, c->resp.payload);
+            }
+            else {
+                flb_plg_info(ctx->ins, "%s:%i, HTTP status=%i",
+                             ctx->host, ctx->port,
+                             c->resp.status);
+            }
+        }
+    }
+    else {
+        flb_plg_error(ctx->ins, "could not flush records to %s:%i (http_do=%i)",
+                      ctx->host, ctx->port, ret);
+        out_ret = FLB_RETRY;
+    }
+```
 
 
+
+## 总结
+
+以上只是对 Fluent Bit 的 `Input` / `Output` 框架 与 `Tail Input Plugin` 的一些学习笔记。希望在以后的使用中，能有更深入的了解可以和大家分享。
 
