@@ -3,15 +3,16 @@
 ## 指定 ip:port 组合
 
 ```bash
-#
-sudo tcpdump -i lo -n -vvvv -A  "((dst port 15001 and dst 127.0.0.1) or (src port 15001 and src 127.0.0.1))"
+tcpdump -i lo -n -vvvv -A  "((dst port 22 and dst 127.0.0.1) or (src port 22 and src 127.0.0.1))"
+
+# 思考，和这个一样吗： tcpdump -i lo 'host 127.0.0.1 and port 22'
 ```
 
 ## 指定 port
 
 ```bash
 # 对外的连接 tcp port
-sudo tcpdump -i eth0 -n -vvvv -A  "((src portrange 20000-65535 and src $ETH0_IP) or (dst portrange 20000-65535 and dst $ETH0_IP))"
+tcpdump -i eth0 -n -vvvv -A  "((src portrange 20000-65535 and src $ETH0_IP) or (dst portrange 20000-65535 and dst $ETH0_IP))"
 ```
 
 ## 根据 RST FIN SYN 过滤
