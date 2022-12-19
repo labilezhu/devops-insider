@@ -1,5 +1,8 @@
 # PID Namespace 的 Main process 结束 与 zombie child process
 
+## 问题
+挂载 PV 的 Pod 长期停留在 Terminating 状态。Linux top 命令显示高于 20% 的 iowait。
+
 ## 情况调查
 
 
