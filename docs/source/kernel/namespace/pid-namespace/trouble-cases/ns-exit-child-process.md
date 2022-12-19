@@ -3,6 +3,17 @@
 ## 问题
 挂载 PV 的 Pod 长期停留在 Terminating 状态。Linux top 命令显示高于 20% 的 iowait。
 
+如果尝试 `kubectl exec -it $POD -- bash` 进入 container，会说：
+
+
+```
+unable to start container process: error executing setns process
+
+Output OCI runtime exec failed: exec failed: container_linux.go:346: starting container process caused "process_linux.go:101: executing setns process caused \"exit status 1\"": unknown
+```
+
+
+
 ## 情况调查
 
 
