@@ -34,7 +34,6 @@ A *`Ceph object`* is a chunk of information that Ceph records on storage devices
 - S3 or Swift object data
 - File metadata
 
-
 ## Components
 
 - **Monitors**: A [Ceph Monitor](https://docs.ceph.com/en/latest/glossary/#term-Ceph-Monitor) (`ceph-mon`) maintains maps of the cluster state, including the monitor map, manager map, the OSD map, the MDS map, and the CRUSH map. These maps are critical cluster state required for Ceph daemons to coordinate with each other. Monitors are also responsible for managing authentication between daemons and clients. At least three monitors are normally required for redundancy and high availability.
@@ -47,8 +46,10 @@ A *`Ceph object`* is a chunk of information that Ceph records on storage devices
 
 
 
-
-
+## RADOS
+```{toctree}
+rados/rados.md
+```
 
 ## Ceph Client
 
