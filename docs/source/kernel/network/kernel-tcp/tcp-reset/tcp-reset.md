@@ -137,6 +137,4 @@ if (unlikely(tcp_sk(sk)->repair)) {
 
 ## TCP RST and SO_LINGER
 
-```{toctree}
-ref/tcprst-linger.md
-```
+{doc}`/kernel/network/kernel-tcp/socket-opt-linger/ref/tcprst-linger.md`
