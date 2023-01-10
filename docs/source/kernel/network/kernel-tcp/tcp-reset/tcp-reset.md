@@ -138,3 +138,11 @@ if (unlikely(tcp_sk(sk)->repair)) {
 ## TCP RST and SO_LINGER
 
 {doc}`/kernel/network/kernel-tcp/socket-opt-linger/ref/tcprst-linger.md`
+
+
+## TCP RST and close(fd)
+
+如果程序对 socket fd 执行了 `close(fd)` 后， kernel 会：
+ - 发出 FIN
+ - 关闭 fd 
+如果同时对端发来数据。 kernel 将丢弃数据，且以 RST 回应。因为 fd 已经关闭，程序不能再读写 socket 了。
