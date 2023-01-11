@@ -1,4 +1,4 @@
-# Socket Close/Shutdown
+# Socket Close/Shutdown 的临界状态与异常逻辑
 
 Socket 的关闭，听起来是再简单不过的事情，不就是一个 `close(fd)` 的调用吗？ 下面慢慢道来。
 
@@ -238,5 +238,4 @@ int l_linger; /* linger time, POSIX specifies units as seconds */
 > 不错的扩展阅读：
 >
 > - [一个写在 2016 年的文章：Resetting a TCP connection and SO_LINGER](https://ndeepak.com/posts/2016-10-21-tcprst/)
-> - 
 
