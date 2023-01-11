@@ -38,7 +38,7 @@ Socket 的关闭，听起来是再简单不过的事情，不就是一个 `close
 
 - socket FD read channel 关闭
   - socket FD read channel  关闭时，如果发现 `recv buffer` 中有已经 ACK 的数据，未被应用(user-space)读取，将向对端发送 `RST`。详述在这：{ref}`kernel/network/kernel-tcp/tcp-reset/tcp-reset:TCP RST and unread socket recv buffer`
-  - socket FD read channel 关闭后，如果还收到对端的数据，将丢弃，且无情地以 `RST` 回应。
+  - socket FD read channel 关闭后，如果还收到对端的数据(TCP Half close)，将丢弃，且无情地以 `RST` 回应。
 
 ## 相关的 TCP 协议知识
 
@@ -221,17 +221,22 @@ int l_linger; /* linger time, POSIX specifies units as seconds */
 
     When using this feature of the `SO_LINGER` option, it is important for the application to check the return value from `close`, because if the linger time expires before the remaining data is sent and acknowledged, `close` returns `EWOULDBLOCK` and any remain ing data in the `send buffer` is discarded.(即开启了后，如果在 timeout 前还未收到 ACK，socket send buffer 中的数据可能丢失)
 
-#### shutdown 与 SO_LINGER 小结
+#### close/shutdown 与 SO_LINGER 小结
 
 > [UNIX Network Programming, Volume 1]  - `SO_LINGER` Socket Option
 
-| Function | Description |
-| -------- | ----------- |
-|          |             |
-|          |             |
-|          |             |
-|          |             |
-|          |             |
+| Function                                                    | Description                                                  |
+| ----------------------------------------------------------- | ------------------------------------------------------------ |
+| `shutdown`, `SHUT_RD`                                       | No more receives can be issued on socket; process can still send on socket;<br/>socket receive buffer discarded; any further data received is discarded<br/>no effect on socket send buffer. |
+| `shutdown`, `SHUT_WR`<br />(这是大部分使用 shutdown 的场景) | No more sends can be issued on socket; process can still receive on socket;<br/>contents of socket send buffer sent to other end, followed by normal TCP connection termination (FIN); no effect on socket receive buffer. |
+| `close`, `l_onoff` = 0<br/>(default)                        | No more receives or sends can be issued on socket; contents of socket send buffer sent to other end. <br />If `descriptor reference count` becomes 0: <br />- normal TCP connection termination (FIN) sent following data in send buffer.<br />- socket receive buffer discarded.(即丢弃 recv buffer 未被 user space 读取的数据。<mark>注意：对于 Linux 如果是已经 `ACK` 的数据未被 user-space 读取，将发送 `RST` 给对端</mark>) |
+| `close`, `l_onoff` = 1<br/>`l_linger` = 0                   | No more receives or sends can be issued on socket. If `descriptor reference count` becomes 0: <br />- `RST` sent to other end; connection state set to CLOSED<br/>(no TIME_WAIT state); <br />- socket send buffer and socket receive buffer discarded. |
+| `close`, `l_onoff` = 1<br/>`l_linger` != 0                  | No more receives or sends can be issued on socket; contents of socket send buffer sent to other end. <br />If `descriptor reference count` becomes 0:<br/>- normal TCP connection termination (FIN) sent following data in send buffer; <br />- socket receive buffer discarded; and if linger time expires before connection CLOSED, close returns EWOULDBLOCK. and any remain ing data in the `send buffer` is discarded.(即开启了后，如果在 timeout 前还未收到 ACK，socket send buffer 中的数据可能丢失) |
 
 
+
+> 不错的扩展阅读：
+>
+> - [一个写在 2016 年的文章：Resetting a TCP connection and SO_LINGER](https://ndeepak.com/posts/2016-10-21-tcprst/)
+> - 
 

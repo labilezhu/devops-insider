@@ -8,7 +8,7 @@
 
 一个 Envoy 下的猜想场景是：
 
-> Envoy 只要读完 downstream HTTP Header 就开始相关的解释和路由请求的逻辑了。如果路由到一个有问题的 upstream 连接。就开始 socket write HTTP Header 到 upstream socket 。这时写 upstream socket 失败了。 Envoy 就连 downstream 的 socket 也 close 了。 kernel 看到 Envoy 连在 buffer 中的 HTTP Body 都没读完就 close，于是发了 RST。
+> 一些场景下，Envoy 只要读完 downstream HTTP Header 就已经确认请求有问题，直接 socket write HTTP Response，且 close(fd) 了，完全不理 downstream 发过来的 HTTP Body。 kernel 看到 Envoy 连在 recv buffer 中的 HTTP Body 都没读完就 close，于是发了 RST 给 downstream。
 
 
 
