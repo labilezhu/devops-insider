@@ -23,7 +23,7 @@ ref/connection_tracking_3_modules_and_hooks.md
 :maxdepth: 2
 conntrack-troubleshooting/network-address-translation-part-4-conntrack-troubleshooting.md
 conntrack-troubleshooting/out-of-window-invalid-conntrack.md
-conntrack-troubleshooting/local-port-collision.md
+conntrack-troubleshooting/local-port-collision-syn-retransmit.md
 ```
 
 

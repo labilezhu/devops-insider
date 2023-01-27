@@ -1,4 +1,4 @@
-# NAT local port collision(NAT 分配端口冲突)
+# NAT local port collision and SYN retransmit (NAT 分配端口冲突与 SYN 重传)
 
 NAT 分配端口冲突导致连接慢与 SYN 重传。
 
@@ -16,7 +16,7 @@ In this post we will try to explain how we investigated that issue, what this ra
 
 
 
-# Conntrack in user-space
+## Conntrack in user-space
 
 We had the strong assumption that having most of our connections always going to the same `host:port` could be the reason why we had those issues. However, at this point we thought the problem could be caused by some misconfigured SYN flood protection. We read the description of network Kernel parameters hoping to discover some mechanism we were not aware of. We could not find anything related to our issue. We had already increased the size of the conntrack table and the Kernel logs were not showing any errors.
 
@@ -24,7 +24,7 @@ The second thing that came into our minds was port reuse. If we reached port exh
 
 
 
-# Netfilter NAT & Conntrack kernel modules
+## Netfilter NAT & Conntrack kernel modules
 
 After reading the kernel netfilter code, we decided to recompile it and add some traces to get a better understanding of what was really happening. Here is what we learned.
 
@@ -57,7 +57,7 @@ netfilter also supports two other algorithms to find free ports for SNAT:
 
 With full randomness forced in the Kernel, the errors dropped to 0 (and later near to 0 on live clusters).
 
-# Activating full random port allocation on Kubernetes
+## Activating full random port allocation on Kubernetes
 
 The `NF_NAT_RANGE_PROTO_RANDOM_FULLY` flag needs to be set on masquerading rules. On our Kubernetes setup, Flannel is responsible for adding those rules. It uses iptables which it builds from the source code during the Docker image build. The iptables tool doesn't support setting this flag but we've committed a small [patch](https://git.netfilter.org/iptables/commit/?id=8b0da2130b8af3890ef20afb2305f11224bb39ec) that was merged (not released) and adds this feature.
 
@@ -70,6 +70,8 @@ We now use a modified version of Flannel that applies this patch and adds the `-
 ## Ref
 
 > - [https://github.com/jwkohnen/conntrack-stats-exporter](https://github.com/jwkohnen/conntrack-stats-exporter)
+> - https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/
+> - https://github.com/kubernetes/kubernetes/issues/56903
 > - 
 >
 > 
