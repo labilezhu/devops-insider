@@ -23,6 +23,7 @@ ref/connection_tracking_3_modules_and_hooks.md
 :maxdepth: 2
 conntrack-troubleshooting/network-address-translation-part-4-conntrack-troubleshooting.md
 conntrack-troubleshooting/out-of-window-invalid-conntrack.md
+conntrack-troubleshooting/local-port-collision.md
 ```
 
 
@@ -45,10 +46,17 @@ UPDATE tcp     120 TIME_WAIT src=10.1.0.114 dst=10.7.43.52 sport=4123 dport=22 s
 
 * Netfilter Conntrack Sysfs variables : https://www.kernel.org/doc/html/latest/networking/nf_conntrack-sysctl.html
 
-> https://blog.cloudflare.com/conntrack-tales-one-thousand-and-one-flows/
+- [https://blog.cloudflare.com/conntrack-tales-one-thousand-and-one-flows/](https://blog.cloudflare.com/conntrack-tales-one-thousand-and-one-flows/)
+
+### iptables NAT random local port
+
+- [iptables --random and --random-fully ignore /proc/sys/net/ipv4/ip_local_port_range #509](https://github.com/aws/amazon-vpc-cni-k8s/issues/509)
+- [Packets getting lost during SNAT with too many connections](https://opendev.org/openstack/neutron/commit/ce628a123769f93fc0c1b2edbe20ec5325aab0f6)
+
 
 
 ## Ref.
+
 ```{toctree}
 ref/conntrack-tales@cloudflare.md
 conntrack-tcp-reset.md

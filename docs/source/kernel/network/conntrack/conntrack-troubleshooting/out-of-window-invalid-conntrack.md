@@ -1,6 +1,6 @@
 # Out of Window Invalid Packet
 
-## 解决Istio中遇到的间歇性连接重置问题
+## 解决Istio中遇到的间歇性连接重置(reset)问题
 
 > [解决Istio中遇到的间歇性连接重置问题](https://maimai.cn/article/detail?fid=1716626083&efid=exAQgZXTj-4Tzk8rKYSjiA)
 
@@ -46,7 +46,7 @@ static int nf_ct_tcp_be_liberal __read_mostly = 0;
 
 相关的修复已经合并到最新的Istio 1.13:
 
-[http://istio.io/latest/news/releases/1.13.x/announcing-1.13/change-notes/](http://istio.io/latest/news/releases/1.13.x/announcing-1.13/change-notes/)，如果在使用Istio Envoy sidecar的过程中刚好也遇到了connection reset的问题，可以通过配置`meshConfig. defaultConfig.proxyMetadata.INVALID_DROP=true`，尝试开启这个功能。
+[http://istio.io/latest/news/releases/1.13.x/announcing-1.13/change-notes/](http://istio.io/latest/news/releases/1.13.x/announcing-1.13/change-notes/)，如果在使用Istio Envoy sidecar的过程中刚好也遇到了connection reset的问题，可以通过配置`meshConfig.defaultConfig.proxyMetadata.INVALID_DROP=true`，尝试开启这个功能。
 
 
 
