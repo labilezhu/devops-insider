@@ -70,8 +70,9 @@ We now use a modified version of Flannel that applies this patch and adds the `-
 ## Ref
 
 > - [https://github.com/jwkohnen/conntrack-stats-exporter](https://github.com/jwkohnen/conntrack-stats-exporter)
-> - https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/
-> - https://github.com/kubernetes/kubernetes/issues/56903
-> - 
->
-> 
+> - [https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/](https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/)
+> - [https://github.com/kubernetes/kubernetes/issues/56903](https://github.com/kubernetes/kubernetes/issues/56903)
+> - [https://www.weave.works/blog/racy-conntrack-and-dns-lookup-timeouts](https://www.weave.works/blog/racy-conntrack-and-dns-lookup-timeouts)
+> - [https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/](https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/)
+> - [How to reduce insert_failed error on conntrack ?](https://www.spinics.net/lists/netfilter/msg57728.html)
+> - [Linux conntrack race condition @ adrian-philipp.com](https://adrian-philipp.com/notes/linux-conntrack-race-condition)
