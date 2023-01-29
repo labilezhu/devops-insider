@@ -76,3 +76,5 @@ We now use a modified version of Flannel that applies this patch and adds the `-
 > - [https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/](https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/)
 > - [How to reduce insert_failed error on conntrack ?](https://www.spinics.net/lists/netfilter/msg57728.html)
 > - [Linux conntrack race condition @ adrian-philipp.com](https://adrian-philipp.com/notes/linux-conntrack-race-condition)
+> - [Github Issue: Istio: IPTables Redirect rule causes tcp connection timeouts with multiple ports #38982](https://github.com/istio/istio/issues/38982)
+> 

@@ -8,4 +8,5 @@ tcp-reset/tcp-reset.md
 syn-cookies/syn-cookies.md
 tcp-inspect/tcp-inspect.md
 socket-opt-linger/socket-opt-linger.md
+tcp-time-wait/tcp-time-wait.md
 ```

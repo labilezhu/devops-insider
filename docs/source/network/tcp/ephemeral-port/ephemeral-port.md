@@ -24,6 +24,13 @@ how-to-stop-running-out-of-ephemeral-ports-and-start-to-love-long-lived-connecti
 ephemeral-port-exhaustion-and-how-to-avoid-it.md
 ```
 
+## Linux Ref.
+> - [Bind before connect](https://idea.popcount.org/2014-04-03-bind-before-connect/)
+> - [临时端口号(EPHEMERAL PORT)的动态分配](http://linuxperf.com/?p=178)
+> - [由 CPU 高负载引发内核探索之旅](https://zhuanlan.zhihu.com/p/587402192)
+> - [TCP连接中客户端的端口号是如何确定的？](https://mp.weixin.qq.com/s/C-Eeoeh9GHxugF4J30fz1A)
+> - [TCP协议connect的端口选择](https://segmentfault.com/a/1190000041228516)
+
 ### WILS: Load Balancing and Ephemeral Port Exhaustion
 
 > [WILS: Load Balancing and Ephemeral Port Exhaustion](https://community.f5.com/t5/technical-articles/wils-load-balancing-and-ephemeral-port-exhaustion/ta-p/287984)

@@ -136,6 +136,11 @@ static int tcp_packet() {
 > 4. The RST terminates the actual NAT'd connection, since its source address and port matches the NAT'd connection.
 
 
+## Ref.
+ - [Improving TCP's Robustness to Blind In-Window Attacks @ RFC5961](https://datatracker.ietf.org/doc/html/rfc5961)
+ - [Troubleshooting with Wireshark: The Case of the TCP Challenge ACK](https://www.networkdefenseblog.com/post/wireshark-tcp-challenge-ack)
+
+
 
 
 
