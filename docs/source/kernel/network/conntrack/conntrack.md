@@ -3,7 +3,6 @@
 ## Concept
 
 > - [连接跟踪（conntrack）：原理、应用及 Linux 内核实现 @ arthurchiao.art/blog](https://arthurchiao.art/blog/conntrack-design-and-implementation-zh/#5-%E9%85%8D%E7%BD%AE%E5%92%8C%E7%9B%91%E6%8E%A7), [English ver](https://arthurchiao.art/blog/conntrack-design-and-implementation/)
-> - [Network address translation part 1 – packet tracing @ fedoramagazine.org](https://fedoramagazine.org/network-address-translation-part-1-packet-tracing/)
 > - [http://43.129.181.206/share/linux2.6-kernel-summary.pdf](http://43.129.181.206/share/linux2.6-kernel-summary.pdf) {download}`Download Linux2.6 内核总结（庞宇） </kernel/network/conntrack/linux2.6-kernel-summary.pdf>` .
 
 
@@ -11,6 +10,7 @@
 ref/connection_tracking_1_modules_and_hooks.md
 ref/connection_tracking_2_modules_and_hooks.md
 ref/connection_tracking_3_modules_and_hooks.md
+ref/conntrack-design-and-implementation-zh.md
 ```
 
 
@@ -28,6 +28,7 @@ conntrack-troubleshooting/network-address-translation-part-4-conntrack-troublesh
 conntrack-troubleshooting/out-of-window-invalid-conntrack.md
 conntrack-troubleshooting/local-port-collision-syn-retransmit.md
 ```
+
 
 
 ### real-time conntrack event log
