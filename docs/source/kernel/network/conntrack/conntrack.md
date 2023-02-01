@@ -27,6 +27,7 @@ ref/conntrack-design-and-implementation-zh.md
 conntrack-troubleshooting/network-address-translation-part-4-conntrack-troubleshooting.md
 conntrack-troubleshooting/out-of-window-invalid-conntrack.md
 conntrack-troubleshooting/local-port-collision-syn-retransmit.md
+conntrack-troubleshooting/iptables-troubleshooting.md
 ```
 
 

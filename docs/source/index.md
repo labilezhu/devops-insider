@@ -97,4 +97,5 @@ ceph/ceph.md
 hardware/hardware.md
 ebpf/ebpf.md
 wu/wu.md
+basic-theory/basic-theory.md
 ```
