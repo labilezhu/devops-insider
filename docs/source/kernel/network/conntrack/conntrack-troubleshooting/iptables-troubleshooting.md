@@ -37,6 +37,61 @@ The LOG target currently takes five options that could be of interest if you hav
 
 
 
+使用例子：
+
+> https://www.thegeekstuff.com/2012/08/iptables-log-packets/
+>
+> The following is a sample of the lines that was logged in the /var/log/messages when an incoming and outgoing packets was dropped.
+>
+> ```
+> Aug  4 13:22:40 centos kernel: IPTables-Dropped: IN= OUT=em1 SRC=192.168.1.23 DST=192.168.1.20 LEN=84 TOS=0x00 PREC=0x00 TTL=64 ID=0 DF PROTO=ICMP TYPE=8 CODE=0 ID=59228 SEQ=2
+> Aug  4 13:23:00 centos kernel: IPTables-Dropped: IN=em1 OUT= MAC=a2:be:d2:ab:11:af:e2:f2:00:00 SRC=192.168.2.115 DST=192.168.1.23 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=9434 DF PROTO=TCP SPT=58428 DPT=443 WINDOW=8192 RES=0x00 SYN URGP=0
+> ```
+
+
+
+> https://realtechtalk.com/iptables_how_to_log_ALL_dropped_incoming_packets-2133-articles
+>
+> ```
+> ipt denied: IN=eth0 OUT= MAC= SRC=45.227.254.18 DST=192.198.5.8 LEN=40 TOS=0x08 PREC=0x20 TTL=245 ID=4350 PROTO=TCP SPT=56638 DPT=30450 WINDOW=1024 RES=0x00 SYN URGP=0 
+> ```
+
+
+
+> https://unix.stackexchange.com/questions/680594/iptables-logging-output
+>
+> format of log:
+>
+> ```
+> <timestamp> <hostname> kernel: [optional-prefix]IN=<incoming-interface> OUT=<outgoing-interface> \ 
+>     MAC=<destination MAC address>:<source MAC address>:<ethertype/length> \
+>     SRC=<source IP address> DST=<destination IP address> LEN=<packet length> \
+>     TOS=<type-of-service value> PREC=<precedence value> TTL=<packet time-to-live value> \
+>     ID=<ID field value/fragment ID> PROTO=<protocol> <protocol-specific information...>
+> ```
+
+
+
+> [Use iptables LOG target to preview what would be dropped](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/8635)
+>
+> ```
+> $ sudo iptables -A INPUT -p tcp -m tcp --dport 1234 -j LOG --log-level debug --log-prefix 'Would reject TCP 1234 ' -m limit --limit 1/second --limit-burst 10
+> 
+> $ nc -l 1234
+> $ echo 'hi' | nc localhost 1234
+> 
+> $ dmesg | grep 'Would reject TCP 1234 '
+> [114477.090576] Would reject TCP 1234 IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=48831 DF PROTO=TCP SPT=37672 DPT=1234 WINDOW=65495 RES=0x00 SYN URGP=0 
+> [114477.090716] Would reject TCP 1234 IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.1 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=48832 DF PROTO=TCP SPT=37672 DPT=1234 WINDOW=512 RES=0x00 ACK URGP=0 
+> [114477.090955] Would reject TCP 1234 IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=48833 DF PROTO=TCP SPT=37672 DPT=1234 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+> [114491.964075] Would reject TCP 1234 IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.1 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=48834 DF PROTO=TCP SPT=37672 DPT=1234 WINDOW=512 RES=0x00 ACK FIN URGP=0 
+> 
+> ```
+
+
+
+
+
 更多例子：
 
 [https://www.netfilter.org/documentation/FAQ/netfilter-faq-3.html](https://www.netfilter.org/documentation/FAQ/netfilter-faq-3.html)
