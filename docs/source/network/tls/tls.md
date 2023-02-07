@@ -25,6 +25,7 @@ tls-handshake.md
 test-tools.md
 alpn/alpn.md
 cipher-suite/cipher-suite.md
+tls-close/tls-close.md
 ```
 
 ## Library
