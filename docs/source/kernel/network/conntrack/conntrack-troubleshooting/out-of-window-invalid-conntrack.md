@@ -30,7 +30,13 @@ static int nf_ct_tcp_be_liberal __read_mostly = 0;
 
 1. 让 conntrack 对数据包校验更加宽松，不要将out of window的数据包标记为 INVALID。
 
-对linux来说只需要修改内核参数 echo 1 > /proc/sys/net/ipv4/netfilter/ip_conntrack_tcp_be_liberal。但采用这种做法导致一些顾虑：
+对linux来说只需要修改内核参数 之一
+
+- `echo 1 > /proc/sys/net/ipv4/netfilter/ip_conntrack_tcp_be_liberal`
+
+- `echo 1 > /proc/sys/net/netfilter/nf_conntrack_tcp_be_liberal`
+
+但采用这种做法导致一些顾虑：
 
 - 意味着更多out of window的数据包会被允许进入网络协议栈处理。
 

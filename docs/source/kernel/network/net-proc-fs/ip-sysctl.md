@@ -444,39 +444,12 @@ tcp_fack - BOOLEAN
 	This is a legacy option, it has no effect anymore.
 
 tcp_fin_timeout - INTEGER
-	The length of time an orphaned (no longer referenced by any
-	application) connection will remain in the FIN_WAIT_2 state
-	before it is aborted at the local end.  While a perfectly
-	valid "receive only" state for an un-orphaned connection, an
-	orphaned connection in FIN_WAIT_2 state could otherwise wait
-	forever for the remote to close its end of the connection.
+	The length of time an orphaned(孤儿)  (no longer referenced by any application，即只有没有进程关联到这个 socket 才会 timeout) connection will remain in the FIN_WAIT_2 state before it is aborted at the local end. While a perfectly valid “receive only” state for an un-orphaned connection, an orphaned connection in FIN_WAIT_2 state could otherwise wait forever for the remote to close its end of the connection.
+
 
 	Cf. tcp_max_orphans
 	
 	Default: 60 seconds
-
-> **Maximum segment lifetime (MSL)**
->
-> 
->
-> Maximum segment lifetime is the time a TCP segment can exist in the internetwork system. It is arbitrarily defined to be 2 minutes long.
->
-> 
->
-> The Maximum Segment Lifetime value is used to determine the `TIME_WAIT` interval (2*MSL)
->
-> 
->
-> On some Linux systems, this value can be checked by either of the commands below:
->
-> 
->
-> ```bash
->    sysctl net.ipv4.tcp_fin_timeout
-> 
->    cat /proc/sys/net/ipv4/tcp_fin_timeout
-> ```
-
 
 
 tcp_frto - INTEGER
