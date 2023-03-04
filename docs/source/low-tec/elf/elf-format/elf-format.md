@@ -1,10 +1,31 @@
-# ELF 格式
+---
+title: ELF 格式简述
+date: 2022-05-05T23:12:15+08:00
+draft: false
+weight: 1
+enableToc: true
+enableBlogBreadcrumb: false
+tocLevels: ["h2", "h3", "h4"]
+description: ELF 格式简述
+tags:
+- kernel
+- low-tec
+---
+
+
+# ELF 格式简述
 
 程序代码被编译和链接成包含二进制计算机指令的可执行文件。而可执行文件是有格式规范的，在 Linux 中，这个规范叫 Executable and linking format (ELF)。ELF 中包含二进制计算机指令、静态数据、元信息。
 
 - 静态数据 - 我们在程序中 hard code 的东西数据，如字串常量等
 - 二进制计算机指令集合，程序代码逻辑生成的计算机指令。代码中的每个函数都在编译时生成一块指令，而链接器负责把一块块指令连续排列到输出的 ELF 文件的 `.text section（区域）` 中。而`元信息`中的`.symtab section（区域）`  记录了每个函数在 `.text section` 的地址。说白了，就是代码中的函数名到 ELF 文件地址或运行期进程内存地址的 mapping 关系。`.symtab section`  对我们逆向工程分析很有用。
-- 元信息 - 告诉操作系统，如何加载和动态链接可执行文件，完成进程内存的初始化。其中可以包括一些非运行期必须，但可以帮助定位问题的信息。如上面说的 `.symtab section（区域）`  
+- 元信息，可再细分为：
+  - 告诉操作系统，如何加载和动态链接可执行文件，完成进程内存的初始化。
+  - 一些非运行期必须，但可以帮助定位问题的信息。如上面说的 `.symtab section（区域）`
+
+
+ELF 文件为其包含的数据提供 2 个视图：`链接视图(inking view)` 和 `执行视图(execution view)`。 这两个视图分别通过两个 `header` 访问：`section header table` 和  ` program header table`。
+
 
 ![image-20220117230124047](elf-format.assets/image-20220117230124047.png)
 
