@@ -98,4 +98,5 @@ hardware/hardware.md
 ebpf/ebpf.md
 wu/wu.md
 basic-theory/basic-theory.md
+low-tec/index.md
 ```

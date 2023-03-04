@@ -18,26 +18,31 @@ tags:
 程序代码被编译和链接成包含二进制计算机指令的可执行文件。而可执行文件是有格式规范的，在 Linux 中，这个规范叫 Executable and linking format (ELF)。ELF 中包含二进制计算机指令、静态数据、元信息。
 
 - 静态数据 - 我们在程序中 hard code 的东西数据，如字串常量等
-- 二进制计算机指令集合，程序代码逻辑生成的计算机指令。代码中的每个函数都在编译时生成一块指令，而链接器负责把一块块指令连续排列到输出的 ELF 文件的 `.text section（区域）` 中。而`元信息`中的`.symtab section（区域）`  记录了每个函数在 `.text section` 的地址。说白了，就是代码中的函数名到 ELF 文件地址或运行期进程内存地址的 mapping 关系。`.symtab section`  对我们逆向工程分析很有用。
-- 元信息，可再细分为：
+- 二进制计算机指令集合，程序代码逻辑生成的计算机指令。代码中的每个函数都在编译时生成一块指令，而链接器负责把一块块指令连续排列到输出的 ELF 文件的 `.text section（区域）` 中。
+- 元信息，可再细分为两类：
   - 告诉操作系统，如何加载和动态链接可执行文件，完成进程内存的初始化。
-  - 一些非运行期必须，但可以帮助定位问题的信息。如上面说的 `.symtab section（区域）`
+  - 一些非运行期必须，但可以帮助定位问题的信息。如 `.symtab section`
 
 
-ELF 文件为其包含的数据提供 2 个视图：`链接视图(inking view)` 和 `执行视图(execution view)`。 这两个视图分别通过两个 `header` 访问：`section header table` 和  ` program header table`。
+ELF 文件为其包含的数据提供 2 个视图：
+- `链接视图(inking view)` 
+- `执行视图(execution view)`
+  
+这两个视图分别通过两个 `header table` 访问：`section header table` 和  ` program header table`。
 
 
 ![image-20220117230124047](elf-format.assets/image-20220117230124047.png)
 
-<p align = "center">Typical ELF executable object file. <br />From [Computer Systems - A Programmer’s Perspective]:</p>
+*<p align = "center">典型的 ELF 文件格式例子<br />图源自 [Computer Systems - A Programmer’s Perspective]:</p>*
 
 
 ![](./elf-struct.drawio.svg)
+*ELF 格式相关数据结构关系图*
 
 
-### Typical ELF object file
+## 典型的 ELF 文件示例
 
-#### Typical ELF relocatable object file 
+### 典型的 relocatable object file 
 
 > [Computer Systems A Programmer's Perspective]
 
@@ -47,7 +52,7 @@ ELF 文件为其包含的数据提供 2 个视图：`链接视图(inking view)` 
 
 
 
-#### Typical ELF executable object file
+### 典型的 executable object file
 
 > [Computer Systems A Programmer's Perspective]
 
@@ -55,11 +60,69 @@ ELF 文件为其包含的数据提供 2 个视图：`链接视图(inking view)` 
 
 
 
+## 文件结构
+
+### ELF 文件头
+
+If we look at an ELF file with the command `readelf -h` , we can view the initial ELF
+file header. The ELF file header starts at the 0 offset of an ELF file and serves as a
+map to the rest of the file.
+
+如果我们使用命令 `readelf -h` 查看 ELF 文件，我们可以查看 ELF 文件头。 ELF 文件头从 ELF 文件的偏移量 0 开始，并作为其余部分的索引。
+
+```bash
+$ readelf -h ./envoy
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:（ELF 文件类型）                DYN (Shared object file)
+  Machine:                           Advanced Micro Devices X86-64
+  Version:                           0x1
+  Entry point address:               0x14dcac0
+  Start of program headers:          64 (bytes into file)（指向 header table）
+  Start of section headers:          99364400 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         12
+  Size of section headers:           64 (bytes)
+  Number of section headers:         35
+  Section header string table index: 33
+
+```
+
+查看 Linux 中的 ELF(5) 手册页(`man elf`)向我们展示了 ELF 文件头结构：
+
+```c
+//ELF文件头部结构： ElfN_Ehdr
+#define EI_NIDENT 16
+
+typedef struct {
+unsigned char    e_ident[EI_NIDENT];
+uint16_t    e_type; //ELF 文件类型
+uint16_t    e_machine;
+uint32_t    e_version;
+ElfN_Addr    e_entry;
+ElfN_Off    e_phoff; //program header table offset -> 指向 header table
+ElfN_Off    e_shoff;
+uint32_t    e_flags;
+uint16_t    e_ehsize;
+uint16_t    e_phentsize;
+uint16_t    e_phnum;
+uint16_t    e_shentsize;
+uint16_t    e_shnum;
+uint16_t    e_shstrndx;
+
+} ElfN_Ehdr;
+```
 
 
+#### ELF 文件类型
 > Ref. [Learning Linux Binary Analys]
-
-### ELF file types
 
 - ET_NONE : This is an unknown type. It indicates that the file type is unknown,
 or has not yet been defined.
@@ -86,37 +149,6 @@ process has delivered an SIGSEGV signal (segmentation violation). GDB can
 read these files and aid in debugging to determine what caused the program
 to crash.
 
-If we look at an ELF file with the command `readelf -h` , we can view the initial ELF
-file header. The ELF file header starts at the 0 offset of an ELF file and serves as a
-map to the rest of the file.
-
-```
-labile@worknode5:~$ readelf -h ./envoy
-ELF Header:
-  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
-  Class:                             ELF64
-  Data:                              2's complement, little endian
-  Version:                           1 (current)
-  OS/ABI:                            UNIX - System V
-  ABI Version:                       0
-  Type:                              DYN (Shared object file)
-  Machine:                           Advanced Micro Devices X86-64
-  Version:                           0x1
-  Entry point address:               0x14dcac0
-  Start of program headers:          64 (bytes into file)
-  Start of section headers:          99364400 (bytes into file)
-  Flags:                             0x0
-  Size of this header:               64 (bytes)
-  Size of program headers:           56 (bytes)
-  Number of program headers:         12
-  Size of section headers:           64 (bytes)
-  Number of section headers:         35
-  Section header string table index: 33
-
-```
-
-
-Looking at the ELF(5) man page in Linux shows us the ELF header structure:
 
 为何有的可执行文件是 `ET_DYN` 而不是 `ET_EXEC`：
 
@@ -125,28 +157,7 @@ Looking at the ELF(5) man page in Linux shows us the ELF header structure:
 > Your version of g++ was configured with `--enable-default-pie`, so it sets `-pie` and `-fPIE` by default. You can disable this, and generate a normal executable, by linking with `-no-pie`.
 
 
-```c
-//ELF文件头部结构： ElfN_Ehdr
-#define EI_NIDENT 16
 
-typedef struct {
-unsigned char    e_ident[EI_NIDENT];
-uint16_t    e_type;
-uint16_t    e_machine;
-uint32_t    e_version;
-ElfN_Addr    e_entry;
-ElfN_Off    e_phoff; //program header table offset -> 指向 header table
-ElfN_Off    e_shoff;
-uint32_t    e_flags;
-uint16_t    e_ehsize;
-uint16_t    e_phentsize;
-uint16_t    e_phnum;
-uint16_t    e_shentsize;
-uint16_t    e_shnum;
-uint16_t    e_shstrndx;
-
-} ElfN_Ehdr;
-```
 
 ### ELF program headers
 
