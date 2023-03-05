@@ -23,22 +23,43 @@ tags:
   - 告诉操作系统，如何加载和动态链接可执行文件，完成进程内存的初始化。
   - 一些非运行期必须，但可以帮助定位问题的信息。如 `.symtab section`
 
+## 视图
 
-ELF 文件为其包含的数据提供 2 个视图：
-- `链接视图(inking view)` 
-- `执行视图(execution view)`
-  
-这两个视图分别通过两个 `header table` 访问：`section header table` 和  ` program header table`。
+ELF 文件提供 2 个不同的视图（视角）：
+- `链接视图(Linking view)` - 对应 `section header table`
 
+  告诉操作系统，动态链接可执行文件，完成进程内存的初始化。同时也为调试器提供一些元信息。
+
+- `执行视图(execution view)` - 对应 `program header table(segment header table)`
+
+  告诉操作系统，如何加载可执行文件，完成进程内存的初始化。一个可执行的 ELF，一定有`program header table`
+
+
+
+从二进制串看，一个典型的 ELF 文件长这样：
 
 ![image-20220117230124047](elf-format.assets/image-20220117230124047.png)
 
-*<p align = "center">典型的 ELF 文件格式例子<br />图源自 [Computer Systems - A Programmer’s Perspective]:</p>*
+*<p align = "center">典型的 ELF 文件格式例子 (图源自 [Computer Systems - A Programmer’s Perspective])</p>*
 
+其中 名称类似`.xyz` 的块为 section。
+
+
+
+> 注意：如果`section header table`被剥离(stripped)(从二进制文件中丢失)，那并不意味着这些`section`不存在； 这只是意味着它们不能被`section header table`引用，并且调试器和反汇编程序可用的信息更少。
+
+
+
+从数据结构定义及其关系上看，可以总结为：
 
 ![](./elf-struct.drawio.svg)
 *ELF 格式相关数据结构关系图*
 
+*[用 Draw.io 打开](https://app.diagrams.net/?ui=sketch#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh_CN%2Flatest%2F_images%2Felf-struct.drawio.svg)*
+
+
+
+下面大概过一下每个数据结构。
 
 ## 典型的 ELF 文件示例
 
@@ -63,10 +84,6 @@ ELF 文件为其包含的数据提供 2 个视图：
 ## 文件结构
 
 ### ELF 文件头
-
-If we look at an ELF file with the command `readelf -h` , we can view the initial ELF
-file header. The ELF file header starts at the 0 offset of an ELF file and serves as a
-map to the rest of the file.
 
 如果我们使用命令 `readelf -h` 查看 ELF 文件，我们可以查看 ELF 文件头。 ELF 文件头从 ELF 文件的偏移量 0 开始，并作为其余部分的索引。
 
@@ -150,16 +167,17 @@ read these files and aid in debugging to determine what caused the program
 to crash.
 
 
-为何有的可执行文件是 `ET_DYN` 而不是 `ET_EXEC`：
 
+
+> 为何有的可执行文件是 `ET_DYN` 而不是 `ET_EXEC`：
+>
 > https://stackoverflow.com/questions/61567439/why-is-my-simple-main-programs-elf-header-say-its-a-dyn-shared-object-file
 > Executables that are as compiled as "position independent executables" (with `-pie`/`-fPIE`) should be relocated to a random address at runtime. To achieve this, they use the DYN type.
 > Your version of g++ was configured with `--enable-default-pie`, so it sets `-pie` and `-fPIE` by default. You can disable this, and generate a normal executable, by linking with `-no-pie`.
 
 
 
-
-### ELF program headers
+### ELF program header
 
 **ELF program headers are what describe `segments` within a binary** and are necessary for program loading. **Segments are understood by the kernel during load time and describe the memory layout of an executable on disk and how it should translate to memory.** The program header table can be accessed by referencing the offset found in the initial ELF header member called `e_phoff` (program header table offset), as shown in the `ElfN_Ehdr` structure above.
 
@@ -229,6 +247,7 @@ Phdr table contains all of the Phdr's describing the segments of the file (and i
 memory image)
 
 #### 列出所有 segment
+
 We can use the `readelf -l <filename>` command to view a file's Phdr table:
 ```log
 labile@worknode5:~$ readelf -l ./envoy
@@ -290,10 +309,11 @@ The text segment is READ+EXECUTE and the data segment is READ+WRITE , and both
 segments have an alignment of 0x1000 or 4,096 which is a page size on a 32-bit
 executable, and this is for alignment during program loading.
 
-### ELF section headers
+### ELF section header
+
 Now that we've looked at what `program headers` are, it is time to look at `section headers`.
 
-`section` 不是 `segment`。 
+`section` 不同于 `segment`：
 
 - `Segments` 是程序执行所必须的元素
 - 每个 `segment` 中包含多个 code 或 data 的 `section`。
@@ -303,7 +323,50 @@ because the section header table doesn't describe the program memory layout. Tha
 is the responsibility of the program header table.  `section header`实际上只是对`program header`的补充。
 
 
+
+The SHT gives an overview on the sections contained in the ELF file. Of particular interest are `REL` sections (relocations), `SYMTAB/DYNSYM` (symbol tables), `VERSYM`/`VERDEF`/`VERNEED` sections (symbol versioning information).
+
+
+
+#### 列出 section
+
+```bash
+$ readelf -S  ./lib/x86_64-linux-gnu/libc.so.6
+
+There are 73 section headers, starting at offset 0x1eeb10:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .note.gnu.build-i NOTE             0000000000000270  00000270
+       0000000000000024  0000000000000000   A       0     0     4
+  [ 2] .note.ABI-tag     NOTE             0000000000000294  00000294
+       0000000000000020  0000000000000000   A       0     0     4
+  [ 3] .gnu.hash         GNU_HASH         00000000000002b8  000002b8
+       0000000000003c30  0000000000000000   A       4     0     8
+  [ 4] .dynsym           DYNSYM           0000000000003ee8  00003ee8
+       000000000000dae8  0000000000000018   A       5     1     8
+  [ 5] .dynstr           STRTAB           00000000000119d0  000119d0
+       0000000000005ede  0000000000000000   A       0     0     1
+       
+  [19] .eh_frame_hdr     PROGBITS         00000000001bdd0c  001bdd0c
+       00000000000059e4  0000000000000000   A       0     0     4
+  [20] .eh_frame         PROGBITS         00000000001c36f0  001c36f0
+       000000000001fa70  0000000000000000   A       0     0     8
+       
+...       
+  [31] .dynamic          DYNAMIC          00000000003eab80  001eab80
+       00000000000001e0  0000000000000010  WA       5     0     8
+```
+
+
+
+
+
 #### The .text section
+
 The .text section is a code section that contains program code instructions. In an
 executable program where there are also Phdr's, this section would be within the
 range of the text segment. Because it contains program code, it is of section type
@@ -351,10 +414,10 @@ Relocation sections contain information about how parts of an ELF object or proc
 image need to be fixed up or modified at linking or runtime. We will discuss more
 about relocations in the ELF Relocations section of this chapter. Relocation sections
 are marked as type SHT_REL since they contain relocation data.
+
 #### The .hash section
 The hash section, sometimes called .gnu.hash , contains a hash table for symbol
 lookup. 
-
 
 The `text segments` will be as follows:
 • [.text] : This is the program code
@@ -370,3 +433,8 @@ The `data segments` will be as follows:
 • [.got.plt] : This is the global offset table
 • [.bss] : These are the globally uninitialized variables
 
+
+## 参考
+> - [https://greek0.net/elf.html](https://greek0.net/elf.html)
+> - book - [Computer Systems - A Programmer’s Perspective]
+> - book - [Learning Linux Binary Analys]
