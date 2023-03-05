@@ -12,7 +12,6 @@ tags:
 - low-tec
 ---
 
-
 # ELF 格式简述
 
 程序代码被编译和链接成包含二进制计算机指令的可执行文件。而可执行文件是有格式规范的，在 Linux 中，这个规范叫 Executable and linking format (ELF)。ELF 中包含二进制计算机指令、静态数据、元信息。
@@ -43,6 +42,14 @@ ELF 文件提供 2 个不同的视图（视角）：
 *<p align = "center">典型的 ELF 文件格式例子 (图源自 [Computer Systems - A Programmer’s Perspective])</p>*
 
 其中 名称类似`.xyz` 的块为 section。
+
+
+
+有一个更细节的图：
+
+![img](elf-format.assets/typical_elf.jpg)
+
+*Typical ELF file. The linker uses the Section Header Table, and the loader uses the Program Header Table. - from https://www.ics.uci.edu/~aburtsev/238P/hw/hw3-elf/hw3-elf.html*
 
 
 
@@ -438,3 +445,4 @@ The `data segments` will be as follows:
 > - [https://greek0.net/elf.html](https://greek0.net/elf.html)
 > - book - [Computer Systems - A Programmer’s Perspective]
 > - book - [Learning Linux Binary Analys]
+> - https://www.ics.uci.edu/~aburtsev/238P/hw/hw3-elf/hw3-elf.html
