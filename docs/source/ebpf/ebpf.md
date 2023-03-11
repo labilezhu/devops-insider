@@ -1,7 +1,7 @@
 # eBPF
 
 ```{toctree}
-ebpf-libs.md
+libbpf/libbpf.md
 ```
 
 ## 我写的文章

@@ -1,0 +1,1120 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2471px" height="1804px" viewBox="-0.5 -0.5 2471 1804" content="&lt;mxfile scale=&quot;1&quot; border=&quot;20&quot;&gt;&lt;diagram id=&quot;pI89yxkVb5KF8zRC_Yj8&quot; name=&quot;minimal-make.drawio.svg&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
+    <defs/>
+    <g>
+        <path d="M 25 63 L 25 33 L 775 33 L 775 63" fill="#1e1e1e" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 25 63 L 25 647 L 775 647 L 775 63" fill="none" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 25 63 L 775 63" fill="none" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 40px; margin-left: 400px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">
+                                <span style="color: rgb(255, 255, 255); font-family: &quot;Droid Sans Mono&quot;, monospace, monospace; font-size: 14px; text-align: left; background-color: rgb(30, 30, 30);">
+                                    minimal.bpf.o ELF sections
+                                </span>
+                                <span style="background-color: rgb(30, 30, 30);">
+                                    <span style="text-align: left;">
+                                        <font color="#ffffff" style="">
+                                            <font face="Droid Sans Mono, monospace, monospace" style="">
+                                                <span style="font-size: 14px;">
+                                                    <br/>
+                                                </span>
+                                            </font>
+                                        </font>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="400" y="52" fill="black" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    minimal.bpf.o ELF sections
+                </text>
+            </switch>
+        </g>
+        <rect x="25" y="63" width="750" height="90" fill="#000000" stroke="none" pointer-events="none" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="25" y="63" width="750" height="90" fill="#1e1e1e" stroke="none" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 748px; height: 1px; padding-top: 70px; margin-left: 27px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <pre>
+                                    <div style="background-color: rgb(30, 30, 30); line-height: 19px;">
+                                        <div style="line-height: 19px;">
+                                            <div style="line-height: 19px;">
+                                                <div style="">
+                                                    <div style="border-color: var(--border-color);">
+                                                        <div style="line-height: 19px;">
+                                                            <div style="text-align: center;">
+                                                                <font color="#ffffff" face="Droid Sans Mono, monospace, monospace">
+                                                                    <span style="font-size: 14px;">
+                                                                        <b>
+                                                                            ELF Section:
+                                                                        </b>
+                                                                    </span>
+                                                                </font>
+                                                                <span style="text-align: left; font-size: 14px;">
+                                                                    <font color="#ffffff" face="Droid Sans Mono, monospace, monospace">
+                                                                        <b>
+                                                                            license
+                                                                        </b>
+                                                                    </font>
+                                                                </span>
+                                                                <font color="#569cd6" face="Droid Sans Mono, monospace, monospace">
+                                                                    <span style="font-size: 14px;">
+                                                                        <br/>
+                                                                    </span>
+                                                                </font>
+                                                            </div>
+                                                            <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                                                <span style="color: #569cd6;">
+                                                                    <br/>
+                                                                </span>
+                                                            </div>
+                                                            <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                                                <span style="color: #569cd6;">
+                                                                    char
+                                                                </span>
+                                                                <span style="color: #9cdcfe;">
+                                                                    LICENSE
+                                                                </span>
+                                                                <span style="color: #569cd6;">
+                                                                    []
+                                                                </span>
+                                                                <span style="color: #569cd6;">
+                                                                    SEC
+                                                                </span>
+                                                                (
+                                                                <span style="color: #ce9178;">
+                                                                    "license"
+                                                                </span>
+                                                                ) =
+                                                                <span style="color: #ce9178;">
+                                                                    "Dual BSD/GPL"
+                                                                </span>
+                                                                ;
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="27" y="82" fill="black" font-family="Helvetica" font-size="12px">
+                    ELF Section: license...
+                </text>
+            </switch>
+        </g>
+        <path d="M 25 157 L 775 157" fill="none" stroke="#f8cecc" stroke-opacity="0.7" stroke-width="10" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="25" y="161" width="750" height="92" fill="#000000" stroke="none" pointer-events="none" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="25" y="161" width="750" height="92" fill="#1e1e1e" stroke="none" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 748px; height: 1px; padding-top: 168px; margin-left: 27px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <pre>
+                                    <div style="background-color: rgb(30, 30, 30); line-height: 19px;">
+                                        <div style="line-height: 19px;">
+                                            <div style="line-height: 19px;">
+                                                <div style="">
+                                                    <div style="border-color: var(--border-color);">
+                                                        <div style="line-height: 19px;">
+                                                            <div style="text-align: center;">
+                                                                <font color="#ffffff" face="Droid Sans Mono, monospace, monospace">
+                                                                    <span style="font-size: 14px;">
+                                                                        <b>
+                                                                            ELF Section:
+                                                                        </b>
+                                                                    </span>
+                                                                </font>
+                                                                <span style="font-size: 14px;">
+                                                                    <font color="#ffffff" face="Droid Sans Mono, monospace, monospace">
+                                                                        <b>
+                                                                            .bss
+                                                                        </b>
+                                                                    </font>
+                                                                </span>
+                                                                <font color="#569cd6" face="Droid Sans Mono, monospace, monospace">
+                                                                    <span style="font-size: 14px;">
+                                                                        <br/>
+                                                                    </span>
+                                                                </font>
+                                                            </div>
+                                                            <div style="text-align: center; color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                                                <span style="color: #569cd6;">
+                                                                    <br/>
+                                                                </span>
+                                                            </div>
+                                                            <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                                                <span style="white-space: normal; color: rgb(86, 156, 214);">
+                                                                    int
+                                                                </span>
+                                                                <span style="white-space: normal;">
+                                                                </span>
+                                                                <span style="white-space: normal; color: rgb(156, 220, 254);">
+                                                                    my_pid
+                                                                </span>
+                                                                <span style="white-space: normal;">
+                                                                    =
+                                                                </span>
+                                                                <span style="white-space: normal; color: rgb(181, 206, 168);">
+                                                                    0
+                                                                </span>
+                                                                <span style="white-space: normal;">
+                                                                    ;
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="27" y="180" fill="black" font-family="Helvetica" font-size="12px">
+                    ELF Section: .bss...
+                </text>
+            </switch>
+        </g>
+        <rect x="25" y="253" width="750" height="302" fill="#000000" stroke="none" pointer-events="none" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="25" y="253" width="750" height="302" fill="#1e1e1e" stroke="none" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 748px; height: 1px; padding-top: 260px; margin-left: 27px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <pre>
+                                    <div style="background-color: rgb(30, 30, 30); font-weight: normal; font-size: 14px; line-height: 19px;">
+                                        <div style="line-height: 19px;">
+                                            <div style="line-height: 19px;">
+                                                <div style="">
+                                                    <div style="border-color: var(--border-color);">
+                                                        <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; line-height: 19px;">
+                                                            <div>
+                                                                <div style="border-color: var(--border-color); color: rgb(0, 0, 0); font-family: monospace; font-size: 12px; text-align: center;">
+                                                                    <font color="#ffffff" face="Droid Sans Mono, monospace, monospace" style="border-color: var(--border-color);">
+                                                                        <span style="border-color: var(--border-color); font-size: 14px;">
+                                                                            <b style="border-color: var(--border-color);">
+                                                                                ELF Section: tp/syscalls/sys_enter_write
+                                                                            </b>
+                                                                        </span>
+                                                                    </font>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <span style="color: #569cd6;">
+                                                                    <br/>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span style="color: #569cd6;">
+                                                                    SEC
+                                                                </span>
+                                                                (
+                                                                <span style="color: #ce9178;">
+                                                                    "tp/syscalls/sys_enter_write"
+                                                                </span>
+                                                                )
+                                                            </div>
+                                                            <div>
+                                                                <span style="color: #569cd6;">
+                                                                    int
+                                                                </span>
+                                                                <span style="color: #dcdcaa;">
+                                                                    handle_tp
+                                                                </span>
+                                                                (
+                                                                <span style="color: #569cd6;">
+                                                                    void
+                                                                </span>
+                                                                *
+                                                                <span style="color: #9cdcfe;">
+                                                                    ctx
+                                                                </span>
+                                                                )
+                                                            </div>
+                                                            <div>
+                                                                {
+                                                            </div>
+                                                            <div>
+                                                                <span style="color: #569cd6;">
+                                                                    int
+                                                                </span>
+                                                                <span style="color: #9cdcfe;">
+                                                                    pid
+                                                                </span>
+                                                                =
+                                                                <span style="color: #9cdcfe;">
+                                                                    bpf_get_current_pid_tgid
+                                                                </span>
+                                                                () &gt;&gt;
+                                                                <span style="color: #b5cea8;">
+                                                                    32
+                                                                </span>
+                                                                ;
+                                                            </div>
+                                                            <br/>
+                                                            <div>
+                                                                <span style="color: #c586c0;">
+                                                                    if
+                                                                </span>
+                                                                (
+                                                                <span style="color: #9cdcfe;">
+                                                                    pid
+                                                                </span>
+                                                                !=
+                                                                <span style="color: #9cdcfe;">
+                                                                    my_pid
+                                                                </span>
+                                                                )
+                                                            </div>
+                                                            <div>
+                                                                <span style="color: #c586c0;">
+                                                                    return
+                                                                </span>
+                                                                <span style="color: #b5cea8;">
+                                                                    0
+                                                                </span>
+                                                                ;
+                                                            </div>
+                                                            <br/>
+                                                            <div>
+                                                                <span style="color: #569cd6;">
+                                                                    bpf_printk
+                                                                </span>
+                                                                (
+                                                                <span style="color: #ce9178;">
+                                                                    "BPF triggered from PID
+                                                                </span>
+                                                                <span style="color: #9cdcfe;">
+                                                                    %d
+                                                                </span>
+                                                                <span style="color: #ce9178;">
+                                                                    .
+                                                                </span>
+                                                                <span style="color: #d7ba7d;">
+                                                                    \n
+                                                                </span>
+                                                                <span style="color: #ce9178;">
+                                                                    "
+                                                                </span>
+                                                                ,
+                                                                <span style="color: #9cdcfe;">
+                                                                    pid
+                                                                </span>
+                                                                );
+                                                            </div>
+                                                            <br/>
+                                                            <div>
+                                                                <span style="color: #c586c0;">
+                                                                    return
+                                                                </span>
+                                                                <span style="color: #b5cea8;">
+                                                                    0
+                                                                </span>
+                                                                ;
+                                                            </div>
+                                                            <div>
+                                                                }
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="27" y="272" fill="black" font-family="Helvetica" font-size="12px">
+                    ELF Section: tp/syscalls/sys_enter_write...
+                </text>
+            </switch>
+        </g>
+        <rect x="25" y="555" width="750" height="92" fill="#000000" stroke="none" pointer-events="none" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="25" y="555" width="750" height="92" fill="#1e1e1e" stroke="none" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 748px; height: 1px; padding-top: 562px; margin-left: 27px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <pre>
+                                    <div style="background-color: rgb(30, 30, 30); line-height: 19px;">
+                                        <div style="line-height: 19px;">
+                                            <div style="line-height: 19px;">
+                                                <div style="">
+                                                    <div style="border-color: var(--border-color);">
+                                                        <div style="line-height: 19px;">
+                                                            <div style="text-align: center;">
+                                                                <font color="#ffffff" face="Droid Sans Mono, monospace, monospace">
+                                                                    <span style="font-size: 14px;">
+                                                                        <b>
+                                                                            ELF Section: .BTF
+                                                                        </b>
+                                                                    </span>
+                                                                </font>
+                                                                <font color="#569cd6" face="Droid Sans Mono, monospace, monospace">
+                                                                    <span style="font-size: 14px;">
+                                                                        <br/>
+                                                                    </span>
+                                                                </font>
+                                                            </div>
+                                                            <div style="text-align: center; color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                                                <span style="color: #569cd6;">
+                                                                    <br/>
+                                                                </span>
+                                                            </div>
+                                                            <div style="font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                                                <font color="#569cd6">
+                                                                    <span style="white-space: normal;">
+                                                                        //generated by clang
+                                                                    </span>
+                                                                </font>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="27" y="574" fill="black" font-family="Helvetica" font-size="12px">
+                    ELF Section: .BTF...
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 668px; height: 1px; padding-top: 1390px; margin-left: 957px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <pre>
+                                    <div style="background-color: rgb(30, 30, 30); line-height: 19px;">
+                                        <div style="text-align: center;">
+                                            <font color="#ffffff" face="Droid Sans Mono, monospace, monospace">
+                                                <span style="font-size: 14px;">
+                                                    <b>
+                                                        minimal.skel.h
+                                                    </b>
+                                                </span>
+                                            </font>
+                                            <br/>
+                                        </div>
+                                        <div style="border-color: var(--border-color); font-family: Helvetica; font-weight: 700;">
+                                            <div style="border-color: var(--border-color); line-height: 19px;"></div>
+                                        </div>
+                                        <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                            <br/>
+                                        </div>
+                                        <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                            <div style="line-height: 19px;">
+                                                <div>
+                                                    <span style="color: #569cd6;">
+                                                        static
+                                                    </span>
+                                                    <span style="color: #569cd6;">
+                                                        inline
+                                                    </span>
+                                                    <span style="color: #569cd6;">
+                                                        const
+                                                    </span>
+                                                    <span style="color: #569cd6;">
+                                                        void
+                                                    </span>
+                                                    *
+                                                    <span style="color: #dcdcaa;">
+                                                        minimal_bpf__elf_bytes
+                                                    </span>
+                                                    (
+                                                    <span style="color: #4ec9b0;">
+                                                        size_t
+                                                    </span>
+                                                    *
+                                                    <span style="color: #9cdcfe;">
+                                                        sz
+                                                    </span>
+                                                    )
+                                                </div>
+                                                <div>
+                                                    {
+                                                </div>
+                                                <div>
+                                                    *
+                                                    <span style="color: #9cdcfe;">
+                                                        sz
+                                                    </span>
+                                                    =
+                                                    <span style="color: #b5cea8;">
+                                                        2432
+                                                    </span>
+                                                    ;
+                                                </div>
+                                                <div>
+                                                    <span style="color: #c586c0;">
+                                                        return
+                                                    </span>
+                                                    (
+                                                    <span style="color: #569cd6;">
+                                                        const
+                                                    </span>
+                                                    <span style="color: #569cd6;">
+                                                        void
+                                                    </span>
+                                                    *)
+                                                    <span style="color: #ce9178;">
+                                                        "
+                                                    </span>
+                                                    <span style="color: #d7ba7d;">
+                                                        \
+                                                    </span>
+                                                </div>
+                                                <div>
+                                                    <span style="color: #d7ba7d;">
+                                                        \x7f\x45\x4c\x46\x02\x01\x01\0\0\0\0\0\0\0\0\0\x01\0\xf7\0\x01\0\0\0\0\0\0\0\0\
+                                                    </span>
+                                                </div>
+                                                <div>
+                                                    <span style="color: #d7ba7d;">
+                                                        \0\0\0\0\0\0\0\0\0\0\0\0\x06\0\0\0\0\0\0\0\0\0\0\x40\0\0\0\0\0\x40\0\x0e\0\x01\
+                                                    </span>
+                                                </div>
+                                                <div>
+                                                    <span style="color: #d7ba7d;">
+                                                        ...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="957" y="1402" fill="black" font-family="Helvetica" font-size="12px">
+                    minimal.skel.h...
+                </text>
+            </switch>
+        </g>
+        <rect x="855" y="1153" width="890" height="120" fill="#1e1e1e" stroke="#66cc00" stroke-width="7" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 888px; height: 1px; padding-top: 1160px; margin-left: 856px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <pre>
+                                    <div style="background-color: rgb(30, 30, 30); line-height: 19px;">
+                                        <div style="">
+                                            <font color="#569cd6" face="Droid Sans Mono, monospace, monospace">
+                                                <span style="font-size: 14px;">
+                                                    // make
+                                                    <br/>
+                                                </span>
+                                            </font>
+                                        </div>
+                                        <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                            <br/>
+                                        </div>
+                                        <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                            <div style="line-height: 19px;">
+                                                <div style="text-align: left;">
+                                                    <span style="white-space: normal;">
+                                                        libbpf-bootstrap/examples/c/.output/bpftool/bootstrap/bpftool gen skeleton .output/minimal.
+                                                    </span>
+                                                    <span style="white-space: normal; color: rgb(86, 156, 214);">
+                                                        bpf.o
+                                                    </span>
+                                                    <br/>
+                                                </div>
+                                                <div style="text-align: left; line-height: 19px;">
+                                                    <div style="line-height: 19px;">
+                                                        <div style="line-height: 19px;">
+                                                            Successfully remade target file
+                                                            <span style="color: #ce9178;">
+                                                                '.output/minimal.skel.h'
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1300" y="1172" fill="black" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    // make...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1297.86 1273 L 1294.16 1376.64" fill="none" stroke="#66cc00" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1293.97 1381.88 L 1290.72 1374.76 L 1294.16 1376.64 L 1297.72 1375.01 Z" fill="#66cc00" stroke="#66cc00" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1301px; margin-left: 1296px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                4. generate and embed minimal.bpf.o into
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1296" y="1304" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    4. generat...
+                </text>
+            </switch>
+        </g>
+        <path d="M 925 1023 L 925 983 L 1675 983 L 1675 1023" fill="#1e1e1e" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 925 1023 L 925 1033 L 1675 1033 L 1675 1023" fill="none" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 925 1023 L 1675 1023" fill="none" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 990px; margin-left: 1300px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">
+                                <span style="background-color: rgb(30, 30, 30);">
+                                    <span style="text-align: left;">
+                                        <font color="#ffffff" style="">
+                                            <font face="Droid Sans Mono, monospace, monospace" style="">
+                                                <span style="font-size: 14px;">
+                                                    minimal.bpf.o
+                                                    <br/>
+                                                </span>
+                                            </font>
+                                        </font>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1300" y="1002" fill="black" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    minimal.bpf.o
+                </text>
+            </switch>
+        </g>
+        <path d="M 1300 1153 L 1300 1039.37" fill="none" stroke="#66cc00" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="none"/>
+        <path d="M 1300 1034.12 L 1303.5 1041.12 L 1300 1039.37 L 1296.5 1041.12 Z" fill="#66cc00" stroke="#66cc00" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="11px">
+            <rect fill="rgb(255, 255, 255)" stroke="none" x="1223" y="1087" width="155" height="14" stroke-width="0"/>
+            <text x="1299.5" y="1097">
+                3. use by `bpftool gen skeleton`
+            </text>
+        </g>
+        <rect x="855" y="733" width="890" height="170" fill="#1e1e1e" stroke="#66cc00" stroke-width="7" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 888px; height: 1px; padding-top: 740px; margin-left: 856px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                <pre>
+                                    <div style="background-color: rgb(30, 30, 30); line-height: 19px;">
+                                        <div style="">
+                                            <font color="#569cd6" face="Droid Sans Mono, monospace, monospace">
+                                                <span style="font-size: 14px;">
+                                                    // make
+                                                    <br/>
+                                                </span>
+                                            </font>
+                                        </div>
+                                        <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                            <br/>
+                                        </div>
+                                        <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; font-weight: normal;">
+                                            <div style="line-height: 19px;">
+                                                <div style="text-align: left;">
+                                                    <span style="">
+                                                        clang -g -O2 -target bpf -D__TARGET_ARCH_x86
+                                                    </span>
+                                                    <span style="color: rgb(86, 156, 214);">
+                                                        -I.output
+                                                    </span>
+                                                    <span style="">
+                                                        -I../../libbpf/include/uapi -I../../vmlinux/x86/
+                                                    </span>
+                                                </div>
+                                                <div style="text-align: left;">
+                                                    <span style="">
+                                                        -idirafter /usr/lib/llvm-
+                                                    </span>
+                                                    <span style="color: rgb(86, 156, 214);">
+                                                        14
+                                                    </span>
+                                                    <span style="">
+                                                        /lib/clang/
+                                                    </span>
+                                                    <span style="color: rgb(86, 156, 214);">
+                                                        14
+                                                    </span>
+                                                    <span style="">
+                                                        .
+                                                    </span>
+                                                    <span style="color: rgb(86, 156, 214);">
+                                                        0
+                                                    </span>
+                                                    <span style="">
+                                                        .
+                                                    </span>
+                                                    <span style="color: rgb(86, 156, 214);">
+                                                        0
+                                                    </span>
+                                                    <span style="">
+                                                        /include -idirafter /usr/local/include -idirafter
+                                                    </span>
+                                                </div>
+                                                <div style="text-align: left;">
+                                                    <span style="">
+                                                        /usr/include/x86_64-linux-gnu -idirafter /usr/include -c
+                                                    </span>
+                                                    <span style="color: rgb(86, 156, 214);">
+                                                        minimal.bpf.c
+                                                    </span>
+                                                    <span style="">
+                                                        -o .output/minimal.
+                                                    </span>
+                                                    <span style="color: rgb(86, 156, 214);">
+                                                        bpf.o
+                                                    </span>
+                                                    <br/>
+                                                </div>
+                                                <div style="text-align: left;">
+                                                    <span style="color: rgb(86, 156, 214);">
+                                                        <br/>
+                                                    </span>
+                                                </div>
+                                                <div>
+                                                    <div style="text-align: left; line-height: 19px;">
+                                                        llvm-strip -g .output/minimal.
+                                                        <span style="color: #569cd6;">
+                                                            bpf.o
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div style="text-align: left; line-height: 19px;">
+                                                    <br/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1300" y="752" fill="black" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    // make...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1300 733 L 1300 429.37" fill="none" stroke="#66cc00" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="none"/>
+        <path d="M 1300 424.12 L 1303.5 431.12 L 1300 429.37 L 1296.5 431.12 Z" fill="#66cc00" stroke="#66cc00" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="11px">
+            <rect fill="rgb(255, 255, 255)" stroke="none" x="1283" y="572" width="36" height="14" stroke-width="0"/>
+            <text x="1299.5" y="582">
+                1. read
+            </text>
+        </g>
+        <path d="M 1300 903 L 1300 976.63" fill="none" stroke="#66cc00" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1300 981.88 L 1296.5 974.88 L 1300 976.63 L 1303.5 974.88 Z" fill="#66cc00" stroke="#66cc00" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 923px; margin-left: 1299px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                2. generate
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1299" y="926" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    2. generate
+                </text>
+            </switch>
+        </g>
+        <path d="M 1805 703 L 2427.38 703 L 2447.38 723 L 2447.38 993 L 1805 993 L 1805 703 Z" fill-opacity="0.7" fill="#000000" stroke="#000000" stroke-opacity="0.7" stroke-width="2" stroke-miterlimit="10" pointer-events="none" transform="translate(2,3)" opacity="0.25"/>
+        <path d="M 1805 703 L 2427.38 703 L 2447.38 723 L 2447.38 993 L 1805 993 L 1805 703 Z" fill-opacity="0.7" fill="#fff2cc" stroke="#d6b656" stroke-opacity="0.7" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2427.38 703 L 2427.38 723 L 2447.38 723" fill="none" stroke="#d6b656" stroke-opacity="0.7" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)" opacity="0.7">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 640px; height: 1px; padding-top: 848px; margin-left: 1807px;">
+                        <div data-drawio-colors="color: #666600; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(102, 102, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                readelf -aW minimal.bpf.o
+                                <br/>
+                                <br/>
+                                <div>
+                                    Section Headers:
+                                </div>
+                                <div>
+                                    [Nr] Name              Type            Address          Off    Size   ES Flg Lk Inf Al
+                                </div>
+                                <div>
+                                    [ 0]                   NULL            0000000000000000 000000 000000 00      0   0  0
+                                </div>
+                                <div>
+                                    [ 1] .strtab           STRTAB          0000000000000000 00055b 0000a2 00      0   0  1
+                                </div>
+                                <div>
+                                    [ 2] .text             PROGBITS        0000000000000000 000040 000000 00  AX  0   0  4
+                                </div>
+                                <div>
+                                    [ 3] tp/syscalls/sys_enter_write PROGBITS        0000000000000000 000040 000068 00  AX  0   0  8
+                                </div>
+                                <div>
+                                    [ 4] .reltp/syscalls/sys_enter_write REL             0000000000000000 000498 000020 10   I 13   3  8
+                                </div>
+                                <div>
+                                    [ 5] license           PROGBITS        0000000000000000 0000a8 00000d 00  WA  0   0  1
+                                </div>
+                                <div>
+                                    [ 6] .bss              NOBITS          0000000000000000 0000b8 000004 00  WA  0   0  4
+                                </div>
+                                <div>
+                                    [ 7] .rodata           PROGBITS        0000000000000000 0000b8 00001c 00   A  0   0  1
+                                </div>
+                                <div>
+                                    <div>
+                                        [ 8] .BTF              PROGBITS        0000000000000000 0000d4 00025d 00      0   0  4
+                                    </div>
+                                    <div>
+                                        [ 9] .rel.BTF          REL             0000000000000000 0004b8 000030 10   I 13   8  8
+                                    </div>
+                                    <div>
+                                        [10] .BTF.ext          PROGBITS        0000000000000000 000334 0000a0 00      0   0  4
+                                    </div>
+                                    <div>
+                                        [11] .rel.BTF.ext      REL             0000000000000000 0004e8 000070 10   I 13  10  8
+                                    </div>
+                                    <div>
+                                        [12] .llvm_addrsig     LOOS+0xfff4c03  0000000000000000 000558 000003 00   E  0   0  1
+                                    </div>
+                                    <div>
+                                        [13] .symtab           SYMTAB          0000000000000000 0003d8 0000c0 18      1   5  8
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1807" y="852" fill="#666600" font-family="Helvetica" font-size="12px">
+                    readelf -aW minimal.bpf.o...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1429.09 983 L 1805 910.2" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6" pointer-events="none"/>
+        <path d="M 925 53 L 925 23 L 1675 23 L 1675 53" fill="#1e1e1e" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 925 53 L 925 423 L 1675 423 L 1675 53" fill="none" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 925 53 L 1675 53" fill="none" stroke="#f8cecc" stroke-width="7" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 30px; margin-left: 1300px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">
+                                <span style="background-color: rgb(30, 30, 30);">
+                                    <span style="text-align: left;">
+                                        <font color="#ffffff" style="">
+                                            <font face="Droid Sans Mono, monospace, monospace" style="">
+                                                <span style="font-size: 14px;">
+                                                    minimal.bpf.c
+                                                    <br/>
+                                                </span>
+                                            </font>
+                                        </font>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1300" y="42" fill="black" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    minimal.bpf.c
+                </text>
+            </switch>
+        </g>
+        <path d="M 925 57 L 1675 57" fill="none" stroke="#f8cecc" stroke-opacity="0.7" stroke-width="10" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="925" y="61" width="750" height="362" fill="#000000" stroke="none" pointer-events="none" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="925" y="61" width="750" height="362" fill="#1e1e1e" stroke="none" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 748px; height: 1px; padding-top: 68px; margin-left: 927px;">
+                        <div data-drawio-colors="color: black; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: black; line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <pre>
+                                    <div style="background-color: rgb(30, 30, 30); font-weight: normal; font-size: 14px; line-height: 19px;">
+                                        <div style="line-height: 19px;">
+                                            <div style="line-height: 19px;">
+                                                <div style="">
+                                                    <div style="border-color: var(--border-color);">
+                                                        <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; line-height: 19px;">
+                                                            <div style="border-color: var(--border-color); color: rgb(0, 0, 0); font-family: monospace; font-size: 12px;">
+                                                                <div style="color: rgb(212, 212, 212); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 12.6px; line-height: 17px;">
+                                                                    <div>
+                                                                        <span style="color: #c586c0;">
+                                                                            #include
+                                                                        </span>
+                                                                        <span style="color: #569cd6;">
+                                                                        </span>
+                                                                        <span style="color: #ce9178;">
+                                                                            &lt;linux/bpf.h&gt;
+                                                                        </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <span style="color: #c586c0;">
+                                                                            #include
+                                                                        </span>
+                                                                        <span style="color: #569cd6;">
+                                                                        </span>
+                                                                        <span style="color: #ce9178;">
+                                                                            &lt;bpf/bpf_helpers.h&gt;
+                                                                        </span>
+                                                                    </div>
+                                                                    <br/>
+                                                                    <div>
+                                                                        <span style="color: #569cd6;">
+                                                                            char
+                                                                        </span>
+                                                                        <span style="color: #9cdcfe;">
+                                                                            LICENSE
+                                                                        </span>
+                                                                        <span style="color: #569cd6;">
+                                                                            []
+                                                                        </span>
+                                                                        <span style="color: #569cd6;">
+                                                                            SEC
+                                                                        </span>
+                                                                        (
+                                                                        <span style="color: #ce9178;">
+                                                                            "license"
+                                                                        </span>
+                                                                        ) =
+                                                                        <span style="color: #ce9178;">
+                                                                            "Dual BSD/GPL"
+                                                                        </span>
+                                                                        ;
+                                                                    </div>
+                                                                    <br/>
+                                                                    <div>
+                                                                        <span style="color: #569cd6;">
+                                                                            int
+                                                                        </span>
+                                                                        <span style="color: #9cdcfe;">
+                                                                            my_pid
+                                                                        </span>
+                                                                        =
+                                                                        <span style="color: #b5cea8;">
+                                                                            0
+                                                                        </span>
+                                                                        ;
+                                                                    </div>
+                                                                    <br/>
+                                                                    <div>
+                                                                        <span style="color: #569cd6;">
+                                                                            SEC
+                                                                        </span>
+                                                                        (
+                                                                        <span style="color: #ce9178;">
+                                                                            "tp/syscalls/sys_enter_write"
+                                                                        </span>
+                                                                        )
+                                                                    </div>
+                                                                    <div>
+                                                                        <span style="color: #569cd6;">
+                                                                            int
+                                                                        </span>
+                                                                        <span style="color: #dcdcaa;">
+                                                                            handle_tp
+                                                                        </span>
+                                                                        (
+                                                                        <span style="color: #569cd6;">
+                                                                            void
+                                                                        </span>
+                                                                        *
+                                                                        <span style="color: #9cdcfe;">
+                                                                            ctx
+                                                                        </span>
+                                                                        )
+                                                                    </div>
+                                                                    <div>
+                                                                        {
+                                                                    </div>
+                                                                    <div>
+                                                                        <span style="color: #569cd6;">
+                                                                            int
+                                                                        </span>
+                                                                        <span style="color: #9cdcfe;">
+                                                                            pid
+                                                                        </span>
+                                                                        =
+                                                                        <span style="color: #9cdcfe;">
+                                                                            bpf_get_current_pid_tgid
+                                                                        </span>
+                                                                        () &gt;&gt;
+                                                                        <span style="color: #b5cea8;">
+                                                                            32
+                                                                        </span>
+                                                                        ;
+                                                                    </div>
+                                                                    <br/>
+                                                                    <div>
+                                                                        <span style="color: #c586c0;">
+                                                                            if
+                                                                        </span>
+                                                                        (
+                                                                        <span style="color: #9cdcfe;">
+                                                                            pid
+                                                                        </span>
+                                                                        !=
+                                                                        <span style="color: #9cdcfe;">
+                                                                            my_pid
+                                                                        </span>
+                                                                        )
+                                                                    </div>
+                                                                    <div>
+                                                                        <span style="color: #c586c0;">
+                                                                            return
+                                                                        </span>
+                                                                        <span style="color: #b5cea8;">
+                                                                            0
+                                                                        </span>
+                                                                        ;
+                                                                    </div>
+                                                                    <br/>
+                                                                    <div>
+                                                                        <span style="color: #569cd6;">
+                                                                            bpf_printk
+                                                                        </span>
+                                                                        (
+                                                                        <span style="color: #ce9178;">
+                                                                            "BPF triggered from PID
+                                                                        </span>
+                                                                        <span style="color: #9cdcfe;">
+                                                                            %d
+                                                                        </span>
+                                                                        <span style="color: #ce9178;">
+                                                                            .
+                                                                        </span>
+                                                                        <span style="color: #d7ba7d;">
+                                                                            \n
+                                                                        </span>
+                                                                        <span style="color: #ce9178;">
+                                                                            "
+                                                                        </span>
+                                                                        ,
+                                                                        <span style="color: #9cdcfe;">
+                                                                            pid
+                                                                        </span>
+                                                                        );
+                                                                    </div>
+                                                                    <br/>
+                                                                    <div>
+                                                                        <span style="color: #c586c0;">
+                                                                            return
+                                                                        </span>
+                                                                        <span style="color: #b5cea8;">
+                                                                            0
+                                                                        </span>
+                                                                        ;
+                                                                    </div>
+                                                                    <div>
+                                                                        }
+                                                                    </div>
+                                                                    <br/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="927" y="80" fill="black" font-family="Helvetica" font-size="12px">
+                    #include &lt;linux/bpf.h&gt;...
+                </text>
+            </switch>
+        </g>
+        <path d="M 955 1493 L 410 1493 Q 400 1493 400 1483 L 400 653.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 400 648.12 L 403.5 655.12 L 400 653.37 L 396.5 655.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1347px; margin-left: 400px;">
+                        <div data-drawio-colors="color: #000000; background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                minimal.bpf.o ELF sections embeded in minimal ELF file
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="400" y="1351" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    minimal.b...
+                </text>
+            </switch>
+        </g>
+        <path d="M 737.3 1725.19 C 737.3 1725.19 737.3 1725.19 737.3 1725.19 M 737.3 1725.19 C 737.3 1725.19 737.3 1725.19 737.3 1725.19 M 735.73 1733.09 C 737.19 1729.89 739.2 1728.87 744.26 1723.28 M 735.73 1733.09 C 738.28 1730.16 740.05 1728.36 744.26 1723.28 M 736.13 1738.74 C 740.95 1733.01 745.87 1729.13 749.9 1722.89 M 736.13 1738.74 C 739.75 1734.36 742.51 1730.88 749.9 1722.89 M 735.86 1745.14 C 741.52 1735.57 748.58 1729.21 754.89 1723.25 M 735.86 1745.14 C 742.48 1736.82 749.9 1729.39 754.89 1723.25 M 736.26 1750.78 C 743.63 1743.17 752.71 1732.34 759.88 1723.61 M 736.26 1750.78 C 744.08 1741.76 751.72 1733 759.88 1723.61 M 736 1757.18 C 742.01 1750.88 750.47 1742.56 765.52 1723.21 M 736 1757.18 C 746.17 1746.19 755.11 1734.4 765.52 1723.21 M 735.74 1763.57 C 749.39 1747.12 763.39 1733.47 770.51 1723.57 M 735.74 1763.57 C 749.53 1747.77 762.07 1732.85 770.51 1723.57 M 736.13 1769.22 C 742.84 1759.59 753.6 1750.9 776.15 1723.18 M 736.13 1769.22 C 745.49 1757.62 754.13 1747.26 776.15 1723.18 M 736.52 1774.86 C 744.55 1765.92 756.98 1753.69 781.14 1723.54 M 736.52 1774.86 C 751.51 1757.91 765.98 1742.02 781.14 1723.54 M 737.58 1779.75 C 754.56 1763.05 769.71 1745.18 786.78 1723.15 M 737.58 1779.75 C 755.03 1758.63 773.89 1735.48 786.78 1723.15 M 740.59 1782.37 C 752.11 1770.85 762.51 1755.45 791.77 1723.51 M 740.59 1782.37 C 760.32 1759.5 778.25 1738.6 791.77 1723.51 M 745.58 1782.73 C 757.28 1771.55 768.37 1760.07 797.41 1723.11 M 745.58 1782.73 C 762.9 1762.8 778.99 1743.73 797.41 1723.11 M 751.22 1782.34 C 764.5 1767.95 777.75 1751.28 802.4 1723.47 M 751.22 1782.34 C 765.41 1764.75 780.49 1748.91 802.4 1723.47 M 756.21 1782.7 C 771.62 1762.13 788.44 1746.25 808.04 1723.08 M 756.21 1782.7 C 772.94 1764.27 789.27 1744.66 808.04 1723.08 M 761.2 1783.06 C 774.03 1768.37 790.07 1749.01 813.03 1723.44 M 761.2 1783.06 C 773.91 1767.68 789.2 1751.99 813.03 1723.44 M 766.84 1782.66 C 783.89 1763.14 802.44 1743.31 818.67 1723.04 M 766.84 1782.66 C 785.65 1758.73 805.88 1737.12 818.67 1723.04 M 771.83 1783.02 C 785.69 1767.45 800.7 1750.87 823.66 1723.4 M 771.83 1783.02 C 786.19 1766.41 800.43 1748.96 823.66 1723.4 M 777.47 1782.63 C 796.27 1761.81 817.93 1739.83 828.64 1723.76 M 777.47 1782.63 C 794.24 1764.09 809.65 1745.7 828.64 1723.76 M 782.46 1782.99 C 796.99 1767.63 810 1747.3 834.29 1723.37 M 782.46 1782.99 C 801.98 1760.63 820.41 1739.2 834.29 1723.37 M 788.1 1782.59 C 803.23 1762.63 821.75 1743.51 839.27 1723.73 M 788.1 1782.59 C 799.75 1769.11 812.41 1753.43 839.27 1723.73 M 793.09 1782.96 C 808.47 1767.57 822.06 1748.94 844.92 1723.33 M 793.09 1782.96 C 808.33 1765.46 823.29 1748.85 844.92 1723.33 M 798.73 1782.56 C 817.5 1760.6 832.04 1742.38 849.9 1723.69 M 798.73 1782.56 C 813.66 1766.41 826.21 1750.27 849.9 1723.69 M 803.72 1782.92 C 817.38 1768.2 831.74 1750.46 855.55 1723.3 M 803.72 1782.92 C 817.03 1767.18 831.04 1750.59 855.55 1723.3 M 809.36 1782.53 C 827.63 1761.43 849.35 1737.52 860.53 1723.66 M 809.36 1782.53 C 819.6 1768.61 833.02 1755.86 860.53 1723.66 M 814.35 1782.89 C 833.46 1763.44 849.63 1743.36 866.18 1723.26 M 814.35 1782.89 C 829.95 1763.95 846.48 1744.1 866.18 1723.26 M 819.99 1782.49 C 830.8 1769.12 844.1 1756.84 871.16 1723.62 M 819.99 1782.49 C 835.24 1762.61 851.94 1744.7 871.16 1723.62 M 824.98 1782.85 C 837.24 1769.31 846.42 1758.89 876.81 1723.23 M 824.98 1782.85 C 837.82 1768.86 849.26 1753.18 876.81 1723.23 M 830.62 1782.46 C 846.59 1766.59 860.42 1750.7 881.79 1723.59 M 830.62 1782.46 C 845.91 1763.4 860.99 1747.15 881.79 1723.59 M 835.61 1782.82 C 855.66 1763.97 869.54 1742.46 887.44 1723.2 M 835.61 1782.82 C 850.51 1767.18 864.07 1751.15 887.44 1723.2 M 840.6 1783.18 C 858.79 1764.07 875.62 1744.58 892.42 1723.56 M 840.6 1783.18 C 854.16 1766.85 868.7 1750.8 892.42 1723.56 M 846.24 1782.78 C 855.35 1772.6 868.34 1759.95 898.07 1723.16 M 846.24 1782.78 C 856.8 1769.94 870.08 1756.18 898.07 1723.16 M 851.23 1783.14 C 864.12 1767.51 875.86 1755.36 903.05 1723.52 M 851.23 1783.14 C 868.47 1763.63 884.76 1744.86 903.05 1723.52 M 856.87 1782.75 C 875.01 1758.82 895.06 1740.14 908.04 1723.88 M 856.87 1782.75 C 872.4 1763.7 891.09 1743.56 908.04 1723.88 M 861.86 1783.11 C 878.7 1767.19 891.48 1748.5 913.68 1723.49 M 861.86 1783.11 C 874.4 1768.85 886.71 1752.4 913.68 1723.49 M 867.5 1782.71 C 879.48 1769.33 892.74 1751.29 918.67 1723.85 M 867.5 1782.71 C 878.66 1768.78 890.47 1756.54 918.67 1723.85 M 872.49 1783.07 C 889.43 1764.83 907.3 1743.78 924.32 1723.45 M 872.49 1783.07 C 884.7 1769.85 897.56 1755.33 924.32 1723.45 M 878.13 1782.68 C 899.68 1759.17 920.54 1735.46 929.3 1723.81 M 878.13 1782.68 C 895.48 1762.05 913.86 1741.51 929.3 1723.81 M 883.12 1783.04 C 898 1768.7 910.41 1752.3 934.95 1723.42 M 883.12 1783.04 C 893.04 1770.71 903.42 1758.41 934.95 1723.42 M 888.76 1782.64 C 904.21 1763.51 922.27 1743.28 939.93 1723.78 M 888.76 1782.64 C 907.19 1762.15 924.81 1742.77 939.93 1723.78 M 893.75 1783 C 904.3 1769.24 917.1 1754.19 945.58 1723.38 M 893.75 1783 C 906.64 1767.17 920.09 1752.34 945.58 1723.38 M 899.39 1782.61 C 918.39 1762.21 932.34 1742.71 950.56 1723.74 M 899.39 1782.61 C 912.27 1768.32 924.68 1752.88 950.56 1723.74 M 904.38 1782.97 C 924.62 1763.56 939.55 1741.03 956.21 1723.35 M 904.38 1782.97 C 925.17 1758.92 944.37 1735.96 956.21 1723.35 M 909.36 1783.33 C 923.32 1764.48 938.71 1748.21 961.19 1723.71 M 909.36 1783.33 C 926.89 1763.41 943.29 1743.27 961.19 1723.71 M 915.01 1782.94 C 926.81 1770.49 938.99 1756.72 966.84 1723.31 M 915.01 1782.94 C 927.62 1768.97 939.35 1755.51 966.84 1723.31 M 919.99 1783.3 C 928.64 1771.05 940.4 1758.35 971.82 1723.67 M 919.99 1783.3 C 931.92 1769.2 942.89 1755.62 971.82 1723.67 M 925.64 1782.9 C 945.31 1760.96 962.59 1738.38 977.47 1723.28 M 925.64 1782.9 C 943.21 1763.68 958.81 1745.14 977.47 1723.28 M 930.62 1783.26 C 946.98 1762.51 964.48 1744.68 982.45 1723.64 M 930.62 1783.26 C 941.74 1770.43 955.11 1755.51 982.45 1723.64 M 936.27 1782.87 C 950.87 1766.68 960.08 1754.48 987.44 1724 M 936.27 1782.87 C 955.5 1761.82 972.86 1739.58 987.44 1724 M 941.25 1783.23 C 961.22 1760.59 980.22 1735.78 993.08 1723.6 M 941.25 1783.23 C 962.5 1760.24 981.97 1738.28 993.08 1723.6 M 946.9 1782.83 C 961.76 1767.79 972.51 1754.47 998.07 1723.96 M 946.9 1782.83 C 965.95 1760.56 987.51 1735.52 998.07 1723.96 M 951.88 1783.19 C 969.32 1762.54 988.37 1741.56 1003.71 1723.57 M 951.88 1783.19 C 970.47 1762.49 989.23 1739.04 1003.71 1723.57 M 957.53 1782.8 C 969.68 1769.8 983.41 1756.35 1008.7 1723.93 M 957.53 1782.8 C 971.44 1768.08 984.99 1753.44 1008.7 1723.93 M 962.51 1783.16 C 981.72 1763.36 997.42 1741.53 1014.34 1723.54 M 962.51 1783.16 C 975.43 1769.38 988 1754.63 1014.34 1723.54 M 968.16 1782.76 C 981.27 1766.79 993.22 1755.34 1019.33 1723.9 M 968.16 1782.76 C 983.57 1764.88 997.83 1748.68 1019.33 1723.9 M 973.14 1783.12 C 983.65 1770.44 998.29 1757.32 1024.97 1723.5 M 973.14 1783.12 C 989.99 1763.96 1006.97 1744.01 1024.97 1723.5 M 978.79 1782.73 C 998.9 1760.99 1018.69 1737.71 1029.96 1723.86 M 978.79 1782.73 C 991.14 1769.3 1002.78 1755.98 1029.96 1723.86 M 983.77 1783.09 C 998.77 1766.03 1013.98 1749.3 1035.6 1723.47 M 983.77 1783.09 C 996.06 1767.32 1010.15 1753.2 1035.6 1723.47 M 988.76 1783.45 C 1005.72 1763.17 1024.62 1738.25 1040.59 1723.83 M 988.76 1783.45 C 1007.05 1763.72 1024.19 1742.63 1040.59 1723.83 M 994.4 1783.05 C 1009.95 1762.63 1028 1745.73 1046.23 1723.43 M 994.4 1783.05 C 1013.88 1762.43 1031.32 1739.54 1046.23 1723.43 M 999.39 1783.41 C 1015.94 1764.36 1031.15 1748.24 1051.22 1723.79 M 999.39 1783.41 C 1014.27 1766.88 1026.88 1750.68 1051.22 1723.79 M 1005.03 1783.02 C 1020.56 1765.59 1039.59 1743.57 1056.86 1723.4 M 1005.03 1783.02 C 1022.23 1765.34 1036.86 1746.44 1056.86 1723.4 M 1010.02 1783.38 C 1024.28 1764.45 1043.32 1747.55 1061.85 1723.76 M 1010.02 1783.38 C 1028.59 1761.61 1048.87 1738.25 1061.85 1723.76 M 1015.66 1782.99 C 1032.86 1765.85 1048.74 1747.34 1066.84 1724.12 M 1015.66 1782.99 C 1028.07 1769.15 1038.25 1755.9 1066.84 1724.12 M 1020.65 1783.35 C 1040.5 1760.85 1063.18 1736.62 1072.48 1723.72 M 1020.65 1783.35 C 1032.8 1770.35 1045.35 1757.17 1072.48 1723.72 M 1026.29 1782.95 C 1043.05 1762.58 1061.18 1741.02 1077.47 1724.08 M 1026.29 1782.95 C 1045.54 1760.95 1066 1738.81 1077.47 1724.08 M 1031.28 1783.31 C 1049.62 1765.97 1064.74 1748.03 1081.8 1725.2 M 1031.28 1783.31 C 1046.47 1767.27 1060.26 1749.98 1081.8 1725.2 M 1036.92 1782.92 C 1048.21 1769.28 1059.84 1757.68 1085.47 1727.07 M 1036.92 1782.92 C 1053.48 1764.25 1069.25 1746.51 1085.47 1727.07 M 1041.91 1783.28 C 1053.69 1766.38 1067.68 1752.38 1085.87 1732.71 M 1041.91 1783.28 C 1051.33 1772.14 1061.67 1759.19 1085.87 1732.71 M 1047.55 1782.88 C 1060.55 1769.37 1074.62 1751.25 1085.61 1739.11 M 1047.55 1782.88 C 1060.89 1768.6 1072.64 1753.32 1085.61 1739.11 M 1052.54 1783.24 C 1063.49 1770.29 1078.03 1753.94 1086 1744.75 M 1052.54 1783.24 C 1060.85 1774.1 1069.62 1764.33 1086 1744.75 M 1058.18 1782.85 C 1065.05 1775.65 1068.86 1770.4 1085.74 1751.15 M 1058.18 1782.85 C 1068.26 1770.5 1078.19 1760.7 1085.74 1751.15 M 1063.17 1783.21 C 1070.24 1775.8 1079.83 1765.85 1085.48 1757.55 M 1063.17 1783.21 C 1070.42 1774.58 1076.97 1767.97 1085.48 1757.55 M 1068.16 1783.57 C 1070.49 1781.38 1073.72 1775.02 1085.22 1763.95 M 1068.16 1783.57 C 1072.28 1778.4 1078.19 1772.19 1085.22 1763.95 M 1073.8 1783.17 C 1077.81 1780.55 1081.76 1775.78 1085.61 1769.59 M 1073.8 1783.17 C 1076.75 1779.26 1080.4 1774.63 1085.61 1769.59 M 1078.13 1784.29 C 1081.34 1780.59 1082.96 1778.1 1085.35 1775.99 M 1078.13 1784.29 C 1080 1781.81 1082.52 1779.69 1085.35 1775.99" fill="none" stroke="#ffccff" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 348px; height: 1px; padding-top: 1753px; margin-left: 736px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 18px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-style: italic; white-space: normal; overflow-wrap: normal;">
+                                <font style="">
+                                    minimal-make.drawio.svg
+                                    <br/>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="910" y="1758" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="18px" text-anchor="middle" font-style="italic">
+                    minimal-make.drawio.svg
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
