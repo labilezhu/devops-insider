@@ -3,6 +3,8 @@
 ## INTRO TO CEPH
 
 > [Ceph 官方文档: https://docs.ceph.com/en/latest/start/intro/](https://docs.ceph.com/en/latest/start/intro/)
+>
+> https://docs.ceph.com/en/quincy/architecture/
 
 
 
@@ -40,15 +42,71 @@ A *`Ceph object`* is a chunk of information that Ceph records on storage devices
 - **Managers**: A [Ceph Manager](https://docs.ceph.com/en/latest/glossary/#term-Ceph-Manager) daemon (`ceph-mgr`) is responsible for keeping track of runtime metrics and the current state of the Ceph cluster, including storage utilization, current performance metrics, and system load. The Ceph Manager daemons also host python-based modules to manage and expose Ceph cluster information, including a web-based [Ceph Dashboard](https://docs.ceph.com/en/latest/mgr/dashboard/#mgr-dashboard) and [REST API](https://docs.ceph.com/en/latest/mgr/restful). At least two managers are normally required for high availability.
 - **Ceph OSDs**: An Object Storage Daemon ([Ceph OSD](https://docs.ceph.com/en/latest/glossary/#term-Ceph-OSD), `ceph-osd`) stores data, handles data replication, recovery, rebalancing, and provides some monitoring information to Ceph Monitors and Managers by checking other Ceph OSD Daemons for a heartbeat. At least three Ceph OSDs are normally required for redundancy and high availability.
 - **MDSs**: A [Ceph Metadata Server](https://docs.ceph.com/en/latest/glossary/#term-Ceph-Metadata-Server) (MDS, `ceph-mds`) stores metadata on behalf of the [Ceph File System](https://docs.ceph.com/en/latest/glossary/#term-Ceph-File-System) (i.e., Ceph Block Devices and Ceph Object Storage do not use MDS). Ceph Metadata Servers allow POSIX file system users to execute basic commands (like `ls`, `find`, etc.) without placing an enormous burden on the Ceph Storage Cluster.
+  - 主要就是 Ceph File System 使用， ceph Block 不使用。
 
 
 
 
+![img](ceph.assets/ditaa-d2b26e342975602e1fa43df2b5dd836dffcdd598.png)
+
+
+
+> Storage cluster clients and each Ceph OSD Daemon use the CRUSH algorithm to efficiently compute information about data location, instead of having to depend on a central lookup table. Ceph’s high-level features include a native interface to the Ceph Storage Cluster via librados, and a number of service interfaces built on top of librados.
+>
+> 用 CRUSH 算法定位对象，而非中心化的保存对象位置信息。
+
+
+
+
+
+## STORING DATA
+
+The Ceph Storage Cluster receives data from [Ceph Client](https://docs.ceph.com/en/quincy/glossary/#term-Ceph-Client)s–whether it comes through a [Ceph Block Device](https://docs.ceph.com/en/quincy/glossary/#term-Ceph-Block-Device), [Ceph Object Storage](https://docs.ceph.com/en/quincy/glossary/#term-Ceph-Object-Storage), the [Ceph File System](https://docs.ceph.com/en/quincy/glossary/#term-Ceph-File-System) or a custom implementation you create using `librados`– which is stored as RADOS objects. Each object is stored on an [Object Storage Device](https://docs.ceph.com/en/quincy/glossary/#term-Object-Storage-Device). Ceph OSD Daemons handle read, write, and replication operations on storage drives. With the older Filestore back end, each RADOS object was stored as a separate file on a conventional filesystem (usually XFS). With the new and default BlueStore back end, objects are stored in a monolithic database-like fashion.
+
+![img](ceph.assets/ditaa-5a530b3e0aa89fe9a98cf60e943996ec43461eb9.png)
+
+
+
+Ceph OSD Daemons store data as objects in a flat namespace (e.g., no hierarchy of directories). An object has an identifier, binary data, and metadata consisting of a set of name/value pairs. The semantics are completely up to [Ceph Client](https://docs.ceph.com/en/quincy/glossary/#term-Ceph-Client)s. For example, `CephFS` uses metadata to store file attributes such as the file owner, created date, last modified date, and so forth.
+
+> `CephFS` 使用元数据来存储文件属性，例如文件所有者、创建日期、最后修改日期等。
+
+![img](ceph.assets/ditaa-b363b88681891164d307a947109a7d196e259dc8.png)
+
+> Note: An object ID is unique across the entire cluster, not just the local filesystem.
+
+
+
+
+
+## cpeh-mapping（重要）
+
+```{toctree}
+cpeh-mapping/cpeh-mapping.md
+```
+
+
+
+## data-striping（数据分片与IO并发）
+```{toctree}
+data-striping.md
+```
 
 
 ## RADOS
+
 ```{toctree}
 rados/rados.md
+```
+
+## RBD - Ceph Block Device
+```{toctree}
+rbd/rbd.md
+```
+
+## CephFS
+```{toctree}
+CephFS/CephFS.md
 ```
 
 ## Ceph Client
