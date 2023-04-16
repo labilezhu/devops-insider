@@ -99,6 +99,17 @@ data-striping.md
 rados/rados.md
 ```
 
+## ceph pool
+```{toctree}
+ceph-pool/ceph-pool.md
+```
+
+
+### ceph-pg
+```{toctree}
+ceph-pg/ceph-pg.md
+```
+
 ## RBD - Ceph Block Device
 ```{toctree}
 rbd/rbd.md
@@ -108,6 +119,7 @@ rbd/rbd.md
 ```{toctree}
 CephFS/CephFS.md
 ```
+
 
 ## Ceph Client
 
