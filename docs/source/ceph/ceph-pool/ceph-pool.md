@@ -17,6 +17,22 @@ Pools provide:
 
 
 
+> https://ceph-doc.readthedocs.io/en/latest/Data_Placement/
+
+簡單說 Pool 就是 PG 的集合, 一個Pool內會有好幾個PG (目前ceph default 是8), 一個Pool內有多少個PG會影響資料的分散程度, 所以PG太小不太好, PG太大也沒有好處只會消耗更多計算資源 [XX]
+
+下面是兩個pool, 分別各有3個PG, PG 的 ID 前面會帶有 pool 的 ID 當作 prefix ![enter image description here](ceph-pool.assets/Image.png)
+
+### Why Pool ?
+
+有Pool這個邏輯層會比較好一次管理和設定這麼多個PG
+
+![enter image description here](ceph-pool.assets/Image-16817420069251.png)
+
+
+
+
+
 ### How
 
 #### List Pools

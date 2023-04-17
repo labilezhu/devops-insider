@@ -82,7 +82,7 @@ Ceph OSD Daemons store data as objects in a flat namespace (e.g., no hierarchy o
 ## cpeh-mapping（重要）
 
 ```{toctree}
-cpeh-mapping/cpeh-mapping.md
+ceph-mapping/ceph-mapping.md
 ```
 
 
