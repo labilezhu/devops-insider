@@ -121,6 +121,17 @@ CephFS/CephFS.md
 ```
 
 
+## bluestore
+```{toctree}
+bluestore/bluestore.md
+```
+
+
+## OSD
+```{toctree}
+osd/osd.md
+```
+
 ## Ceph Client
 
 ```{toctree}
@@ -132,3 +143,9 @@ ceph-client/krbd/krbd.md
 ```{toctree}
 observability/observability.md
 ```
+
+## rook
+```{toctree}
+rook/rook.md
+```
+

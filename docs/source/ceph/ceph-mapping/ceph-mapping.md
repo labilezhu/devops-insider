@@ -8,7 +8,7 @@ ceph 如何找到一个 object 的位置？
 
 
 
-## CLUSTER MAP[](https://docs.ceph.com/en/quincy/architecture/#cluster-map)
+## CLUSTER MAP
 
 
 
@@ -134,6 +134,12 @@ Ceph 是採用間接 mapping 的方法來計算 object 該寫入的 OSD 位置
 > The client inputs the pool ID and the object ID. (e.g., pool = “liverpool” and object-id = “john”) *Ceph takes the object ID and hashes it.* Ceph calculates the hash modulo the number of PGs. (e.g., 58) to get a PG ID. *Ceph gets the pool ID given the pool name (e.g., “liverpool” = 4)* Ceph prepends the pool ID to the PG ID (e.g., 4.58). * Computing object locations is much faster than performing object location query over a chatty session. The CRUSH algorithm allows a client to compute where objects should be stored, and enables the client to contact the primary OSD to store or retrieve the objects.
 
 ![enter image description here](ceph-mapping.assets/擷取.jpeg)
+
+
+
+> https://www.thomas-krenn.com/de/wiki/Datei:Ceph-osd-crush-map.png
+
+![Datei:Ceph-osd-crush-map.png](./ceph-mapping.assets/800px-Ceph-osd-crush-map.png)
 
 
 

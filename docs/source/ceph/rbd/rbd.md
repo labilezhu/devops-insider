@@ -39,3 +39,7 @@ Ceph block devices are thin-provisioned, resizable, and store data striped over 
 
 
 
+## Good article
+> https://ceph.io/en/news/blog/search/?q=rbd
+> https://ceph.io/en/news/blog/2015/ceph-validate-that-the-rbd-cache-is-active/
+> https://ceph.io/en/news/blog/2015/ceph-activate-rbd-readhead/
