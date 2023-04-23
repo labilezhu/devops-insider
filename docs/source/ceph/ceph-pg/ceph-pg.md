@@ -31,6 +31,16 @@ Ceph 的設計上是去避免單點故障(single point of failure)去影響整�
 
 
 
+## PG 创建时机
+
+> https://docs.ceph.com/en/latest/rados/operations/monitoring-osd-pg/#creating
+
+PGs are created when you create a pool(只创建 pool 是就已经同时创建了所有 PG): the command that creates a pool specifies the total number of PGs for that pool, and when the pool is created all of those PGs are created as well. Ceph will echo `creating` while it is creating PGs. After the PG(s) are created, the OSDs that are part of a PG’s Acting Set will peer. Once peering is complete, the PG status should be `active+clean`. This status means that Ceph clients begin writing to the PG.
+
+![img](./ceph-pg.assets/ditaa-bfce6c25b264cd756b5f4cf49e07ce71ccd1f775.png)
+
+
+
 
 
 ## PEERING
@@ -50,5 +60,64 @@ the ordered list of OSDs who are (or were as of some epoch) responsible for a pa
 the ordered list of OSDs responsible for a particular PG for a particular epoch according to CRUSH. Normally this is the same as the *acting set*, except when the *acting set* has been explicitly overridden via *PG temp* in the OSDMap.
 
 
-## 好文
-> [https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/4/html/storage_strategies_guide/placement_groups_pgs#pg_calculator](https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/4/html/storage_strategies_guide/placement_groups_pgs#pg_calculator)
+
+## 命令查找 object 位置
+
+> https://docs.ceph.com/en/latest/rados/operations/monitoring-osd-pg/#finding-an-object-location
+
+To store object data in the Ceph Object Store, a Ceph client must:
+
+1. Set an object name
+2. Specify a [pool](https://docs.ceph.com/en/latest/rados/operations/pools)
+
+The Ceph client retrieves the latest cluster map, the CRUSH algorithm calculates how to map the object to a PG, and then the algorithm calculates how to dynamically assign the PG to an OSD. To find the object location given only the object name and the pool name, run a command of the following form:
+
+```
+ceph osd map {poolname} {object-name} [namespace]
+```
+
+Exercise: Locate an Object
+
+As an exercise, let’s create an object. We can specify an object name, a path to a test file that contains some object data, and a pool name by using the `rados put` command on the command line. For example:
+
+```
+rados put {object-name} {file-path} --pool=data
+rados put test-object-1 testfile.txt --pool=data
+```
+
+To verify that the Ceph Object Store stored the object, run the following command:
+
+```
+rados -p data ls
+```
+
+To identify the object location, run the following commands:
+
+```
+ceph osd map {pool-name} {object-name}
+ceph osd map data test-object-1
+```
+
+Ceph should output the object’s location. For example:
+
+```
+osdmap e537 pool 'data' (1) object 'test-object-1' -> pg 1.d1743484 (1.4) -> up ([0,1], p0) acting ([0,1], p0)
+```
+
+To remove the test object, simply delete it by running the `rados rm` command. For example:
+
+```
+rados rm test-object-1 --pool=data
+```
+
+As the cluster evolves, the object location may change dynamically. One benefit of Ceph’s dynamic rebalancing is that Ceph spares you the burden of manually performing the migration. For details, see the [Architecture](https://docs.ceph.com/en/latest/architecture) section.
+
+
+
+
+## Good Article
+> - [https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/4/html/storage_strategies_guide/placement_groups_pgs#pg_calculator](https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/4/html/storage_strategies_guide/placement_groups_pgs#pg_calculator)
+> - https://docs.ceph.com/en/latest/rados/operations/monitoring-osd-pg/
+> - https://docs.ceph.com/en/latest/rados/operations/placement-groups/
+>
+> 
