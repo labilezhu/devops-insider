@@ -149,3 +149,4 @@ observability/observability.md
 rook/rook.md
 ```
 
+![](ceph-conf.drawio.svg)
