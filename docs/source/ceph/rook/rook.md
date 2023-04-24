@@ -21,6 +21,26 @@ The `rook/ceph` image includes all necessary tools to manage the cluster. Rook i
 
 
 
+> [Rook: Intro and Ceph Deep Dive - Blaine Gardner, Red Hat & Satoru Takeuchi, Cybozu, Inc.](https://www.youtube.com/watch?v=j86OXjC1Jr8)
+
+![image-20230424152636809](./rook.assets/image-20230424152636809.png)
+
+
+
+![image-20230424152838226](./rook.assets/image-20230424152838226.png)
+
+
+
+![image-20230424153146922](./rook.assets/image-20230424153146922.png)
+
+
+
+![img](./rook.assets/2.png)
+
+
+
+
+
 
 
 ## Best Practices

@@ -33,6 +33,34 @@ Ceph block devices are thin-provisioned, resizable, and store data striped over 
 
 
 
+> [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://youtu.be/PmLPbrf-x9g?t=2757)
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 45_58](./rbd.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 45_58.png)
+
+
+
+## Snapshot and Clone
+
+> [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://youtu.be/PmLPbrf-x9g?t=2757)
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 48_53](./rbd.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 48_53.png)
+
+
+
+## RBD data layout
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 50_23](./rbd.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 50_23.png)
+
+
+
+### RBD Journaling mode
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 51_40](./rbd.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 51_40.png)
+
+
+
+
+
 ## How to
 
 > https://docs.ceph.com/en/quincy/rbd/rados-rbd-cmds/

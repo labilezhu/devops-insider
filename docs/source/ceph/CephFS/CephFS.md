@@ -19,6 +19,26 @@ Combinations of standby and active etc are possible, for example running 3 activ
 
 
 
+> [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://youtu.be/PmLPbrf-x9g?t=3449)
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 57_29](./CephFS.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 57_29.png)
+
+
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 59_24](./CephFS.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 59_24.png)
+
+
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 60_59](./CephFS.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 60_59.png)
+
+
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 61_39](./CephFS.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 61_39.png)
+
+
+
+
+
 ## CEPHFS DELAYED DELETION
 
 > https://docs.ceph.com/en/quincy/dev/delayed-delete/

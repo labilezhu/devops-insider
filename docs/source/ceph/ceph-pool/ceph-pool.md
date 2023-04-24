@@ -23,6 +23,18 @@ Pools provide:
 
 下面是兩個pool, 分別各有3個PG, PG 的 ID 前面會帶有 pool 的 ID 當作 prefix ![enter image description here](ceph-pool.assets/Image.png)
 
+
+
+
+
+> [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 32_29](./ceph-pool.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 32_29.png)
+
+
+
+
+
 ### Why Pool ?
 
 有Pool這個邏輯層會比較好一次管理和設定這麼多個PG

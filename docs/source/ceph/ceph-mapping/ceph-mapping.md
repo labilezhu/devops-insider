@@ -145,6 +145,26 @@ Ceph 是採用間接 mapping 的方法來計算 object 該寫入的 OSD 位置
 
 
 
+> [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 16_45](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 16_45.png)
+
+
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 18_42](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 18_42.png)
+
+
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 21_25](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 21_25.png)
+
+
+
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 24_51](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 24_51.png)
+
+
+
+
+
 ## PG (PLACEMENT GROUP) NOTES
 
 > https://docs.ceph.com/en/quincy/dev/placement-group/#pg-placement-group-notes
@@ -207,6 +227,12 @@ def crush(pg):
        result.append(chosen)
    return result   
 ```
+
+
+
+> [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
+
+![img](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 26_25.png)
 
 
 
