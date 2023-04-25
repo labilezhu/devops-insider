@@ -135,5 +135,9 @@ ceph osd pool stats [{pool-name}]
 
 
 
+## pool quotas
+```{toctree}
+pool-quotas.md
+```
 
 
