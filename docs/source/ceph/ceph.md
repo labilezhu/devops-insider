@@ -59,11 +59,11 @@ A *`Ceph object`* is a chunk of information that Ceph records on storage devices
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 12_01 (1)](./ceph.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2012_01%20(1).png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 12_01 (1)](./ceph.assets/CephTechTalk-IntroToCeph-1.png)
 
 
 
-![img](./ceph.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2013_07.png)
+![img](./ceph.assets/CephTechTalk-IntroToCeph-2.png.png)
 
 
 

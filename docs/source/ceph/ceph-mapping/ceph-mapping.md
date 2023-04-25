@@ -147,19 +147,19 @@ Ceph 是採用間接 mapping 的方法來計算 object 該寫入的 OSD 位置
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 16_45](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2016_45.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 16_45](./ceph-mapping.assets/CephTechTalk-IntroToCeph-1.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 18_42](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2018_42.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 18_42](./ceph-mapping.assets/CephTechTalk-IntroToCeph-2.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 21_25](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2021_25.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 21_25](./ceph-mapping.assets/CephTechTalk-IntroToCeph-3.png.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 24_51](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2024_51.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 24_51](./ceph-mapping.assets/CephTechTalk-IntroToCeph-4.png)
 
 
 
@@ -232,7 +232,7 @@ def crush(pg):
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
 
-![img](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2026_25.png)
+![img](./ceph-mapping.assets/CephTechTalk-IntroToCeph-5.png)
 
 
 

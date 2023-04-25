@@ -35,7 +35,7 @@ Ceph block devices are thin-provisioned, resizable, and store data striped over 
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://youtu.be/PmLPbrf-x9g?t=2757)
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 45_58](./rbd.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2045_58.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 45_58](./rbd.assets/CephTechTalk-IntroToCeph-1.png)
 
 
 
@@ -43,19 +43,19 @@ Ceph block devices are thin-provisioned, resizable, and store data striped over 
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://youtu.be/PmLPbrf-x9g?t=2757)
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 48_53](./rbd.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2048_53.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 48_53](./rbd.assets/CephTechTalk-IntroToCeph-2.png)
 
 
 
 ## RBD data layout
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 50_23](./rbd.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2050_23.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 50_23](./rbd.assets/CephTechTalk-IntroToCeph-3.png)
 
 
 
 ### RBD Journaling mode
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 51_40](./rbd.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2051_40.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 51_40](./rbd.assets/CephTechTalk-IntroToCeph-4.png)
 
 
 
