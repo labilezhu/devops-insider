@@ -29,7 +29,7 @@ Pools provide:
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 32_29](./ceph-pool.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 32_29.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 32_29](./ceph-pool.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2032_29.png)
 
 
 

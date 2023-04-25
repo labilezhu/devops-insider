@@ -133,7 +133,7 @@ Ceph 是採用間接 mapping 的方法來計算 object 該寫入的 OSD 位置
 
 > The client inputs the pool ID and the object ID. (e.g., pool = “liverpool” and object-id = “john”) *Ceph takes the object ID and hashes it.* Ceph calculates the hash modulo the number of PGs. (e.g., 58) to get a PG ID. *Ceph gets the pool ID given the pool name (e.g., “liverpool” = 4)* Ceph prepends the pool ID to the PG ID (e.g., 4.58). * Computing object locations is much faster than performing object location query over a chatty session. The CRUSH algorithm allows a client to compute where objects should be stored, and enables the client to contact the primary OSD to store or retrieve the objects.
 
-![enter image description here](ceph-mapping.assets/擷取.jpeg)
+![enter image description here](ceph-mapping.assets/%E6%93%B7%E5%8F%96.jpeg)
 
 
 
@@ -147,19 +147,19 @@ Ceph 是採用間接 mapping 的方法來計算 object 該寫入的 OSD 位置
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 16_45](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 16_45.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 16_45](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2016_45.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 18_42](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 18_42.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 18_42](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2018_42.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 21_25](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 21_25.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 21_25](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2021_25.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 24_51](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 24_51.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 24_51](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2024_51.png)
 
 
 
@@ -232,7 +232,7 @@ def crush(pg):
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://www.youtube.com/watch?v=PmLPbrf-x9g&t=725s)
 
-![img](./ceph-mapping.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 26_25.png)
+![img](./ceph-mapping.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2026_25.png)
 
 
 

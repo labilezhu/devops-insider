@@ -21,19 +21,19 @@ Combinations of standby and active etc are possible, for example running 3 activ
 
 > [2019-JUN-27 :: Ceph Tech Talk - Intro to Ceph](https://youtu.be/PmLPbrf-x9g?t=3449)
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 57_29](./CephFS.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 57_29.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 57_29](./CephFS.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2057_29.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 59_24](./CephFS.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 59_24.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 59_24](./CephFS.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2059_24.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 60_59](./CephFS.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 60_59.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 60_59](./CephFS.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2060_59.png)
 
 
 
-![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 61_39](./CephFS.assets/2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 61_39.png)
+![2019-JUN-27 __ Ceph Tech Talk - Intro to Ceph - YouTube - 61_39](./CephFS.assets/2019-JUN-27%20__%20Ceph%20Tech%20Talk%20-%20Intro%20to%20Ceph%20-%20YouTube%20-%2061_39.png)
 
 
 
