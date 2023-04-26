@@ -157,4 +157,10 @@ observability/observability.md
 rook/rook.md
 ```
 
+## ceph-csi
+```{toctree}
+ceph-csi/ceph-csi.md
+```
+
+
 ![](ceph-conf.drawio.svg)
