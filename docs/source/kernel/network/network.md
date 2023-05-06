@@ -9,6 +9,7 @@ routing/routing.md
 netfilter/netfilter.md
 conntrack/conntrack.md
 ipvs/ipvs.md
+mtu/mtu.md
 ```
 
 ## /proc/sys/net settings
