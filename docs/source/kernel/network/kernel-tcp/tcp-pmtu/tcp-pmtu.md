@@ -103,6 +103,8 @@ A value of 2 simply forces MTU Probing at all times, so all packets will initial
 ## Ref
 
 
+- [TCP的MTU Probe、MSS、Retransmit 的关系 - cloud.tencent.com](https://cloud.tencent.com/developer/beta/article/1411873)
+
 ```{toctree}
 tcp-mtu-probe.md
 path-mtu-discovery-in-practice@cloudflare.md
