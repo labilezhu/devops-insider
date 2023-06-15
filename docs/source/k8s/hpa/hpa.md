@@ -3,6 +3,7 @@
 ## design-proposals
 
 - [Horizontal Pod Autoscaling](https://github.com/kubernetes/design-proposals-archive/blob/main/autoscaling/horizontal-pod-autoscaler.md)
+- [Autoscaling Special Interest Group](https://github.com/kubernetes/community/blob/master/sig-autoscaling/README.md)
 
 
 
