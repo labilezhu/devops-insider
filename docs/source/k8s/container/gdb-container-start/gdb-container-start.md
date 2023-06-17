@@ -84,10 +84,10 @@ spec:
       containers:
       - name: main-app
         command:
-        - /bin/sleep
+        - /usr/bin/nc
         image: docker.io/nicolaka/netshoot:latest
         imagePullPolicy: IfNotPresent
-        args: ["10d"]
+        args: ["-k","-l","8080"]
         ports:
         - containerPort: 8080
           protocol: TCP
