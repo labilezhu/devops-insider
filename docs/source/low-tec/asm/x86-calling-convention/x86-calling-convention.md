@@ -165,3 +165,16 @@ be reverted using the `-fno-omit-frame-pointer` option.
 
 # Ref
 https://codearcana.com/posts/2013/05/21/a-brief-introduction-to-x86-calling-conventions.html
+
+
+```
+
+gcc -fno-omit-frame-pointer  ./small.c -g
+
+gdb --tui ./a.out bc de fg
+(gdb) b main
+(gdb) run bc de fg
+(gdb) layout split
+
+gdb --args program program-arguments
+```
