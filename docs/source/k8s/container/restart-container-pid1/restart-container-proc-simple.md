@@ -1,5 +1,8 @@
 # exec hot swap
 
+## gdb exec simple way
+
+### setup target e.g pod
 
 ```bash
 docker pull tomcat:9.0.76-jre17
@@ -82,22 +85,77 @@ done <<< "$PIDS"
 echo $POD_PID
 export PID=$POD_PID
 
-➜  ps -f $PID
+➜  ~ ps -f $PID | cat
 UID          PID    PPID  C STIME TTY      STAT   TIME CMD
-root       16018   15931  0 02:31 ?        Ss     0:00 /usr/bin/nc -k -l 8080
+root       38123   37929  2 07:06 ?        Ssl    0:04 /opt/java/openjdk/bin/java -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /usr/local/tomcat/bin/bootstrap.jar:/usr/local/tomcat/bin/tomcat-juli.jar -Dcatalina.base=/usr/local/tomcat -Dcatalina.home=/usr/local/tomcat -Djava.io.tmpdir=/usr/local/tomcat/temp org.apache.catalina.startup.Bootstrap start
 
-➜  sudo ls -l /proc/$PID/fd
+
+➜  ~ ps -ef --forest | grep -B2 $PID
+root       37929       1  0 07:06 ?        00:00:00 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 9a43e5d86f29e64eb67ccf2ef19d442e4a06af69def716e181fa52694ec9f43b -address /run/containerd/containerd.sock
+65535      37963   37929  0 07:06 ?        00:00:00  \_ /pause
+root       38123   37929  1 07:06 ?        00:00:05  \_ /opt/java/openjdk/bin/java -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apac....local/tomcat -Djava.io.tmpdir=/usr/local/tomcat/temp org.apache.catalina.startup.Bootstrap start
+
+
+➜  ~ sudo ls -l /proc/$PID/fd
 total 0
-lrwx------ 1 root root 64 Jun 17 02:31 0 -> /dev/null
-l-wx------ 1 root root 64 Jun 17 02:31 1 -> 'pipe:[85916]'
-l-wx------ 1 root root 64 Jun 17 02:31 2 -> 'pipe:[85917]'
-lrwx------ 1 root root 64 Jun 17 02:31 3 -> 'socket:[86567]'
+lrwx------ 1 root root 64 Jun 18 07:06 0 -> /dev/null
+l-wx------ 1 root root 64 Jun 18 07:06 1 -> 'pipe:[181879]'
+l-wx------ 1 root root 64 Jun 18 07:07 10 -> /usr/local/tomcat/logs/host-manager.2023-06-18.log
+...
+lr-x------ 1 root root 64 Jun 18 07:07 19 -> /usr/local/tomcat/lib/tomcat-i18n-es.jar
+l-wx------ 1 root root 64 Jun 18 07:06 2 -> 'pipe:[181880]'
+lr-x------ 1 root root 64 Jun 18 07:07 20 -> /usr/local/tomcat/lib/tomcat-i18n-cs.jar
+...
+lrwx------ 1 root root 64 Jun 18 07:07 43 -> 'socket:[182049]'
+lrwx------ 1 root root 64 Jun 18 07:07 44 -> 'socket:[182552]'
+l-wx------ 1 root root 64 Jun 18 07:07 45 -> /usr/local/tomcat/logs/localhost_access_log.2023-06-18.txt
+lrwx------ 1 root root 64 Jun 18 07:07 46 -> 'anon_inode:[eventpoll]'
+lrwx------ 1 root root 64 Jun 18 07:07 47 -> 'anon_inode:[eventfd]'
+lrwx------ 1 root root 64 Jun 18 07:07 49 -> 'socket:[182059]'
+...
+l-wx------ 1 root root 64 Jun 18 07:07 9 -> /usr/local/tomcat/logs/manager.2023-06-18.log
 
-➜  sudo nsenter -n -t $PID ss -tpna | grep $PID
-LISTEN   0        1                0.0.0.0:8080          0.0.0.0:*      users:(("nc",pid=16018,fd=3))
+
+➜  ~ sudo strings /proc/$PID/environ 
+KUBERNETES_SERVICE_PORT_HTTPS=443
+KUBERNETES_SERVICE_PORT=443
+HOSTNAME=tomcat-worknode5-0
+LANGUAGE=en_US:en
+JAVA_HOME=/opt/java/openjdk
+GPG_KEYS=48F8E69F6390C9F25CFEDCD268248959359E722B A9C5DF4D22E99998D9875A5110C01C5A2F6059E7 DCFD35E0BF8CA7344752DE8B6FB21E8933C60243
+HTTPBIN_PORT_80_TCP_PORT=80
+PWD=/usr/local/tomcat
+TOMCAT_SHA512=028163cbe15367f0ab60e086b0ebc8d774e62d126d82ae9152f863d4680e280b11c9503e3b51ee7089ca9bea1bfa5b535b244a727a3021e5fa72dd7e9569af9a
+TOMCAT_MAJOR=9
+HOME=/root
+LANG=en_US.UTF-8
+KUBERNETES_PORT_443_TCP=tcp://10.96.0.1:443
+HTTPBIN_SERVICE_PORT=80
+TOMCAT_NATIVE_LIBDIR=/usr/local/tomcat/native-jni-lib
+CATALINA_HOME=/usr/local/tomcat
+SHLVL=0
+KUBERNETES_PORT_443_TCP_PROTO=tcp
+JDK_JAVA_OPTIONS= --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+FORTIO_SERVER_SERVICE_PORT_HTTP=8080
+KUBERNETES_PORT_443_TCP_ADDR=10.96.0.1
+LD_LIBRARY_PATH=/usr/local/tomcat/native-jni-lib
+KUBERNETES_SERVICE_HOST=10.96.0.1
+LC_ALL=en_US.UTF-8
+KUBERNETES_PORT=tcp://10.96.0.1:443
+KUBERNETES_PORT_443_TCP_PORT=443
+PATH=/usr/local/tomcat/bin:/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+TOMCAT_VERSION=9.0.76
+JAVA_VERSION=jdk-17.0.7+7
+
+
+➜  ~ sudo nsenter -n -t $PID ss -tpna | grep $PID
+LISTEN   0        1           [::ffff:127.0.0.1]:8005     *:*   users:(("java",pid=38123,fd=49))   
+LISTEN   0        100                          *:8080     *:*   users:(("java",pid=38123,fd=43)) 
 
 
 ```
+
+
 
 ```bash
 sudo gdb -p $PID
