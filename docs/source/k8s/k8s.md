@@ -9,4 +9,5 @@ pod/pod.md
 pv/pv.md
 csi/csi.md
 hpa/hpa.md
+container/container.md
 ```
