@@ -1,4 +1,6 @@
-# k8s 中重启容器主进程
+# k8s 中不停容器热替换/重启主进程 - gdb exec 法
+
+
 
 ## setup target e.g pod
 
