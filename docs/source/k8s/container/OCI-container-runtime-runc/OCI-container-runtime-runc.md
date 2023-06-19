@@ -7,4 +7,3 @@
 
 ![](container-boot-sequence.drawio.svg)
 
-
