@@ -146,6 +146,7 @@ main(int argc, char *argv[])
 
 ```{toctree}
 syscall-table.md
+linux-system-calls-under-the-hood.md
 ```
 
 
