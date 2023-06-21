@@ -53,6 +53,25 @@ With gdb, you can achieve to print the elements of your array using the followin
 
 
 
+> https://jvns.ca/blog/2014/02/10/three-steps-to-learning-gdb/
+
+From looking at that assembly above, it seems like `0x40060c` might be the address of the string we’re printing. Let’s check!
+
+```
+(gdb) x/s 0x40060c
+0x40060c:        "Hi!"
+```
+
+It is! Neat! Look at that. The `/s` part of `x/s` means “show it to me like it’s a string”. I could also have said “show me 10 characters” like this:
+
+```
+(gdb) x/10c 0x40060c
+0x40060c:       72 'H'  105 'i' 33 '!'  0 '\000'        1 '\001'        27 '\033'       3 '\003'        59 ';'
+0x400614:       52 '4'  0 '\000'
+```
+
+You can see that the first four characters are ‘H’, ‘i’, and ‘!’, and ‘\0’ and then after that there’s more unrelated stuff.
+
 
 
 
