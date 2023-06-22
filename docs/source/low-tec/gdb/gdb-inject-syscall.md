@@ -8,7 +8,7 @@
 
 
 
-omeone pointed out a shell script that was posted to [GitHub](https://github.com/timb-machine-mirrors/killbutmakeitlooklikeanaccident.sh/blob/0bf35bd22fd2fa56a4205baebd6ddb30bc9848b5/killbutmakeitlooklikeanaccident.sh) named ‘killbutmakeitlooklikeanaccident.sh’.
+Someone pointed out a shell script that was posted to [GitHub](https://github.com/timb-machine-mirrors/killbutmakeitlooklikeanaccident.sh/blob/0bf35bd22fd2fa56a4205baebd6ddb30bc9848b5/killbutmakeitlooklikeanaccident.sh) named ‘killbutmakeitlooklikeanaccident.sh’.
 
 It contains a single command:
 
