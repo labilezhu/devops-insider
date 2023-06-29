@@ -2,3 +2,4 @@ docs/build/**
 .venv/**
 docs/source/.vscode/settings.json
 docs/source/low-tec/asm/x86-calling-convention/a.out
+**.exe
