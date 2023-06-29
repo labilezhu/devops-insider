@@ -4,11 +4,12 @@
 ```bash
 sudo apt install cmake
 sudo apt install flex bison
+sudo apt install libyaml-dev
 ```
 
 ```bash
 cd build/
-cmake ../ -DFLB_CONFIG_YAML=Off -DFLB_DEBUG=On
+cmake ../ -DFLB_DEBUG=On
 
 make
 ```
