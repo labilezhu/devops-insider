@@ -12,7 +12,7 @@
             "cwd": "${workspaceRoot}/build/bin/",
             "valuesFormatting": "parseText",
             "arguments": "-v --config=${HOME}/devops-insider/docs/source/observability/log/fluentbit/test-http-output/fluentbit-http.conf",
-            "debugger_args": ["-iex=\"catch syscall read\"", "-iex=\"catch syscall readv\"", "-iex=\"catch syscall write\"", "-iex=\"catch syscall writev\""],
+            // "debugger_args": ["-iex=\"catch syscall read\"", "-iex=\"catch syscall readv\"", "-iex=\"catch syscall write\"", "-iex=\"catch syscall writev\""],
             "stopAtEntry": true
         }
     ]
