@@ -1,0 +1,268 @@
+[
+  {
+    "location": "/src/flb_http_client.c",
+    "line": [
+      {
+        "line": 1209,
+        "character": 0
+      },
+      {
+        "line": 1209,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_http_client.c",
+    "line": [
+      {
+        "line": 1232,
+        "character": 0
+      },
+      {
+        "line": 1232,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_http_client.c",
+    "line": [
+      {
+        "line": 1235,
+        "character": 0
+      },
+      {
+        "line": 1235,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_io.c",
+    "line": [
+      {
+        "line": 464,
+        "character": 0
+      },
+      {
+        "line": 464,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/plugins/out_http/http.c",
+    "line": [
+      {
+        "line": 247,
+        "character": 0
+      },
+      {
+        "line": 247,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/tls/openssl.c",
+    "line": [
+      {
+        "line": 331,
+        "character": 0
+      },
+      {
+        "line": 331,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/tls/openssl.c",
+    "line": [
+      {
+        "line": 339,
+        "character": 0
+      },
+      {
+        "line": 339,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/tls/openssl.c",
+    "line": [
+      {
+        "line": 404,
+        "character": 0
+      },
+      {
+        "line": 404,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/tls/openssl.c",
+    "line": [
+      {
+        "line": 415,
+        "character": 0
+      },
+      {
+        "line": 415,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/tls/flb_tls.c",
+    "line": [
+      {
+        "line": 114,
+        "character": 0
+      },
+      {
+        "line": 114,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/tls/openssl.c",
+    "line": [
+      {
+        "line": 209,
+        "character": 0
+      },
+      {
+        "line": 209,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/tls/flb_tls.c",
+    "line": [
+      {
+        "line": 206,
+        "character": 0
+      },
+      {
+        "line": 206,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/tls/flb_tls.c",
+    "line": [
+      {
+        "line": 92,
+        "character": 0
+      },
+      {
+        "line": 92,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_network.c",
+    "line": [
+      {
+        "line": 228,
+        "character": 0
+      },
+      {
+        "line": 228,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_network.c",
+    "line": [
+      {
+        "line": 302,
+        "character": 0
+      },
+      {
+        "line": 302,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_network.c",
+    "line": [
+      {
+        "line": 381,
+        "character": 0
+      },
+      {
+        "line": 381,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_network.c",
+    "line": [
+      {
+        "line": 1312,
+        "character": 0
+      },
+      {
+        "line": 1312,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_network.c",
+    "line": [
+      {
+        "line": 1285,
+        "character": 0
+      },
+      {
+        "line": 1285,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "location": "/src/flb_network.c",
+    "line": [
+      {
+        "line": 198,
+        "character": 0
+      },
+      {
+        "line": 198,
+        "character": 0
+      }
+    ],
+    "enabled": true
+  }
+]

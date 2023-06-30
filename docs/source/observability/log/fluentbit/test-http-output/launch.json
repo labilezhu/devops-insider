@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gdb-fluent-bit",
+            "type": "gdb",
+            "request": "launch",
+            "target": "./fluent-bit",
+            "cwd": "${workspaceRoot}/build/bin/",
+            "valuesFormatting": "parseText",
+            "arguments": "-v --config=${HOME}/devops-insider/docs/source/observability/log/fluentbit/test-http-output/fluentbit-http.conf",
+            "debugger_args": ["-iex=\"catch syscall read\"", "-iex=\"catch syscall readv\"", "-iex=\"catch syscall write\"", "-iex=\"catch syscall writev\""],
+            "stopAtEntry": true
+        }
+    ]
+}
