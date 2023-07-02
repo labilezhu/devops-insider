@@ -96,11 +96,19 @@ co_init@0x000055555598104b (/home/mark/opensource/fluent-bit/lib/monkey/deps/flb
 
 ### breakpoints
 ```
+set scheduler-locking step
+
 catch syscall read
 Catchpoint 16 (syscall 'read' [0])
 
 catch syscall readv
 catch syscall write
+
+catch syscall clone
+
+break start_thread
+
+break pthread_create
 
 
 condition <breakpoint_number> condition
