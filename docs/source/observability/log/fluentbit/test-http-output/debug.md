@@ -30,12 +30,13 @@ docker build . -f nginx.Dockerfile -t nginx-self-signed
 docker network create httpbin
 
 docker stop httpbin
-docker run -it --rm -d -p 8081:80 --network=httpbin --name=httpbin --hostname=httpbin kennethreitz/httpbin
+docker rm httpbin
+docker run -it -d -p 8081:80  --network=httpbin --privileged --name=httpbin --hostname=httpbin kennethreitz/httpbin
 curl -X POST "http://localhost:8081/post" -H "accept: application/json"
 
 docker stop nginx
 docker rm nginx
-docker run -d --rm -p 444:443 --network=httpbin --name=nginx --hostname=nginx \
+docker run -d -p 444:443 --network=httpbin --privileged --name=nginx --hostname=nginx \
 -v $HOME/devops-insider/docs/source/observability/log/fluentbit/test-http-output/etc/nginx/conf.d:/etc/nginx/conf.d \
 --link httpbin nginx-self-signed
 
