@@ -10,6 +10,20 @@ There are four tiers of compilations:
 
 
 
+
+
+| Tier level | Meaning                       |
+| ---------- | ----------------------------- |
+| 0          | The code has been interpreted |
+| 1          | Simple C1 compilation         |
+| 2          | Limited C1 compilation        |
+| 3          | Full C1 compilation           |
+| 4          | C2 compilation                |
+
+
+
+
+
 ```
 -XX:+TieredCompilation
 -XX:TieredStopAtLevel=N

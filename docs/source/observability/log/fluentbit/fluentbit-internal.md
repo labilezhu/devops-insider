@@ -109,6 +109,19 @@
 
 ## 事件驱动与协程
 
+
+
+
+:::{figure-md} 图：fluentbit-thread.drawio.svg
+:class: full-width
+
+<img src="fluentbit-thread.drawio.svg" alt="fluentbit-thread.drawio.svg">
+
+*图：fluentbit-thread.drawio.svg*  
+:::
+*[用 Draw.io 打开](https://app.diagrams.net/?ui=sketch#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh_CN%2Flatest%2F_images%2Ffluentbit-thread.drawio.svg)*
+
+
 > 以下例子场景，使用了 Fluent Bit 1.99 与其 `Tail Input`  + `Http Output` 
 
 
