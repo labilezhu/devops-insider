@@ -64,6 +64,27 @@ A `MemoryUsage` object contains four values:
 | `committed` | represents the amount of memory (in bytes) that is guaranteed to be available for use by the Java virtual machine. The amount of committed memory may change over time (increase or decrease). The Java virtual machine may release memory to the system and `committed` could be less than `init`. `committed` will always be greater than or equal to `used`. |
 | `max` | represents the maximum amount of memory (in bytes) that can be used for memory management. Its value may be undefined. The maximum amount of memory may change over time if defined. The amount of used and committed memory will always be less than or equal to `max` if `max` is defined. A memory allocation may fail if it attempts to increase the used memory such that `used > committed` even if `used <= max` would still be true (for example, when the system is low on virtual memory). |
 
+## NMT Memory Categories
+
+> https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr022.html#BABCBGFA
+
+| Category                 | Description                                                  |
+| ------------------------ | ------------------------------------------------------------ |
+| Java Heap                | The heap where your objects live                             |
+| Class                    | Class meta data                                              |
+| Code                     | Generated code                                               |
+| GC                       | data use by the GC, such as card table                       |
+| Compiler                 | Memory used by the compiler when generating code             |
+| Symbol                   | Symbols                                                      |
+| Memory Tracking          | Memory used by NMT itself                                    |
+| Pooled Free Chunks       | Memory used by chunks in the arena chunk pool                |
+| Shared space for classes | Memory mapped to class data sharing archive                  |
+| Thread                   | Memory used by threads, including thread data structure, resource area and handle area and so on. |
+| Thread stack             | Thread stack. It is marked as committed memory, but it might not be completely committed by the OS |
+| Internal                 | Memory that does not fit the previous categories, such as the memory used by the command line parser, JVMTI, properties and so on. |
+| Unknown                  | When memory category can not be determined.Arena: When arena is used as a stack or value objectVirtual Memory: When type information has not yet arrived |
+
+
 
 ## Ref
 
