@@ -1,3 +1,4 @@
+# JVM RAM
 
 ## Memory parts
 
@@ -143,6 +144,24 @@ reserved memory 是JVM 通过mmaped 申请的虚拟地址空间，权限是PROT_
 committed memory 是JVM向操作系统实际分配的内存（malloc/mmap）,mmaped权限是 PROT_READ | PROT_WRITE，这块内存可以被直接使用
 
 
+
+
+> http://www.trevorsimonton.com/blog/2020/09/09/java-native-memory.html
+>
+> ## committed and reserved memory
+>
+> - reserved: 先在地址空间中保留地址
+> - committed: 真正向操作系统申请内存，修改 mmap 的一个 flag
+> - touch memory/page fault: 操作系统真正申请占用物理内存
+>
+> Before a process actually uses memory, it might want to reserve some virtual memory addresses ahead of time. This is done mostly to keep memory contiguous where appropriate. Generally speaking, it’s a good idea to store memory that is related (like all of the memory used in a single class instance) in the same place. It helps a lot with keeping the system running efficiently (this is mostly related to low-level CPU caching strategies).
+>
+> A good example of “reserved memory” is the Java heap. When we start Java, we pass in the `-Xmx` parameter to tell the process how much heap we want to maintain. At startup, this amount of memory is **reserved**, but not **committed**.
+>
+> When we want to actually assign a value to a virtual memory address, we have to commit the address. This will cause a write back to our physical memory device, and the virtual address will no longer be available in the JVM until we free it (either directly or indirectly via garbage collection).s
+
+
+
 ## commands
 ```bash
 jmap -heap $PID
@@ -174,6 +193,20 @@ brk和sbrk分别是调整堆顶的brk指针的指向，一种是相对，一种�
 https://github.com/cloudfoundry/java-buildpack-memory-calculator
 
 
+## -XX:MaxRam
+> https://developers.redhat.com/blog/2017/04/04/openjdk-and-containers
+
+Why is it when I specify -Xmx=1g my JVM uses up more memory than 1gb of memory?
+
+Specifying -Xmx=1g is telling the JVM to allocate a 1gb heap. It's not telling the JVM to limit its entire memory usage to 1gb. There are card tables, code caches, and all sorts of other off heap data structures. The parameter you use to specify total memory usage is -XX:MaxRAM. Be aware that with -XX:MaxRam=500m your heap will be approximately 250mb.
+
+
+
 ## Ref
 https://blogs.oracle.com/poonam/troubleshooting-native-memory-leaks-in-java-applications
 https://blogs.oracle.com/poonam/running-on-a-64bit-platform-and-still-running-out-of-memory
+
+
+```{toctree}
+metaspace.md
+```
