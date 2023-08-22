@@ -10,4 +10,5 @@ pv/pv.md
 csi/csi.md
 hpa/hpa.md
 container/container.md
+merics/metrics.md
 ```
