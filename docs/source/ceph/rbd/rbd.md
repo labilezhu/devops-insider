@@ -66,6 +66,13 @@ Ceph block devices are thin-provisioned, resizable, and store data striped over 
 > https://docs.ceph.com/en/quincy/rbd/rados-rbd-cmds/
 
 
+## RBD stats
+- [mgr/prometheus: provide RBD stats via osd dynamic perf counters #25358](https://github.com/ceph/ceph/pull/25358/files)
+- [mgr: generalize osd perf query and make counters accessible from modules #25114](https://github.com/ceph/ceph/pull/25114)
+- [Ceph Block Performance Monitoring: Putting noisy neighbors in their place with RBD top and QoS](https://www.redhat.com/en/blog/ceph-block-performance-monitoring-putting-noisy-neighbors-their-place-rbd-top-and-qos)
+
+
+
 
 ## Good article
 > https://ceph.io/en/news/blog/search/?q=rbd
