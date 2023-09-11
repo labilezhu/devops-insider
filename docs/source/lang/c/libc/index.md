@@ -1,5 +1,5 @@
 # libc
 
 ```{toctree}
-stdout-buffering.md
+stream-buf/stream-buf.md
 ```
