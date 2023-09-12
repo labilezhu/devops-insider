@@ -1,5 +1,11 @@
 # OSD
 
+```{toctree}
+ceph-write-flow.md
+```
+
+
+
 ## Performance 
 
 > https://ceph.io/en/news/blog/2022/ceph-osd-cpu-scaling/
