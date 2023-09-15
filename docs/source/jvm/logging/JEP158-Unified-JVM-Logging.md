@@ -337,3 +337,7 @@ The design outlined above may not satisfy all uses of logging in the JVM today. 
 - User experience: Command-line options will change. Logging output will change.
 - I18n/L10n: Log messages will not be localized or internationalized.
 - Documentation: The new options and their usage will have to be documented.
+
+
+## Ref.
+- https://inside.java/2022/11/07/sip071/
