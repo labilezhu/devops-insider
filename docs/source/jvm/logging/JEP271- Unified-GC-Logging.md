@@ -47,3 +47,6 @@ The prefix support in the unified logging framework is used to add the GC id to 
 ### Dynamic Configuration
 
 Some logging requires that data has been collected at an earlier state. The unified logging framework allows for all logging to be dynamically turned on and off using `jcmd`. This means that for logging that relies on previously-collected data it is not enough to check whether logging is enabled; there must also be checks in place to check that the data is available.
+
+
+> [JDK-8059805: JEP 271: Unified GC Logging](https://bugs.openjdk.org/browse/JDK-8059805)

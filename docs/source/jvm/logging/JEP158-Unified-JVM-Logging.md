@@ -326,7 +326,7 @@ Because it will be possible to dynamically enable logging, we need to stress tes
 The logging framework will be tested using unit tests.
 
 ## Risks and Assumptions
-
+c
 The design outlined above may not satisfy all uses of logging in the JVM today. If that is the case, the design will have to be revisited.
 
 ## Impact
@@ -341,3 +341,4 @@ The design outlined above may not satisfy all uses of logging in the JVM today. 
 
 ## Ref.
 - https://inside.java/2022/11/07/sip071/
+- [JDK-8046148](https://bugs.openjdk.org/browse/JDK-8046148)
