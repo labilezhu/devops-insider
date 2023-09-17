@@ -358,7 +358,7 @@ static int do_task_stat(struct seq_file *m, struct pid_namespace *ns,
 >
 > iotop watches I/O usage information output by the Linux kernel (requires 2.6.20 or later) and displays a table of current I/O usage by processes or threads on the system. At least   the CONFIG_TASK_DELAY_ACCT, CONFIG_TASK_IO_ACCOUNTING, CONFIG_TASKSTATS and CONFIG_VM_EVENT_COUNTERS options need to be enabled in your Linux kernel build configuration and  since   Linux kernel 5.14, the `kernel.task_delayacct` sysctl enabled.
 >
-> 从 Linux 内核 5.14.x 开始，task_delayacct 可在运行时配置并默认设置为关闭。
+> 从 Linux 内核 5.14.x 开始，`kernel.task_delayacct` 可在运行时配置并默认设置为关闭。
 
 
 
