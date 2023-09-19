@@ -1,0 +1,610 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2471px" height="1481px" viewBox="-0.5 -0.5 2471 1481" content="&lt;mxfile&gt;&lt;diagram id=&quot;CUQukbXfNtAd7oVWSFBQ&quot; name=&quot;kernel-task-accounting.drawio.svg&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-4-181-322-154-0">
+            <rect x="4" y="181" width="322" height="154"/>
+        </clipPath>
+        <clipPath id="mx-clip-634-885-722-40-0">
+            <rect x="634" y="885" width="722" height="40"/>
+        </clipPath>
+        <clipPath id="mx-clip-634-925-722-40-0">
+            <rect x="634" y="925" width="722" height="40"/>
+        </clipPath>
+        <clipPath id="mx-clip-634-965-722-40-0">
+            <rect x="634" y="965" width="722" height="40"/>
+        </clipPath>
+        <clipPath id="mx-clip-24-871-402-84-0">
+            <rect x="24" y="871" width="402" height="84"/>
+        </clipPath>
+    </defs>
+    <g>
+        <rect x="50" y="1380" width="350" height="100" rx="15" ry="15" fill="none" stroke="none" pointer-events="all"/>
+        <path d="M 53.53 1384.01 C 53.53 1384.01 53.53 1384.01 53.53 1384.01 M 53.53 1384.01 C 53.53 1384.01 53.53 1384.01 53.53 1384.01 M 53.27 1390.4 C 54.99 1389.49 56.6 1387.44 60.48 1382.1 M 53.27 1390.4 C 56.47 1387.19 58.61 1384.03 60.48 1382.1 M 52.35 1397.56 C 56.98 1394.51 61.22 1387.23 66.78 1380.95 M 52.35 1397.56 C 56.46 1392.79 61.9 1387.46 66.78 1380.95 M 52.74 1403.2 C 58.46 1394.86 68.96 1384.65 71.77 1381.31 M 52.74 1403.2 C 58.07 1397.63 62.76 1390.76 71.77 1381.31 M 52.48 1409.6 C 62.62 1400.86 69.86 1389.43 76.76 1381.67 M 52.48 1409.6 C 57.56 1403.88 64.95 1397.26 76.76 1381.67 M 52.88 1415.24 C 65.62 1401.56 74.39 1389.06 82.4 1381.28 M 52.88 1415.24 C 60.41 1407.23 67.75 1396.41 82.4 1381.28 M 52.62 1421.64 C 64.02 1407.5 76.08 1397.2 87.39 1381.64 M 52.62 1421.64 C 60.15 1412.15 69.75 1402.31 87.39 1381.64 M 53.01 1427.28 C 63.93 1414.1 75.47 1401.53 93.03 1381.24 M 53.01 1427.28 C 64.64 1414.59 76.49 1401.38 93.03 1381.24 M 52.75 1433.68 C 68.14 1412.95 87.75 1394.84 98.02 1381.6 M 52.75 1433.68 C 66.46 1416.88 81.05 1401.11 98.02 1381.6 M 52.49 1440.08 C 73.29 1417.74 88.95 1397.12 103.66 1381.21 M 52.49 1440.08 C 65.6 1426.71 77.7 1411.33 103.66 1381.21 M 52.88 1445.72 C 72.09 1424.24 92.3 1399.78 108.65 1381.57 M 52.88 1445.72 C 73.82 1423.16 92.86 1400.83 108.65 1381.57 M 52.62 1452.12 C 68.89 1435.66 81.08 1418.29 114.29 1381.17 M 52.62 1452.12 C 65.5 1435.68 80.37 1419.43 114.29 1381.17 M 53.01 1457.76 C 74.67 1435.04 94.8 1410.83 119.28 1381.53 M 53.01 1457.76 C 67.48 1442.05 81.11 1425.55 119.28 1381.53 M 52.75 1464.16 C 79.11 1435.18 102.08 1406.26 124.92 1381.14 M 52.75 1464.16 C 75.12 1438.58 97.45 1411.66 124.92 1381.14 M 52.49 1470.56 C 77.85 1440.83 101.61 1414.58 129.91 1381.5 M 52.49 1470.56 C 68.84 1450.08 87.21 1430.86 129.91 1381.5 M 54.2 1474.69 C 75.97 1450.45 96.73 1426.65 134.89 1381.86 M 54.2 1474.69 C 78.81 1447.75 104.22 1419.53 134.89 1381.86 M 56.56 1478.07 C 89.08 1439.66 122.44 1401.92 140.54 1381.47 M 56.56 1478.07 C 83.06 1448.44 108.41 1418.58 140.54 1381.47 M 59.58 1480.69 C 85.35 1448.3 114.04 1419.04 145.52 1381.83 M 59.58 1480.69 C 80.92 1458.61 100.31 1435.23 145.52 1381.83 M 65.22 1480.3 C 95.97 1443.22 130.36 1409.15 151.17 1381.43 M 65.22 1480.3 C 87.52 1456.33 108.88 1431.96 151.17 1381.43 M 70.21 1480.66 C 103.21 1444.21 134.25 1404.17 156.15 1381.79 M 70.21 1480.66 C 95.48 1451.06 120.38 1424.02 156.15 1381.79 M 75.85 1480.26 C 102.89 1451.25 127.34 1421.29 161.8 1381.4 M 75.85 1480.26 C 93.32 1457.58 113.25 1437.27 161.8 1381.4 M 80.84 1480.62 C 108.48 1449.47 132.04 1419.1 166.78 1381.76 M 80.84 1480.62 C 102.62 1456.1 125.71 1430.38 166.78 1381.76 M 86.48 1480.23 C 104.1 1460.33 124.22 1437.84 172.43 1381.36 M 86.48 1480.23 C 108.66 1453.48 131.65 1427.36 172.43 1381.36 M 91.47 1480.59 C 113.39 1457.86 130.72 1436.36 177.41 1381.72 M 91.47 1480.59 C 110.75 1457.8 130.78 1434.88 177.41 1381.72 M 97.11 1480.19 C 126.65 1445.54 156.21 1410.09 183.06 1381.33 M 97.11 1480.19 C 129.64 1441.52 164.01 1403.75 183.06 1381.33 M 102.1 1480.55 C 124.8 1449.4 151.06 1419.92 188.04 1381.69 M 102.1 1480.55 C 134.95 1441.65 167.57 1404.38 188.04 1381.69 M 107.74 1480.16 C 136.88 1446.76 164.82 1415.59 193.69 1381.29 M 107.74 1480.16 C 131.06 1451.52 157.66 1421.8 193.69 1381.29 M 112.73 1480.52 C 141.35 1443.51 174.72 1407.93 198.67 1381.65 M 112.73 1480.52 C 146.17 1442.72 177.73 1405.61 198.67 1381.65 M 118.37 1480.13 C 152.86 1440.49 185.77 1401.66 203.66 1382.01 M 118.37 1480.13 C 139.52 1455.05 161.62 1429.3 203.66 1382.01 M 123.36 1480.49 C 146.37 1453.89 166.92 1429.99 209.3 1381.62 M 123.36 1480.49 C 148.56 1450.19 175.27 1418.77 209.3 1381.62 M 128.35 1480.85 C 161.46 1444.4 192.78 1409.29 214.29 1381.98 M 128.35 1480.85 C 146.48 1459.74 165.11 1436.82 214.29 1381.98 M 133.99 1480.45 C 161.79 1445.33 189.29 1414.52 219.93 1381.58 M 133.99 1480.45 C 167.57 1441.24 202.85 1403.03 219.93 1381.58 M 138.98 1480.81 C 161.68 1452.7 186.52 1422.16 224.92 1381.94 M 138.98 1480.81 C 165.87 1449.77 192.54 1420.66 224.92 1381.94 M 144.62 1480.42 C 172.6 1449.41 197.84 1417.18 230.56 1381.55 M 144.62 1480.42 C 171.9 1450.32 197.65 1421.02 230.56 1381.55 M 149.61 1480.78 C 179.51 1443.52 211.44 1409.08 235.55 1381.91 M 149.61 1480.78 C 177.19 1446.9 205.23 1413.4 235.55 1381.91 M 155.25 1480.38 C 177.21 1454.87 198.65 1426.32 241.19 1381.51 M 155.25 1480.38 C 189.23 1440.81 222.72 1401.97 241.19 1381.51 M 160.24 1480.74 C 184.23 1454.63 202.61 1430.29 246.18 1381.87 M 160.24 1480.74 C 181.98 1453.42 204.05 1428.42 246.18 1381.87 M 165.88 1480.35 C 182.6 1461.89 201.22 1438.84 251.82 1381.48 M 165.88 1480.35 C 191.18 1450.32 215.13 1423.3 251.82 1381.48 M 170.87 1480.71 C 198.76 1446.82 228.06 1412.05 256.81 1381.84 M 170.87 1480.71 C 202.08 1444.65 232.45 1410.26 256.81 1381.84 M 176.51 1480.31 C 201.91 1455.81 224.51 1428.31 261.8 1382.2 M 176.51 1480.31 C 204.19 1450.16 229.46 1420.05 261.8 1382.2 M 181.5 1480.67 C 205.62 1451.53 229.85 1426.61 267.44 1381.81 M 181.5 1480.67 C 202.31 1456.39 223.77 1433.09 267.44 1381.81 M 186.49 1481.03 C 221.7 1443.41 255.28 1405.83 272.43 1382.17 M 186.49 1481.03 C 204.07 1459.93 221.72 1440.81 272.43 1382.17 M 192.13 1480.64 C 215.76 1454.45 236.58 1427.21 278.07 1381.77 M 192.13 1480.64 C 214.05 1455.93 234.55 1433.17 278.07 1381.77 M 197.12 1481 C 217.29 1460.61 233.06 1439.69 283.06 1382.13 M 197.12 1481 C 221.06 1453.91 242.88 1427.66 283.06 1382.13 M 202.76 1480.6 C 233.38 1446.91 260.07 1412.72 288.7 1381.74 M 202.76 1480.6 C 220.86 1458.69 239.64 1438.27 288.7 1381.74 M 207.75 1480.96 C 239.34 1447.08 270.25 1411.41 293.69 1382.1 M 207.75 1480.96 C 225.55 1459.29 244.08 1438.88 293.69 1382.1 M 213.39 1480.57 C 240.32 1449.54 263.2 1421.2 299.33 1381.7 M 213.39 1480.57 C 242.49 1447.42 272.33 1411.62 299.33 1381.7 M 218.38 1480.93 C 250.03 1446.13 278.92 1412.21 304.32 1382.06 M 218.38 1480.93 C 240.09 1454.59 264.19 1427.74 304.32 1382.06 M 224.02 1480.53 C 257.21 1442.48 289.14 1406.86 309.96 1381.67 M 224.02 1480.53 C 254.89 1445.57 284.22 1408.53 309.96 1381.67 M 229.01 1480.89 C 255.81 1446.85 285.83 1417 314.95 1382.03 M 229.01 1480.89 C 255.61 1451.27 280.85 1420.87 314.95 1382.03 M 234.65 1480.5 C 268.89 1442.61 297.24 1406.62 319.94 1382.39 M 234.65 1480.5 C 258.02 1452.97 281.03 1427.07 319.94 1382.39 M 239.64 1480.86 C 266.12 1451.09 295.01 1416.45 325.58 1381.99 M 239.64 1480.86 C 264.51 1450.76 290.54 1419.87 325.58 1381.99 M 244.62 1481.22 C 270.21 1446.88 298.17 1416.72 330.57 1382.35 M 244.62 1481.22 C 267.65 1453.62 290.63 1426.68 330.57 1382.35 M 250.27 1480.83 C 281.03 1448.11 308 1413.79 336.21 1381.96 M 250.27 1480.83 C 275.86 1451.89 301.22 1422.62 336.21 1381.96 M 255.25 1481.19 C 271.25 1462.32 290.95 1439.32 341.2 1382.32 M 255.25 1481.19 C 275.05 1458 296.09 1433.99 341.2 1382.32 M 260.9 1480.79 C 285.69 1450.21 313.67 1422.34 346.84 1381.92 M 260.9 1480.79 C 279.02 1460.37 295.3 1440.6 346.84 1381.92 M 265.88 1481.15 C 288.76 1456.35 310.59 1432.25 351.83 1382.28 M 265.88 1481.15 C 282.01 1460.26 301.33 1440.52 351.83 1382.28 M 271.53 1480.76 C 303.02 1444.76 330.72 1411.88 357.47 1381.89 M 271.53 1480.76 C 289.25 1460.69 307.09 1439.21 357.47 1381.89 M 276.51 1481.12 C 298.4 1457.58 322.95 1428.47 362.46 1382.25 M 276.51 1481.12 C 301.79 1451.12 326.68 1422.52 362.46 1382.25 M 282.16 1480.72 C 307.81 1452.2 330.79 1424.05 368.1 1381.86 M 282.16 1480.72 C 300.82 1458.25 318.87 1437.29 368.1 1381.86 M 287.14 1481.08 C 307.4 1454.43 329.84 1429.18 373.09 1382.22 M 287.14 1481.08 C 305.86 1461.4 322.76 1441.68 373.09 1382.22 M 292.79 1480.69 C 321.85 1446.57 349.79 1411.74 378.73 1381.82 M 292.79 1480.69 C 320.02 1446.98 350.96 1413.28 378.73 1381.82 M 297.77 1481.05 C 313.83 1462.57 334.44 1440.93 383.72 1382.18 M 297.77 1481.05 C 324.24 1450.57 351.4 1420.95 383.72 1382.18 M 303.42 1480.65 C 323.45 1458.38 339.9 1435.01 388.7 1382.54 M 303.42 1480.65 C 322.72 1457.94 342.89 1437.26 388.7 1382.54 M 308.4 1481.01 C 339.15 1444.06 371.45 1409.38 393.69 1382.9 M 308.4 1481.01 C 337.7 1447.12 367.88 1411.73 393.69 1382.9 M 313.39 1481.37 C 332.59 1458.85 353.46 1432.41 397.37 1384.77 M 313.39 1481.37 C 341.7 1446.55 372.54 1413.55 397.37 1384.77 M 319.03 1480.98 C 341.29 1456.91 366.35 1430.37 399.07 1388.9 M 319.03 1480.98 C 347.96 1447.19 379.39 1412.66 399.07 1388.9 M 324.02 1481.34 C 342.82 1460.63 359.38 1439.52 401.44 1392.28 M 324.02 1481.34 C 350.03 1452.64 374.64 1423.76 401.44 1392.28 M 329.66 1480.94 C 356.99 1447.6 386.8 1417.91 401.17 1398.68 M 329.66 1480.94 C 355.41 1450.43 382.44 1421.27 401.17 1398.68 M 334.65 1481.3 C 359.12 1451.91 385.23 1423.42 400.91 1405.08 M 334.65 1481.3 C 359.67 1451.85 383.39 1424.59 400.91 1405.08 M 340.29 1480.91 C 358.18 1461.07 372.19 1441.97 400.65 1411.48 M 340.29 1480.91 C 353.28 1466.46 367.64 1450.87 400.65 1411.48 M 345.28 1481.27 C 359.21 1468.29 371.71 1453.18 401.05 1417.12 M 345.28 1481.27 C 358.5 1465.93 372.47 1450.26 401.05 1417.12 M 350.92 1480.88 C 370.28 1459.83 387.25 1441.06 400.78 1423.52 M 350.92 1480.88 C 369.97 1460.29 388.15 1437.55 400.78 1423.52 M 355.91 1481.24 C 365.5 1466.72 379.38 1454.45 400.52 1429.92 M 355.91 1481.24 C 370.47 1464.09 384.51 1448.04 400.52 1429.92 M 361.55 1480.84 C 375.61 1461.12 391.87 1444.92 400.92 1435.56 M 361.55 1480.84 C 375.84 1464.88 390.64 1446.36 400.92 1435.56 M 366.54 1481.2 C 375.76 1469.48 386.02 1459.08 400.66 1441.96 M 366.54 1481.2 C 378.31 1467.92 388.85 1455.52 400.66 1441.96 M 371.53 1481.56 C 376.24 1474.44 383.95 1467.56 400.39 1448.35 M 371.53 1481.56 C 381.69 1470.5 391.17 1459.2 400.39 1448.35 M 377.17 1481.17 C 385.54 1474.49 390.63 1465.28 400.79 1454 M 377.17 1481.17 C 386.72 1471.48 395.18 1459.07 400.79 1454 M 382.16 1481.53 C 389.09 1475.38 396.59 1465.51 400.53 1460.39 M 382.16 1481.53 C 386.95 1475.71 390.09 1471.66 400.53 1460.39 M 387.14 1481.89 C 389.16 1478.41 392.59 1476.61 400.27 1466.79 M 387.14 1481.89 C 392.18 1476.51 396.38 1470.68 400.27 1466.79" fill="none" stroke="#ffccff" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 348px; height: 1px; padding-top: 1430px; margin-left: 51px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 18px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-style: italic; white-space: normal; overflow-wrap: normal;">
+                                <font style="">
+                                    <br style="border-color: var(--border-color);"/>
+                                    kernel-task-accounting.drawio.svg
+                                    <br/>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="225" y="1435" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="18px" text-anchor="middle" font-style="italic">
+                    ...
+                </text>
+            </switch>
+        </g>
+        <a xlink:href="https://github.com/torvalds/linux/blob/3d7cb6b04c3f3115719235cc6866b10326de34cd/include/linux/sched.h#L726">
+            <path d="M 0 176 L 0 150 L 330 150 L 330 176" fill="#d5e8d4" stroke="#82b366" stroke-miterlimit="10" pointer-events="all"/>
+            <path d="M 0 176 L 0 330 L 330 330 L 330 176" fill="none" stroke="#82b366" stroke-miterlimit="10"/>
+            <path d="M 0 176 L 330 176" fill="none" stroke="#82b366" stroke-miterlimit="10"/>
+            <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-decoration="underline" font-size="12px">
+                <text x="1.5" y="167.5">
+                    struct task_struct  -  sched.h
+                </text>
+            </g>
+        </a>
+        <rect x="0" y="176" width="330" height="154" fill="#d5e8d4" stroke="#82b366"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" clip-path="url(#mx-clip-4-181-322-154-0)" font-size="11px">
+            <text x="5.5" y="192.5">
+                #ifdef CONFIG_TASK_DELAY_ACCT
+            </text>
+            <text x="5.5" y="205.5">
+                struct task_delay_info      *delays;
+            </text>
+            <text x="5.5" y="218.5">
+                #endif
+            </text>
+        </g>
+        <a xlink:href="https://github.com/torvalds/linux/blob/3d7cb6b04c3f3115719235cc6866b10326de34cd/include/linux/delayacct.h#L13">
+            <path d="M 630 26 L 630 0 L 1360 0 L 1360 26" fill="#d5e8d4" stroke="#82b366" stroke-miterlimit="10"/>
+            <path d="M 630 26 L 630 1000 L 1360 1000 L 1360 26" fill="none" stroke="#82b366" stroke-miterlimit="10"/>
+            <path d="M 630 26 L 1360 26" fill="none" stroke="#82b366" stroke-miterlimit="10"/>
+            <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-decoration="underline" font-size="12px">
+                <text x="631.5" y="17.5">
+                    struct task_delay_info -  delayacct.h
+                </text>
+            </g>
+        </a>
+        <rect x="630" y="26" width="730" height="854" fill="#d5e8d4" stroke="#82b366"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 720px; height: 1px; padding-top: 33px; margin-left: 636px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 850px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                <div style="color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &quot;Droid Sans Mono&quot;, &quot;monospace&quot;, monospace; font-size: 14px; line-height: 19px;">
+                                    <div>
+                                        <span style="color: #569cd6;">
+                                            struct
+                                        </span>
+                                        task_delay_info {
+                                    </div>
+                                    <div>
+                                        <span style="color: #4ec9b0;">
+                                            raw_spinlock_t
+                                        </span>
+                                        lock;
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            /* For each stat XXX, add following, aligned appropriately
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            *
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            * struct timespec XXX_start, XXX_end;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            * u64 XXX_delay;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            * u32 XXX_count;
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            *
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            * Atomicity of updates to XXX_delay, XXX_count protected by
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            * single lock above (split into XXX_lock if contention is an issue).
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            */
+                                        </span>
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            /*
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            * XXX_count is incremented on every XXX operation, the delay
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            * associated with the operation is added to XXX_delay.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            * XXX_delay contains the accumulated delay time in nanoseconds.
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        u64 blkio_start;
+                                    </div>
+                                    <div>
+                                        u64 blkio_delay;
+                                        <span style="color: #6a9955;">
+                                            /* wait for sync block io completion */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        u64 swapin_start;
+                                    </div>
+                                    <div>
+                                        u64 swapin_delay;
+                                        <span style="color: #6a9955;">
+                                            /* wait for swapin */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        u32 blkio_count;
+                                        <span style="color: #6a9955;">
+                                            /* total count of the number of sync block */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #6a9955;">
+                                            /* io operations performed */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        u32 swapin_count;
+                                        <span style="color: #6a9955;">
+                                            /* total count of swapin */
+                                        </span>
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        u64 freepages_start;
+                                    </div>
+                                    <div>
+                                        u64 freepages_delay;
+                                        <span style="color: #6a9955;">
+                                            /* wait for memory reclaim */
+                                        </span>
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        u64 thrashing_start;
+                                    </div>
+                                    <div>
+                                        u64 thrashing_delay;
+                                        <span style="color: #6a9955;">
+                                            /* wait for thrashing page */
+                                        </span>
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        u64 compact_start;
+                                    </div>
+                                    <div>
+                                        u64 compact_delay;
+                                        <span style="color: #6a9955;">
+                                            /* wait for memory compact */
+                                        </span>
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        u64 wpcopy_start;
+                                    </div>
+                                    <div>
+                                        u64 wpcopy_delay;
+                                        <span style="color: #6a9955;">
+                                            /* wait for write-protect copy */
+                                        </span>
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        u32 freepages_count;
+                                        <span style="color: #6a9955;">
+                                            /* total count of memory reclaim */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        u32 thrashing_count;
+                                        <span style="color: #6a9955;">
+                                            /* total count of thrash waits */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        u32 compact_count;
+                                        <span style="color: #6a9955;">
+                                            /* total count of memory compact */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        u32 wpcopy_count;
+                                        <span style="color: #6a9955;">
+                                            /* total count of write-protect copy */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        };
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="636" y="44" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px">
+                    struct task_delay_info {...
+                </text>
+            </switch>
+        </g>
+        <rect x="630" y="880" width="730" height="40" fill="#d5e8d4" stroke="#82b366"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" clip-path="url(#mx-clip-634-885-722-40-0)" font-size="11px">
+            <text x="635.5" y="896.5">
+                __delayacct_blkio_start(void) : current-&gt;delays-&gt;blkio_start = local_clock();
+            </text>
+        </g>
+        <rect x="630" y="920" width="730" height="40" fill="#d5e8d4" stroke="#82b366"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" clip-path="url(#mx-clip-634-925-722-40-0)" font-size="11px">
+            <text x="635.5" y="936.5">
+                __delayacct_blkio_end(struct task_struct *p)
+            </text>
+        </g>
+        <rect x="630" y="960" width="730" height="40" fill="#d5e8d4" stroke="#82b366"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" clip-path="url(#mx-clip-634-965-722-40-0)" font-size="11px">
+            <text x="635.5" y="976.5">
+                static void delayacct_end(raw_spinlock_t *lock, u64 *start, u64 *total, u32 *count)
+            </text>
+        </g>
+        <path d="M 630 365.05 L 355.26 298.85" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"/>
+        <path d="M 330.96 292.99 L 344.83 288.77 L 355.26 298.85 L 341.39 303.07 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 329px; margin-left: 480px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <span style="text-align: left; background-color: rgb(251, 251, 251);">
+                                    delays
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="480" y="332" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    delays
+                </text>
+            </switch>
+        </g>
+        <a xlink:href="https://github.com/torvalds/linux/blob/3d7cb6b04c3f3115719235cc6866b10326de34cd/include/linux/jiffies.h#L79">
+            <rect x="1960" y="750" width="130" height="50" fill="#d5e8d4" stroke="#82b366"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 128px; height: 1px; padding-top: 775px; margin-left: 1961px;">
+                            <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                    <b>
+                                        <u>
+                                            jiffie - linux/jiffies.h
+                                        </u>
+                                    </b>
+                                    <br/>
+                                    <br/>
+                                    global variable
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="2025" y="779" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                        jiffie - linux/jiffie...
+                    </text>
+                </switch>
+            </g>
+        </a>
+        <a xlink:href="http://books.gigatux.nl/mirror/kerneldevelopment/0672327201/ch10lev1sec3.html">
+            <path d="M 2080 560 L 2260 560 L 2280 580 L 2280 660 L 2080 660 L 2080 560 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"/>
+            <path d="M 2260 560 L 2260 580 L 2280 580" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"/>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 198px; height: 1px; padding-top: 610px; margin-left: 2081px;">
+                            <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                                <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; text-decoration: underline; white-space: normal; overflow-wrap: normal;">
+                                    holds the number of ticks that have occurred since the system booted.
+                                    <br/>
+                                    <br/>
+                                    incremented by one during each
+                                    <br/>
+                                    timer interrupt
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="2180" y="614" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle" text-decoration="underline">
+                        holds the number of ticks that ha...
+                    </text>
+                </switch>
+            </g>
+        </a>
+        <path d="M 2048.48 750 L 2133.03 660" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6"/>
+        <rect x="2310" y="690" width="160" height="70" fill="#d5e8d4" stroke="#82b366"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 725px; margin-left: 2311px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <b>
+                                    sched HZ
+                                </b>
+                                <br/>
+                                <br/>
+                                HZ timer interrupts in a second
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2390" y="729" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    sched HZ...
+                </text>
+            </switch>
+        </g>
+        <ellipse cx="2266.26" cy="844.98" rx="14.922623434045686" ry="14.930325149303252" fill="rgb(255, 255, 255)" stroke="none"/>
+        <path d="M 2266.26 833.03 L 2266.26 830.04 C 2273.38 830 2279.54 835 2280.97 841.98 C 2282.4 848.96 2278.7 855.98 2272.14 858.74 C 2265.57 861.5 2257.97 859.24 2253.99 853.33 C 2250 847.42 2250.74 839.52 2255.75 834.46" fill="none" stroke="#0080f0" stroke-width="2" stroke-miterlimit="10"/>
+        <path d="M 2257.31 836.02 L 2266.56 844.68 C 2266.64 844.85 2266.6 845.05 2266.47 845.19 C 2266.34 845.32 2266.13 845.36 2265.96 845.27 Z" fill="none" stroke="#0080f0" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 869px; margin-left: 2266px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2266" y="881" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                </text>
+            </switch>
+        </g>
+        <path d="M 2250 841 L 2096.11 795.86" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"/>
+        <path d="M 2091.07 794.38 L 2098.77 792.99 L 2096.11 795.86 L 2096.8 799.71 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 817px; margin-left: 2170px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                <span style="font-size: 12px; background-color: rgb(251, 251, 251);">
+                                    interrupts
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2170" y="821" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    interrupts
+                </text>
+            </switch>
+        </g>
+        <path d="M 2282.35 830 L 2354.12 760" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6"/>
+        <rect x="1620" y="730" width="130" height="50" fill="#d5e8d4" stroke="#82b366"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 128px; height: 1px; padding-top: 755px; margin-left: 1621px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <b>
+                                    <span>
+                                        local_clock() = sched_clock()
+                                        <br/>
+                                        - clock.h
+                                        <br/>
+                                    </span>
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1685" y="759" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    local_clock() = sched...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1090.17 880 L 1620 768.66" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6"/>
+        <rect x="1990" y="900" width="410" height="170" fill="#f5f5f5" stroke="#666666"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 408px; height: 1px; padding-top: 907px; margin-left: 1992px;">
+                        <div data-drawio-colors="color: #333333; " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(51, 51, 51); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                /*
+                                <br/>
+                                * Scheduler clock - returns current time in nanosec units.
+                                <br/>
+                                * This is default implementation.
+                                <br/>
+                                * Architectures and sub-architectures can override this.
+                                <br/>
+                                */
+                                <br/>
+                                notrace unsigned long long __weak sched_clock(void)
+                                <br/>
+                                {
+                                <br/>
+                                return (unsigned long long)(jiffies - INITIAL_JIFFIES)
+                                <br/>
+                                * (NSEC_PER_SEC / HZ);
+                                <br/>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1992" y="919" fill="#333333" font-family="Helvetica" font-size="12px">
+                    /*...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1740.43 780 L 2006.52 900" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6"/>
+        <rect x="1300" y="1180" width="480" height="240" fill="#f5f5f5" stroke="none"/>
+        <g fill="#333333" font-family="Helvetica" font-size="12px">
+            <text x="1301.5" y="1197.5">
+                /*
+            </text>
+            <text x="1301.5" y="1211.5">
+                * Finish delay accounting for a statistic using its timestamps (@start),
+            </text>
+            <text x="1301.5" y="1225.5">
+                * accumalator (@total) and @count
+            </text>
+            <text x="1301.5" y="1239.5">
+                */
+            </text>
+            <text x="1301.5" y="1253.5">
+                static void delayacct_end(raw_spinlock_t *lock, u64 *start, u64 *total, u32 *count)
+            </text>
+            <text x="1301.5" y="1267.5">
+                {
+            </text>
+            <text x="1301.5" y="1281.5">
+                s64 ns = local_clock() - *start;
+            </text>
+            <text x="1301.5" y="1295.5">
+                unsigned long flags;
+            </text>
+            <text x="1301.5" y="1323.5">
+                if (ns &gt; 0) {
+            </text>
+            <text x="1301.5" y="1337.5">
+                raw_spin_lock_irqsave(lock, flags);
+            </text>
+            <text x="1301.5" y="1351.5">
+                *total += ns;
+            </text>
+            <text x="1301.5" y="1365.5">
+                (*count)++;
+            </text>
+            <text x="1301.5" y="1379.5">
+                raw_spin_unlock_irqrestore(lock, flags);
+            </text>
+            <text x="1301.5" y="1393.5">
+                }
+            </text>
+            <text x="1301.5" y="1407.5">
+                }
+            </text>
+        </g>
+        <path d="M 1360 980 L 1472.5 1180" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6"/>
+        <rect x="1460" y="900" width="430" height="180" fill="#f5f5f5" stroke="none"/>
+        <g fill="#333333" font-family="Helvetica" font-size="12px">
+            <text x="1461.5" y="917.5">
+                /*
+            </text>
+            <text x="1461.5" y="931.5">
+                * We cannot rely on the `current` macro, as we haven't yet switched back to
+            </text>
+            <text x="1461.5" y="945.5">
+                * the process being woken.
+            </text>
+            <text x="1461.5" y="959.5">
+                */
+            </text>
+            <text x="1461.5" y="973.5">
+                void __delayacct_blkio_end(struct task_struct *p)
+            </text>
+            <text x="1461.5" y="987.5">
+                {
+            </text>
+            <text x="1461.5" y="1001.5">
+                delayacct_end(&amp;p-&gt;delays-&gt;lock,
+            </text>
+            <text x="1461.5" y="1015.5">
+                &amp;p-&gt;delays-&gt;blkio_start,
+            </text>
+            <text x="1461.5" y="1029.5">
+                &amp;p-&gt;delays-&gt;blkio_delay,
+            </text>
+            <text x="1461.5" y="1043.5">
+                &amp;p-&gt;delays-&gt;blkio_count);
+            </text>
+            <text x="1461.5" y="1057.5">
+                }
+            </text>
+        </g>
+        <path d="M 1360 940 L 1460 955.87" fill="none" stroke="rgb(0, 0, 0)" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="2 6"/>
+        <path d="M 20 866 L 20 840 L 430 840 L 430 866" fill="#d5e8d4" stroke="#82b366" stroke-miterlimit="10"/>
+        <path d="M 20 866 L 20 950 L 430 950 L 430 866" fill="none" stroke="#82b366" stroke-miterlimit="10"/>
+        <path d="M 20 866 L 430 866" fill="none" stroke="#82b366" stroke-miterlimit="10"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+            <text x="21.5" y="857.5">
+                static __schedule(unsigned int sched_mode)  -  kernel/sched/core.c
+            </text>
+        </g>
+        <rect x="20" y="866" width="410" height="84" fill="#d5e8d4" stroke="#82b366"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" clip-path="url(#mx-clip-24-871-402-84-0)" font-size="11px">
+            <text x="25.5" y="882.5">
+                if (prev-&gt;in_iowait) {
+            </text>
+            <text x="25.5" y="895.5">
+                atomic_inc(&amp;rq-&gt;nr_iowait);
+            </text>
+            <text x="25.5" y="908.5">
+                delayacct_blkio_start();
+            </text>
+            <text x="25.5" y="921.5">
+                }
+            </text>
+        </g>
+        <path d="M 430 903.95 L 623.63 900.13" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"/>
+        <path d="M 628.88 900.02 L 621.95 903.66 L 623.63 900.13 L 621.81 896.66 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10"/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
