@@ -7,3 +7,12 @@
 
 
 
+https://aws.amazon.com/cn/blogs/developer/asynchronous-logging-corretto-17/
+https://www.jianshu.com/p/51380e04eab1
+
+
+
+```
+java -Xlog:help
+
+```
