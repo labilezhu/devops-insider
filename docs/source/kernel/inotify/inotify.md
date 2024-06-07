@@ -349,6 +349,11 @@ EXE                                                                             
 
 ```
 
+
+```bash
+pgrep fluent-bit -u $your_uid | xargs -n 1 -I {} ls -l /proc/{}/fd | grep inotify | wc -l
+```
+
 ## My Rlated Blog 
 [content/zh/notes/cloud/envoy/sds/envoy-sds.md](/content/zh/notes/cloud/envoy/sds/envoy-sds.md)
 [content/zh/notes/cloud/k8s/secret/secret.md](/content/zh/notes/cloud/k8s/secret/secret.md)

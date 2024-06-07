@@ -1,4 +1,4 @@
-## Concept
+# Netfilter Mark Concept
 
 >The mark is a 32 bits integer value attached to a network packet. Some network parts interacting with it (see below) can do bitwise operations on this value, it can then be interpreted between one single 32 bits value up to a collection of 32 flags, or a mix of flags and smaller values, depending on how one chooses to organise its use (`tc` can't do this). Of course this mark *exists only as long as it's handled by the Linux kernel*. It's only purely virtual and internal, as it can have no existence on the wire. Depending on where's it's used, it may be called firewall mark, fwmark or simply mark.
 >
