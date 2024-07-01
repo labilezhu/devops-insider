@@ -2,4 +2,5 @@
 
 ```{toctree}
 scheduler-point/scheduler-point.md
+cfs/cfs.md
 ```
