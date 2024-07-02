@@ -4,6 +4,7 @@
 ref/nftables_packet_flow_netfilter_hooks_detail.md
 ref/deep-dive-into-iptables-and-netfilter-arch-zh.md
 mark.md
+iptables-commands/iptables-commands.md
 ```
 
 ## netfilter.org
@@ -52,8 +53,11 @@ nft syntax differs from {ip,ip6,eb,arp}tables. Moreover, there is a backward com
 - Smaller kernel codebase. The intelligence is placed in userspace **nft** command line tool, which is considerably more complex than iptables in terms of codebase, however, in the midrun, this will potentially allow us to deliver new features by upgrading the userspace command line tool, with no need of kernel upgrades.
 - Unified and consistent syntax for every support protocol family, contrary to xtables utilities, that are well-known to be full of inconsistencies.
 
-## iptbales Concept
-![](./netfilter.drawio.svg)
+## iptables concept
+![](./netfilter.drawio.svg)  
+*iptables concept*
+
+[Open by Draw.io](https://app.diagrams.net/?src=about#Uhttps%3A%2F%2Fdevops-insider.mygraphql.com%2Fzh-cn%2Flatest%2F_images%2Fnetfilter.drawio.svg)
 
 
 
