@@ -44,7 +44,7 @@ static AttachOperationFunctionInfo funcs[] = {
 
 前面也提到了，jvm在启动过程中可能并没有启动Attach Listener这个线程，可以通过jvm参数来启动.
 
-![](jvm-attach.drawio.png)
+![](jvm-attach.drawio.svg)
 
 
 # Container aware
