@@ -94,7 +94,7 @@ The portion of the stack reserved for a function is called that function’s **s
 To prepare for a function call, the caller performs the following tasks in its entry sequence.
 
 1. The caller stores the first six arguments in the corresponding registers.
-2. If the callee takes more than six arguments, or if some of its arguments are large, the caller must store the surplus arguments on its stack frame. It stores these in increasing order, so that the 7th argument has a smaller address than the 8th argument, and so forth. The 7th argument must be stored at `(%rsp)` (that is, the top of the stack) when the caller executes its `callq` instruction.
+2. If the callee takes more than six arguments, or if some of its arguments are large, the caller must store the surplus arguments on its stack frame(调用者必须将多余的参数存储在其堆栈框架中). It stores these in increasing order, so that the 7th argument has a smaller address than the 8th argument, and so forth. The 7th argument must be stored at `(%rsp)` (that is, the top of the stack) when the caller executes its `callq` instruction.
 3. The caller saves any caller-saved registers (see below).
 4. The caller executes `callq FUNCTION`. This has an effect like `pushq $NEXT_INSTRUCTION; jmp FUNCTION` (or, equivalently, `subq $8, %rsp; movq $NEXT_INSTRUCTION, (%rsp); jmp FUNCTION`), where `NEXT_INSTRUCTION` is the address of the instruction immediately following `callq`.
 

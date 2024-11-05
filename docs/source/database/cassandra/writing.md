@@ -35,7 +35,7 @@ At this point, the write is considered to have succeeded and the node can reply 
 
 After returning, the node executes a flush if one was scheduled. The contents of each memtable are stored as SSTables on disk, and the commit log is cleared. After the flush completes, additional tasks are scheduled to check if compaction is needed, and then a compaction is performed if necessary.
 
-> ![Screenshot_2018-07-10-08-54-08-724_YouTube (1)](WritingReading(Cassandra-The-Definitive-Guide).assets/Screenshot_2018-07-10-08-54-08-724_YouTube (1).png)
+> ![Screenshot_2018-07-10-08-54-08-724_YouTube (1)](WritingReading(Cassandra-The-Definitive-Guide).assets/Screenshot_2018-07-10-08-54-08-724_YouTube.png)
 
 > https://academy.datastax.com/resources/brief-introduction-apache-cassandra
 >

@@ -40,7 +40,7 @@ If the offset for the partition key is found, Cassandra accesses the SSTable at 
 
 Finally, the merged data can be added to the row cache (if enabled) and returned to the client or coordinator node. A digest request is handled in much the same way as a regular read request, with the additional step that a digest is calculated on the result data and returned instead of the data itself.
 
-> ![Screenshot_2018-07-10-08-54-20-174_YouTube (1)](WritingReading(Cassandra-The-Definitive-Guide).assets/Screenshot_2018-07-10-08-54-20-174_YouTube (1).png)
+> ![Screenshot_2018-07-10-08-54-20-174_YouTube (1)](WritingReading(Cassandra-The-Definitive-Guide).assets/Screenshot_2018-07-10-08-54-20-174_YouTube.png)
 
 > https://academy.datastax.com/resources/brief-introduction-apache-cassandra
 >
