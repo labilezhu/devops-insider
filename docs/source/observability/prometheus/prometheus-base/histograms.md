@@ -139,4 +139,102 @@ If `b` has 0 observations, `NaN` is returned. If `b` contains fewer than two buc
 ## 不错的资料
 
 - [https://www.robustperception.io/how-does-a-prometheus-histogram-work/](https://www.robustperception.io/how-does-a-prometheus-histogram-work/)
-- 
+
+# 附录 chatgpt
+
+好的 👍，我来详细展开说一下 **Prometheus Histogram 的数据格式规范**，并给你一个完整的例子。
+
+---
+
+## Histogram 的规范结构
+
+当你在代码里注册一个 `Histogram` 类型的 metric 时，Prometheus 实际会暴露出 **三类子指标**：
+
+1. **`<basename>_bucket{le="..."} <value>`**
+
+   * 按照定义好的桶（bucket）区间累计的观测值个数。
+   * 标签 `le` 表示 "less or equal"，即该桶的上界（含边界）。
+   * 值是单调递增的 **Counter**。
+   * Prometheus 会自动补一个 `+Inf` 桶，表示所有观测值。
+
+2. **`<basename>_sum <value>`**
+
+   * 所有观测值的总和。
+   * 用来计算平均值。
+   * 也是一个 **Counter**。
+
+3. **`<basename>_count <value>`**
+
+   * 总共记录的样本数。
+   * 单调递增 **Counter**。
+
+---
+
+## 一个例子：HTTP 请求延迟
+
+假设我们定义了一个 Histogram：
+
+```go
+http_request_duration_seconds_bucket{le="0.1"}  24054
+http_request_duration_seconds_bucket{le="0.2"}  33444
+http_request_duration_seconds_bucket{le="0.5"}  100392
+http_request_duration_seconds_bucket{le="1"}    129389
+http_request_duration_seconds_bucket{le="2"}    133988
+http_request_duration_seconds_bucket{le="5"}    144320
+http_request_duration_seconds_bucket{le="10"}   144500
+http_request_duration_seconds_bucket{le="+Inf"} 144500
+
+http_request_duration_seconds_sum  53423.7
+http_request_duration_seconds_count 144500
+```
+
+---
+
+## 如何解读这个 Histogram
+
+* **buckets（桶）**
+
+  * `le="0.1"` = 24054
+    → 表示延迟 ≤0.1s 的请求有 24054 个。
+  * `le="0.2"` = 33444
+    → 表示延迟 ≤0.2s 的请求有 33444 个（包含 ≤0.1s 的 24054 个）。
+  * 注意：bucket 是 **累积的（cumulative）**，不是单桶独立的。
+
+* **sum**
+
+  * 总延迟时间是 `53423.7` 秒。
+  * 可用来计算平均延迟：`53423.7 / 144500 ≈ 0.37s`。
+
+* **count**
+* 请求总数是 `144500`。
+
+---
+
+## 使用 PromQL 的典型方法
+
+1. **计算分位数（p99 延迟）**
+
+   ```promql
+   histogram_quantile(0.99, rate(http_request_duration_seconds_bucket[5m]))
+   ```
+
+2. **计算平均延迟**
+
+   ```promql
+   rate(http_request_duration_seconds_sum[5m])
+   /
+   rate(http_request_duration_seconds_count[5m])
+   ```
+
+3. **计算 QPS（请求速率）**
+
+   ```promql
+   rate(http_request_duration_seconds_count[1m])
+   ```
+
+---
+
+👉 所以总结一下：
+Histogram 实际导出的是一组 **Counter metrics**（bucket + sum + count），bucket 是累积计数，必须结合 PromQL 的 `rate()`、`increase()`、`histogram_quantile()` 来用。
+
+要不要我帮你画一个 **“Histogram 原始数据 → PromQL 查询 → 含义” 的流程图**，让你快速理解它的用法？
